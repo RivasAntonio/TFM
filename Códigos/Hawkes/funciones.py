@@ -91,6 +91,7 @@ def generate_series_perc(K, n, mu):
     mu: Background intensity 
 
     ##Output:
+    times_between_events: time series the interevent times
     times: time series the events
     rate: time series for the intensity
     """
