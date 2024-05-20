@@ -1,0 +1,6 @@
+Chapters
+
+1- Hawkes Processes, how do we generate them and where we can found them
+2- Time binning
+3- Criticality in biosciences or neuroscience
+4- Results
