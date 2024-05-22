@@ -5,9 +5,8 @@ Chapters
 3- Criticality in biosciences or neuroscience
 4- Results
 
-Figura lambda (t)para n=1,2 al principio de Figures_n=2
-
-Poner lo más relevante de la foto (móvil), 2 conclusiones 
-Y el modelo, tenemos dudas sobre la elección de parámetros, ya que cambia bastante el tipo de señal
 
 Mirar becas FPU, y plan propio UCO y UGR
+
+# CUIDADO, TENEMOS QUE NORMALIZAR LOS RATES A LA POBLACIÓN, $N_E=3/4N$, $N_I=1/4N_I$
+$n_{IE} \overbrace{=}^{?}n_{EI} \sim \frac{5}{4}n_EE $       and      $n_{II}\frac{5}{16}n_EE$
