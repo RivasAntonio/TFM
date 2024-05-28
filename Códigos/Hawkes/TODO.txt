@@ -8,5 +8,6 @@ Chapters
 
 Mirar becas FPU, y plan propio UCO y UGR
 
-# CUIDADO, TENEMOS QUE NORMALIZAR LOS RATES A LA POBLACIÓN, $N_E=3/4N$, $N_I=1/4N_I$
-$n_{IE} \overbrace{=}^{?}n_{EI} \sim \frac{5}{4}n_EE $       and      $n_{II}\frac{5}{16}n_EE$
+Repetir con n=2, promediar en número de realizaciones y ver como cambia el cutoff mientras que los exponentes son los mismos
+
+Diagrama de fases: suma de lambdas y diferencia de lambdas. n_IE=n_EI
