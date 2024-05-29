@@ -11,3 +11,6 @@ Mirar becas FPU, y plan propio UCO y UGR
 Repetir con n=2, promediar en número de realizaciones y ver como cambia el cutoff mientras que los exponentes son los mismos
 
 Diagrama de fases: suma de lambdas y diferencia de lambdas. n_IE=n_EI
+
+K = 10^5 R=100, intentar que en una única figura, doble se vena todos los deltas. Primero hacer una cada uno y luego unir
+Hacer fichero pruebas modelo
