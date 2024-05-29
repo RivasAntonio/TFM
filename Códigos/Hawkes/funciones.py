@@ -146,6 +146,7 @@ def model(n_max, mu_E, mu_I, tau, n_EE, n_IE, n_EI, n_II, dt):
     dt: time step
 
     Outputs:
+    time: time series
     t_events_E: times of events of excitatory neurons
     t_events_I: times of events of inhibitory neurons
     rates_E: rates of excitatory neurons
@@ -162,22 +163,22 @@ def model(n_max, mu_E, mu_I, tau, n_EE, n_IE, n_EI, n_II, dt):
         l_Enew = rates_E[-1]  + dt * (mu_E- rates_E[-1])/tau
         if np.random.uniform() < rates_E[-1]*dt:
             l_Enew += n_EE
-            t_events_E.append(t_events_E[-1]+dt*np.random.uniform())
+            t_events_E.append(time[-1]+dt*np.random.uniform())
             n_E += 1
         if np.random.uniform() < rates_I[-1]*dt:
             l_Enew -= n_IE
-            t_events_E.append(t_events_E[-1]+dt*np.random.uniform())
+            t_events_E.append(time[-1]+dt*np.random.uniform())
             n_E += 1
 
         # Inhibition neurons
         l_Inew = rates_I[-1] + dt * (mu_I- rates_I[-1])/tau
         if np.random.uniform() < rates_E[-1]*dt:
             l_Inew += n_EI
-            t_events_I.append(t_events_I[-1]+dt*np.random.uniform())
+            t_events_I.append(time[-1]+dt*np.random.uniform())
             n_I += 1
         if np.random.uniform() < rates_I[-1]*dt:
             l_Inew -= n_II
-            t_events_I.append(t_events_I[-1]+dt*np.random.uniform())
+            t_events_I.append(time[-1]+dt*np.random.uniform())
             n_I += 1
         rates_E.append(l_Enew)
         rates_I.append(l_Inew)
