@@ -186,3 +186,33 @@ def model(n_max, mu_E, mu_I, tau, n_EE, n_IE, n_EI, n_II, dt):
 
         n = n_E + n_I
     return time, t_events_E, t_events_I, rates_E, rates_I
+
+def identify_clusters_model(times, delta):
+    """
+    Identifies clusters in a temporal series given a resolution parameter delta
+    Computes the size and duration of clusters
+    
+    ## Inputs:
+    times: temporal series
+    delta: resolution parameter
+
+    ## Output:
+    clusters: list of clusters
+    clusters_sizes: list of sizes of clusters
+    clusters_times: list of durations of clusters
+    """
+    clusters = []
+    current_cluster = []
+    for i in range(len(times) - 1):
+        if times[i + 1] - times[i] <= delta:
+            if not current_cluster:
+                current_cluster.append(times[i])
+            current_cluster.append(times[i + 1])
+        else:
+            if current_cluster:
+                clusters.append(current_cluster)
+                current_cluster = []
+    
+    clusters_sizes = [len(cluster) for cluster in clusters]
+    clusters_times = [cluster[-1] - cluster[0] for cluster in clusters]
+    return clusters, clusters_sizes, clusters_times
