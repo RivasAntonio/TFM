@@ -106,6 +106,34 @@ def generate_series_perc(K, n, mu):
 
 def calculate_percolation_strength(times_between_events, deltas):
     percolation_strengths = []
+    
+    for delta in deltas:
+        cluster_sizes = []
+        current_cluster_size = 1 # The first event is always a cluster
+        
+        for time in times_between_events:
+            if time < delta:
+                current_cluster_size += 1
+            else:
+                if current_cluster_size > 1: # Only consider clusters with more than one event
+                    cluster_sizes.append(current_cluster_size)
+                current_cluster_size = 1 # The next event is always a cluster
+        
+        if current_cluster_size > 1: # Consider the last cluster if it ends at the last event
+            cluster_sizes.append(current_cluster_size)
+         
+        if len(cluster_sizes) != 0:  # Check if cluster_sizes is not empty to avoid errors
+            max_cluster_size = max(cluster_sizes)
+        else:
+            max_cluster_size = 0
+        
+        percolation_strengths.append(max_cluster_size / len(times_between_events))
+    
+    return percolation_strengths
+
+
+"""def calculate_percolation_strength(times_between_events, deltas):
+    percolation_strengths = []
 
     for delta in deltas:
         cluster_sizes = []
@@ -128,7 +156,7 @@ def calculate_percolation_strength(times_between_events, deltas):
         max_cluster_size = max(cluster_sizes) 
 
         percolation_strengths.append(max_cluster_size / len(times_between_events))
-    return percolation_strengths
+    return percolation_strengths"""
 
 def model(n_max, mu_E, mu_I, tau, n_EE, n_IE, n_EI, n_II, dt):
     """
