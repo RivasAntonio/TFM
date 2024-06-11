@@ -1,9 +1,11 @@
 Chapters
 
-1- Hawkes Processes, how do we generate them and where we can found them
-2- Time binning
-3- Criticality in biosciences or neuroscience
-4- Results
+1- Hawkes Processes, how do we generate them and where we can found them (intro)
+2- Time binning (metodología)
+3- Criticality in biosciences or neuroscience (intro, 1º)
+4- Results (1º Reproducir artículo, n=2, modelo inhibición?)
+
+
 
 
 Mirar becas FPU, y plan propio UCO y UGR
