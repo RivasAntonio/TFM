@@ -1,0 +1,10 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Contents}{2}{chapter*.1}%
+\contentsline {chapter}{List of Figures}{3}{chapter*.2}%
+\contentsline {chapter}{List of Tables}{4}{chapter*.3}%
+\contentsline {chapter}{Abstract. Keywords}{5}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Objectives}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Methodology}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Results}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusions}{10}{chapter.5}%
