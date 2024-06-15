@@ -1,1 +1,18 @@
 \chapter{Results}
+
+This section provides the main results of the investigation. First, the results reproduced from the original paper \cite{notarmuzi2021percolation} are presented. Then, the results of
+the analysis with $n=2$ are shown. Finally, we have studied the behaviour of an inhibitory and excitatory neuron coupled.
+
+\section{Results from the original paper}
+
+The first result is the percolation phase diagram is shown in Figure \ref{f:phase_diagram_article}. It displays the percolation strength $P_{\infty}$ versus the resolution parameter $\Delta$.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{phase_article_R=1000.png}
+    \caption{Percolation phase diagrams for different event number $K$ taking average values of $R=1000$ realizations.}
+    \label{f:phase_diagram_article}
+\end{figure}
+
+The first plot configuration is a Markovian ($n=0$) Poisson process with rate $\mu$. This is the simplest case, where the inter-event time $x=t_i-t_{i-1}$ follows an exponential 
+distribution $P(x_i)=\mue^{\mu x_i}$.

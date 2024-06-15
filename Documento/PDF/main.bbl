@@ -16,5 +16,61 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{notarmuzi2021percolation}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=150a542d29015186211567414819c4f9}{%
+           family={Notarmuzi},
+           familyi={N\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
+           family={Castellano},
+           familyi={C\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2596bc60fbbe46dccfc09ae3fd2522d0}{%
+           family={Flammini},
+           familyi={F\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aaa4fc4f2c05d7fb50f913944622918f}{%
+           family={Mazzilli},
+           familyi={M\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7bf86f8cac7f65e65f53c7cd54661e36}{%
+           family={Radicchi},
+           familyi={R\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{fullhash}{afd386b94a56e5f2f7a93522ad054f70}
+      \strng{fullhashraw}{afd386b94a56e5f2f7a93522ad054f70}
+      \strng{bibnamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{authorbibnamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{authornamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{authorfullhash}{afd386b94a56e5f2f7a93522ad054f70}
+      \strng{authorfullhashraw}{afd386b94a56e5f2f7a93522ad054f70}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E}
+      \field{number}{2}
+      \field{title}{Percolation theory of self-exciting temporal processes}
+      \field{volume}{103}
+      \field{year}{2021}
+      \field{pages}{L020302}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

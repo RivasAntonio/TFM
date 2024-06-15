@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  4 JUN 2024 14:27
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  15 JUN 2024 12:38
  restricted system commands enabled.
  file:line:error style messages enabled.
-**c:/Users/anton/OneDrive/Desktop/Documento/main.tex
-(c:/Users/anton/OneDrive/Desktop/Documento/main.tex
+**c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -1448,16 +1448,17 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
- (c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.aux
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/quote.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/índices.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/abstract.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/intro.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/objetivos.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/Metodología.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/resultados.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/conclusiones.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/Anexo.aux))
+
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/quote.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/intro.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/objetivos.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/Metodología.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/resultados.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/conclusiones.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/Anexo.aux))
 \openout1 = main.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -1501,7 +1502,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.bbl)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.bbl)
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
 
@@ -1554,8 +1555,8 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \c@lstlisting=\count506
 Package hyperref Info: Link coloring ON on input line 12.
 
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.out)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.out)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.out)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.out)
 \@outlinefile=\write5
 
 \openout5 = main.out
@@ -1668,7 +1669,7 @@ fBuzz].
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<Idep.jpg, id=42, 789.95125pt x 473.77pt>
+<Idep.jpg, id=46, 789.95125pt x 473.77pt>
 File: Idep.jpg Graphic file (type jpg)
 <use Idep.jpg>
 Package luatex.def Info: Idep.jpg  used on input line 14.
@@ -1690,7 +1691,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 14
 ("C:/Program Files/MiKTeX/tex/latex/base/ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<Máster.png, id=43, 79.8255pt x 43.6905pt>
+<Máster.png, id=47, 79.8255pt x 43.6905pt>
 File: Máster.png Graphic file (type png)
 <use Máster.png>
 Package luatex.def Info: Máster.png  used on input line 14.
@@ -1746,22 +1747,23 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 ]
 \openout2 = índices.aux
- (./índices.tex (c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.toc)
+ (./índices.tex
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.toc)
 \tf@toc=\write6
 
 \openout6 = main.toc
+ [2
 
-[2
 
-
-] (c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.lof)
+]
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.lof)
 \tf@lof=\write7
 
 \openout7 = main.lof
  [3
 
 ]
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.lot)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.lot)
 \tf@lot=\write8
 
 \openout8 = main.lot
@@ -1769,8 +1771,8 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 ]
 \openout2 = abstract.aux
- (./abstract.tex)
-[5
+
+(./abstract.tex) [5
 
 
 
@@ -1806,12 +1808,18 @@ Chapter 3.
 \openout2 = resultados.aux
  (./resultados.tex
 Chapter 4.
+<./img/phase_article_R=1000.png, id=127, 852.786pt x 289.8027pt>
+File: ./img/phase_article_R=1000.png Graphic file (type png)
+<use ./img/phase_article_R=1000.png>
+Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
+
+(luatex.def)             Requested size: 362.77264pt x 123.27727pt.
 ) [9
 
 
 
 
-]
+<./img/phase_article_R=1000.png>]
 \openout2 = conclusiones.aux
  (./conclusiones.tex
 Chapter 5.
@@ -1831,38 +1839,41 @@ nput line 6.
 
 
 ] [12] [13])) [14]
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/main.aux
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/quote.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/índices.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/abstract.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/intro.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/objetivos.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/Metodología.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/resultados.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/conclusiones.aux)
-(c:/Users/anton/OneDrive/Desktop/Documento/PDF/Anexo.aux))
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/quote.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/intro.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/objetivos.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/Metodología.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/resultados.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/conclusiones.aux)
+(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/Anexo.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0AF0C60001C5065DAA290747DED3811F;936.
+(rerunfilecheck)             Checksum: 9F497B809EE4DE7170588EA22F861EA0;1158.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 45164 strings out of 476431
- 745524,1977958 words of node,token memory allocated
- 757 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 20 attribute, 94 glue_spec
-, 11 attribute_list, 4 write nodes
-   avail lists: 1:11,2:14288,3:386,4:13744,5:11849,6:138,7:22392,8:7,9:36062,10:
+ 45407 strings out of 476431
+ 745517,1977958 words of node,token memory allocated
+ 768 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 20 attribute, 95 glue_spec
+, 11 attribute_list, 4 write, 1 pdf_action nodes
+   avail lists: 1:11,2:14288,3:385,4:13744,5:11849,6:138,7:22392,8:8,9:36062,10:
 38,11:1865
- 65898 multiletter control sequences out of 65536+600000
+ 66135 multiletter control sequences out of 65536+600000
  77 fonts using 12254807 bytes
- 123i,12n,114p,1234b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 123i,12n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@notarmuzi2021
+percolation'
 <//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><//?/
 c:/program files/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/pr
 ogram files/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/program f
@@ -1871,10 +1882,12 @@ miktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/program files/mikte
 x/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/program files/miktex/fo
 nts/opentype/public/lm/lmroman12-regular.otf><//?/c:/program files/miktex/fonts/
 opentype/public/lm/lmroman12-bold.otf><//?/c:/program files/miktex/fonts/opentyp
-e/public/lm/lmroman17-regular.otf>
-Output written on main.pdf (18 pages, 187562 bytes).
+e/public/lm/lmroman17-regular.otf><C:/Program Files/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (18 pages, 245385 bytes).
 
-PDF statistics: 397 PDF objects out of 1000 (max. 8388607)
- 220 named destinations out of 1000 (max. 131072)
- 88 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 424 PDF objects out of 1000 (max. 8388607)
+ 223 named destinations out of 1000 (max. 131072)
+ 96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
