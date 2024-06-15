@@ -3,5 +3,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Percolation phase diagrams for different event number $K$ taking average values of $R=1000$ realizations.\relax }}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Percolation phase diagrams for different event number $K$ taking average values of $R=1000$ realizations.\relax }}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Percolation phase diagrams for a Hawkes process with $n=2$.\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Avalanches' statistics for a Hawkes process with $n=2$.\relax }}{7}{figure.caption.7}%
 \addvspace {10\p@ }

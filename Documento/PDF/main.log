@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  15 JUN 2024 13:25
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  15 JUN 2024 14:32
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
@@ -1443,14 +1443,34 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)) (./Códigos.sty)
+) (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/zref/zref.sty
+Package: zref 2022-04-07 v2.34 A new reference scheme for LaTeX (HO)
+
+(C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+
+(C:/Users/anton/AppData/Roaming/MiKTeX/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+))
+(C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+\c@abspage=\count500
+Package zref Info: New property: abspage on input line 65.
+)
+(C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/zref/zref-user.sty
+Package: zref-user 2022-04-07 v2.34 Module user for zref (HO)
+))
+(./Códigos.sty)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
-(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/quote.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/intro.aux)
@@ -1508,16 +1528,16 @@ Package biblatex Info: Reference segment=0 on input line 12.
 
 ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count500
+\scratchcounter=\count501
 \scratchdimen=\dimen347
 \scratchbox=\box130
-\nofMPsegments=\count501
-\nofMParguments=\count502
+\nofMPsegments=\count502
+\nofMParguments=\count503
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count503
+\MPscratchCnt=\count504
 \MPscratchDim=\dimen348
-\MPnumerator=\count504
-\makeMPintoPDFobject=\count505
+\MPnumerator=\count505
+\makeMPintoPDFobject=\count506
 \everyMPtoPDFconversion=\toks57
 ) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1552,7 +1572,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count506
+\c@lstlisting=\count507
 Package hyperref Info: Link coloring ON on input line 12.
 
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.out)
@@ -1669,7 +1689,7 @@ fBuzz].
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<Idep.jpg, id=46, 789.95125pt x 473.77pt>
+<Idep.jpg, id=50, 789.95125pt x 473.77pt>
 File: Idep.jpg Graphic file (type jpg)
 <use Idep.jpg>
 Package luatex.def Info: Idep.jpg  used on input line 14.
@@ -1691,7 +1711,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 14
 ("C:/Program Files/MiKTeX/tex/latex/base/ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<Máster.png, id=47, 79.8255pt x 43.6905pt>
+<Máster.png, id=51, 79.8255pt x 43.6905pt>
 File: Máster.png Graphic file (type png)
 <use Máster.png>
 Package luatex.def Info: Máster.png  used on input line 14.
@@ -1702,6 +1722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
  []
 
 [1
+
 
 {C:/Users/anton/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./Idep.jpg><./
 Máster.png>]
@@ -1723,6 +1744,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
+
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
@@ -1733,17 +1755,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
-]
-\openout2 = quote.aux
- (./quote.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
-
-
-
-]) [2
-
-
+] [2
 
 ]
 \openout2 = índices.aux
@@ -1752,7 +1764,8 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \tf@toc=\write6
 
 \openout6 = main.toc
- [3
+ [1
+
 
 
 ]
@@ -1760,19 +1773,22 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \tf@lof=\write7
 
 \openout7 = main.lof
- [4
+ [2
 
 ]
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.lot)
 \tf@lot=\write8
 
 \openout8 = main.lot
-) [5
+) [3
 
 ]
 \openout2 = abstract.aux
 
-(./abstract.tex) [6
+(./abstract.tex)
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
 
 
 
@@ -1781,7 +1797,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \openout2 = intro.aux
  (./intro.tex
 Chapter 1.
-) [7
+)
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
+[2
 
 
 
@@ -1790,7 +1808,7 @@ Chapter 1.
 \openout2 = objetivos.aux
  (./objetivos.tex
 Chapter 2.
-) [8
+) [3
 
 
 
@@ -1799,7 +1817,7 @@ Chapter 2.
 \openout2 = Metodología.aux
  (./Metodología.tex
 Chapter 3.
-) [9
+) [4
 
 
 
@@ -1808,27 +1826,43 @@ Chapter 3.
 \openout2 = resultados.aux
  (./resultados.tex
 Chapter 4.
-<./img/phase_article_R=1000.png, id=127, 852.786pt x 289.8027pt>
+<./img/phase_article_R=1000.png, id=130, 852.786pt x 289.8027pt>
 File: ./img/phase_article_R=1000.png Graphic file (type png)
 <use ./img/phase_article_R=1000.png>
 Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
 
-(luatex.def)             Requested size: 411.14528pt x 139.71837pt.
-) [10
+(luatex.def)             Requested size: 459.51054pt x 156.15504pt.
+[5
 
 
 
 
 <./img/phase_article_R=1000.png>]
+<./img/phase_R=1000_n=2.png, id=143, 852.786pt x 289.8027pt>
+File: ./img/phase_R=1000_n=2.png Graphic file (type png)
+<use ./img/phase_R=1000_n=2.png>
+Package luatex.def Info: ./img/phase_R=1000_n=2.png  used on input line 36.
+(luatex.def)             Requested size: 459.51054pt x 156.15504pt.
+<./img/cutoff_data_dots_n=2.png, id=144, 710.4141pt x 714.7503pt>
+File: ./img/cutoff_data_dots_n=2.png Graphic file (type png)
+<use ./img/cutoff_data_dots_n=2.png>
+Package luatex.def Info: ./img/cutoff_data_dots_n=2.png  used on input line 43.
+
+(luatex.def)             Requested size: 459.51054pt x 462.3137pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6<./img/phase_R=1000_n=2.png>] [7<./img/cutoff_data_dots_n=2.png>]
 \openout2 = conclusiones.aux
- (./conclusiones.tex
+ (./conclus
+iones.tex
 Chapter 5.
-) [11
+) [8
 
 
 
 
-] [12
+] [9
 
 
 
@@ -1837,18 +1871,17 @@ Chapter 5.
  (./Anexo.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
- (./funciones.py [13
+ (./funciones.py [10
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]))
-[16] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
-(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/quote.aux)
+ [12]))
+[13] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/intro.aux)
@@ -1862,41 +1895,40 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9F497B809EE4DE7170588EA22F861EA0;1158.
+(rerunfilecheck)             Checksum: 3EAF2A7910AE2F9F1C413CFE20604F7D;1294.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 45414 strings out of 476431
- 745509,1977958 words of node,token memory allocated
+ 45665 strings out of 476431
+ 745510,1977958 words of node,token memory allocated
  773 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 20 attribute, 96 glue_spec
 , 11 attribute_list, 4 write, 1 pdf_action nodes
-   avail lists: 1:12,2:14285,3:385,4:13744,5:11837,6:138,7:22272,8:11,9:36060,10
+   avail lists: 1:11,2:14276,3:385,4:13744,5:11837,6:138,7:22258,8:14,9:36058,10
 :38,11:1853
- 66140 multiletter control sequences out of 65536+600000
- 77 fonts using 12254807 bytes
+ 66374 multiletter control sequences out of 65536+600000
+ 76 fonts using 12123119 bytes
  123i,12n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><//?/
 c:/program files/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/pr
 ogram files/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/program f
-iles/miktex/fonts/opentype/public/lm/lmroman12-italic.otf><//?/c:/program files/
-miktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/program files/mikte
-x/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/program files/miktex/fo
-nts/opentype/public/lm/lmroman12-regular.otf><//?/c:/program files/miktex/fonts/
-opentype/public/lm/lmroman12-bold.otf><//?/c:/program files/miktex/fonts/opentyp
-e/public/lm/lmroman17-regular.otf><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy8.pfb>
-Output written on main.pdf (19 pages, 278049 bytes).
+iles/miktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/program files/
+miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/program files/mikt
+ex/fonts/opentype/public/lm/lmroman12-regular.otf><//?/c:/program files/miktex/f
+onts/opentype/public/lm/lmroman12-bold.otf><//?/c:/program files/miktex/fonts/op
+entype/public/lm/lmroman17-regular.otf><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (20 pages, 377577 bytes).
 
-PDF statistics: 446 PDF objects out of 1000 (max. 8388607)
- 225 named destinations out of 1000 (max. 131072)
- 96 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 455 PDF objects out of 1000 (max. 8388607)
+ 228 named destinations out of 1000 (max. 131072)
+ 104 words of extra memory for PDF output out of 10000 (max. 100000000)
 

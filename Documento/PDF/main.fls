@@ -470,12 +470,20 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\tocbibind\tocbibind.sty
 INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\tocbibind\tocbibind.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref-base.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref-base.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref-abspage.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref-abspage.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref-user.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\zref\zref-user.sty
 INPUT .\Códigos.sty
 INPUT .\Códigos.sty
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.aux
-INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\quote.aux
-INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\quote.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\índices.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\índices.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\abstract.aux
@@ -636,11 +644,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr7.tfm
 INPUT C:\Users\anton\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman10-italic.luc
-OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\quote.aux
-OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\quote.aux
-INPUT .\quote.tex
-INPUT .\quote.tex
-INPUT C:\Users\anton\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman12-italic.luc
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\índices.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\índices.aux
 INPUT .\índices.tex
@@ -682,6 +685,16 @@ INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
+INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
 INPUT .\conclusiones.tex
@@ -695,8 +708,6 @@ INPUT .\funciones.py
 INPUT .\funciones.py
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.aux
-INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\quote.aux
-INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\quote.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\índices.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\índices.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\abstract.aux

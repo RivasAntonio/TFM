@@ -1,8 +1,8 @@
-.aux
-.bcf 
-.blg
-.fls
-.log
-.lof
-.fdb_latexmk
-.gz
+*.aux
+*.bcf 
+*.blg
+*.fls
+*.log
+*.lof
+*.fdb_latexmk
+*.gz
