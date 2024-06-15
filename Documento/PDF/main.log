@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  15 JUN 2024 12:38
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  15 JUN 2024 13:25
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
@@ -1640,8 +1640,8 @@ fBuzz].
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
 * v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
@@ -1654,7 +1654,7 @@ fBuzz].
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
+* \marginparwidth=111.0pt
 * \marginparsep=11.0pt
 * \columnsep=18.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1662,8 +1662,8 @@ fBuzz].
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1719,7 +1719,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
-[0
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
@@ -1727,21 +1729,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
  []
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.0'
-[0
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
 
 
 ]
 \openout2 = quote.aux
  (./quote.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.0'
-[0
-
-
-
-])
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
+
+
+
+]) [2
 
 
 
@@ -1752,7 +1752,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \tf@toc=\write6
 
 \openout6 = main.toc
- [2
+ [3
 
 
 ]
@@ -1760,19 +1760,19 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \tf@lof=\write7
 
 \openout7 = main.lof
- [3
+ [4
 
 ]
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.lot)
 \tf@lot=\write8
 
 \openout8 = main.lot
-) [4
+) [5
 
 ]
 \openout2 = abstract.aux
 
-(./abstract.tex) [5
+(./abstract.tex) [6
 
 
 
@@ -1781,7 +1781,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \openout2 = intro.aux
  (./intro.tex
 Chapter 1.
-) [6
+) [7
 
 
 
@@ -1790,7 +1790,7 @@ Chapter 1.
 \openout2 = objetivos.aux
  (./objetivos.tex
 Chapter 2.
-) [7
+) [8
 
 
 
@@ -1799,7 +1799,7 @@ Chapter 2.
 \openout2 = Metodología.aux
  (./Metodología.tex
 Chapter 3.
-) [8
+) [9
 
 
 
@@ -1813,8 +1813,8 @@ File: ./img/phase_article_R=1000.png Graphic file (type png)
 <use ./img/phase_article_R=1000.png>
 Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
 
-(luatex.def)             Requested size: 362.77264pt x 123.27727pt.
-) [9
+(luatex.def)             Requested size: 411.14528pt x 139.71837pt.
+) [10
 
 
 
@@ -1823,8 +1823,12 @@ Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
 \openout2 = conclusiones.aux
  (./conclusiones.tex
 Chapter 5.
-) [10
+) [11
 
+
+
+
+] [12
 
 
 
@@ -1833,13 +1837,17 @@ Chapter 5.
  (./Anexo.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
- (./funciones.py [11
+ (./funciones.py [13
 
 
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [12] [13])) [14]
-(c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
+ [15]))
+[16] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/quote.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
@@ -1861,19 +1869,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45407 strings out of 476431
- 745517,1977958 words of node,token memory allocated
- 768 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 20 attribute, 95 glue_spec
+ 45414 strings out of 476431
+ 745509,1977958 words of node,token memory allocated
+ 773 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 20 attribute, 96 glue_spec
 , 11 attribute_list, 4 write, 1 pdf_action nodes
-   avail lists: 1:11,2:14288,3:385,4:13744,5:11849,6:138,7:22392,8:8,9:36062,10:
-38,11:1865
- 66135 multiletter control sequences out of 65536+600000
+   avail lists: 1:12,2:14285,3:385,4:13744,5:11837,6:138,7:22272,8:11,9:36060,10
+:38,11:1853
+ 66140 multiletter control sequences out of 65536+600000
  77 fonts using 12254807 bytes
  123i,12n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'cite.0@notarmuzi2021
-percolation'
 <//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><//?/
 c:/program files/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/pr
 ogram files/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/program f
@@ -1883,11 +1888,15 @@ x/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/program files/miktex/fo
 nts/opentype/public/lm/lmroman12-regular.otf><//?/c:/program files/miktex/fonts/
 opentype/public/lm/lmroman12-bold.otf><//?/c:/program files/miktex/fonts/opentyp
 e/public/lm/lmroman17-regular.otf><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (18 pages, 245385 bytes).
+sfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb>
+Output written on main.pdf (19 pages, 278049 bytes).
 
-PDF statistics: 424 PDF objects out of 1000 (max. 8388607)
- 223 named destinations out of 1000 (max. 131072)
+PDF statistics: 446 PDF objects out of 1000 (max. 8388607)
+ 225 named destinations out of 1000 (max. 131072)
  96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
