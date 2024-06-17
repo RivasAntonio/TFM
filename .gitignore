@@ -27,3 +27,10 @@
 *.synctex.gz(busy)
 *.pdfsync
 *.pyc
+*.fls
+*.log
+*.fdb_latexmk
+*.synctex.gz
+*.synctex
+*.synctex(busy)
+*.*

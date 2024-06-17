@@ -112,12 +112,11 @@
 \fancyfoot[C]{\small{pág. \thepage}}
 }
 \fancypagestyle{plain}{
-    \fancyhead[R]{}
-    \fancyhead[L]{}
-    \fancyfoot[C]{}
-    \setlength{\headheight}{14pt}
-    
+    \fancyfoot[C]{\thepage}
+    \setlength{\headheight}{14pt}    
 }
+
+
 \pagestyle{plain}
 
 \providecommand{\abs}[1]{\lvert#1\rvert}
@@ -210,7 +209,7 @@
 \newcommand{\fechafirmaanexoII}{X de julio de 2024}
 
 \newcommand{\anexoII}{
-\clearpage\thispagestyle{empty}\addtocounter{page}{-1} % Esto junto al otro \clearpage sirve para que no te cuente la página
+%\clearpage\thispagestyle{empty}\addtocounter{page}{-1} % Esto junto al otro \clearpage sirve para que no te cuente la página
         \Large \textbf{\underline{Autorización de defensa del Trabajo Fin de Máster}}\\
 
         \vspace{0.75cm}
@@ -247,7 +246,7 @@
 \newcommand{\DNI}{49832223D}
 
 \newcommand{\anexoIII}{
-    \clearpage\thispagestyle{empty}\addtocounter{page}{-1} % Esto junto al otro \clearpage sirve para que no te cuente la página
+    %\clearpage\thispagestyle{empty}\addtocounter{page}{-1} % Esto junto al otro \clearpage sirve para que no te cuente la página
         \Large \textbf{\underline{Declaración de autoría}}\\
 
         \vspace{0.75cm}
