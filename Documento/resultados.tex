@@ -18,12 +18,18 @@ The first plot configuration is a Markovian ($n=0$) Poisson process with rate $\
 distribution $P(x_i)=\mu e^{\mu x_i}$. The other two plots are non-Markovian Hawkes processes for $\mu \ll 1$ and $\mu\gg 1$. In one hand, a double transition is observed when 
 $\mu = 10^{-4}$, in the other hand, a single transition occurs when $\mu = 10^2$. 
 
-Once we have the phase diagram, we can study the avalanches' statistics at different regions of it. Given a resolution parameter $\Delta$, we can spot clusters or avalanches of activity.
+Once we have the phase diagram, we can study avalanche statistics. Given a resolution parameter $\Delta$, we can spot clusters or avalanches of activity.
 A cluster starts when a neuron fires and ends if the neuron does not fire for a time greater than $\Delta$. We define the size of a cluster as the number of spikes it contains and the duration
 as the time between the first and last spike. We have studied the avalanches for $K=10^5$ events and $R=1000$ realizations to obtain the average values since the process is highly not 
 stationary. We will study the size and duration of the avalanches for the three different regions of the phase diagram for $\mu=10^{-4}$ and the two regions of the phase diagram for $\mu=10^2$.
+These regions are separated by two thresholds, a pseudocritical threshold $\Delta_1^*$ and the threshold of the second transition at $\Delta_2^*$.
+We can compute these with the following formulas \cite{notarmuzi2021percolation}:
 
 
+\begin{align}
+    \Delta_1^* &\simeq \dfrac{log(K)}{\langle \lambda \rangle}= \dfrac{log(K)}{\mu+\sqrt{2\mu K}} \label{eq:Ecuación delta1 *} \\
+    \Delta_2^* &= \dfrac{log(K)}{\mu}\label{eq:Ecuación delta2 *}
+\end{align}
 
 \section{Results for n=2}
 
@@ -32,13 +38,13 @@ In the Figure \ref{f:n=1 vs n=2} two time series for $n=1$ and $n=2$ are shown.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{n=1 vs n=2.png}
+    \includegraphics[width=0.65\textwidth]{n=1 vs n=2.png}
     \caption{Time series for $n=1$ and $n=2$.}
     \label{f:n=1 vs n=2}
 \end{figure}
-Simillary to the previous section, we obtain the phase diagram to observe the resolution parameter of the phase transition and after that we have studied the avalanches' statistics for the different
-regions.
 
+Similarly to the previous section, first we obtain the phase diagram in order to observe the transitions. In this case, Eqs \ref{eq:Ecuación delta1 *}-\ref{eq:Ecuación delta2 *} are not valid.
+Therefore, we will obtain this parameter graphically from the phase diagrams shown in Figure \ref{f:phase_diagram_n=2}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{phase_R=1000_n=2.png}
@@ -46,9 +52,13 @@ regions.
     \label{f:phase_diagram_n=2}
 \end{figure}
 
+As we can see, now we have a single transition for $\mu=10^{-4}$ and $\mu=10^2$ corresponding to 1D percolation, consequently, the exponents for the size and duration 
+should be $\alpha=\tau=2$. In a similar way, we have studied the avalanches for $K=10^5$ events and $R=1000$ realizations to obtain the average values. The statistics of the avalanches 
+are shown in Figure \ref{f:avalanches_n=2}.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{cutoff_data_dots_n=2.png}
+    \includegraphics[width=0.65\textwidth]{cutoff_data_dots_n=2.png}
     \caption{Avalanches' statistics for a Hawkes process with $n=2$.}
     \label{f:avalanches_n=2}
 \end{figure}

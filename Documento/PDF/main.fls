@@ -685,15 +685,20 @@ INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
+INPUT .\img\n=1 vs n=2.png
+INPUT .\img\n=1 vs n=2.png
+INPUT .\img\n=1 vs n=2.png
+INPUT .\img\n=1 vs n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\n=1 vs n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
-INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux

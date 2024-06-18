@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  15 JUN 2024 14:32
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  18 JUN 2024 13:21
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
@@ -1726,36 +1726,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
 {C:/Users/anton/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./Idep.jpg><./
 Máster.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
+[2
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
-[1
-
-
-] [2
+] [3
 
 ]
 \openout2 = índices.aux
@@ -1764,8 +1759,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \tf@toc=\write6
 
 \openout6 = main.toc
- [1
-
+ [4
 
 
 ]
@@ -1773,14 +1767,14 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \tf@lof=\write7
 
 \openout7 = main.lof
- [2
+ [5
 
 ]
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.lot)
 \tf@lot=\write8
 
 \openout8 = main.lot
-) [3
+) [6
 
 ]
 \openout2 = abstract.aux
@@ -1797,9 +1791,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \openout2 = intro.aux
  (./intro.tex
 Chapter 1.
-)
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
-[2
+) [2
 
 
 
@@ -1826,7 +1818,7 @@ Chapter 3.
 \openout2 = resultados.aux
  (./resultados.tex
 Chapter 4.
-<./img/phase_article_R=1000.png, id=130, 852.786pt x 289.8027pt>
+<./img/phase_article_R=1000.png, id=135, 852.786pt x 289.8027pt>
 File: ./img/phase_article_R=1000.png Graphic file (type png)
 <use ./img/phase_article_R=1000.png>
 Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
@@ -1838,24 +1830,26 @@ Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
 
 
 <./img/phase_article_R=1000.png>]
-<./img/phase_R=1000_n=2.png, id=143, 852.786pt x 289.8027pt>
+<./img/n=1 vs n=2.png, id=150, 354.123pt x 209.583pt>
+File: ./img/n=1 vs n=2.png Graphic file (type png)
+<use ./img/n=1 vs n=2.png>
+Package luatex.def Info: ./img/n=1 vs n=2.png  used on input line 41.
+(luatex.def)             Requested size: 314.40001pt x 186.08694pt.
+<./img/phase_R=1000_n=2.png, id=154, 852.786pt x 289.8027pt>
 File: ./img/phase_R=1000_n=2.png Graphic file (type png)
 <use ./img/phase_R=1000_n=2.png>
-Package luatex.def Info: ./img/phase_R=1000_n=2.png  used on input line 36.
+Package luatex.def Info: ./img/phase_R=1000_n=2.png  used on input line 50.
 (luatex.def)             Requested size: 459.51054pt x 156.15504pt.
-<./img/cutoff_data_dots_n=2.png, id=144, 710.4141pt x 714.7503pt>
+ [6<./img/n=1 vs n=2.png><./img/phase_R=1000_n=2.png>]
+<./img/cutoff_data_dots_n=2.png, id=165, 710.4141pt x 714.7503pt>
 File: ./img/cutoff_data_dots_n=2.png Graphic file (type png)
 <use ./img/cutoff_data_dots_n=2.png>
-Package luatex.def Info: ./img/cutoff_data_dots_n=2.png  used on input line 43.
+Package luatex.def Info: ./img/cutoff_data_dots_n=2.png  used on input line 61.
 
-(luatex.def)             Requested size: 459.51054pt x 462.3137pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6<./img/phase_R=1000_n=2.png>] [7<./img/cutoff_data_dots_n=2.png>]
+(luatex.def)             Requested size: 314.40001pt x 316.31244pt.
+) [7<./img/cutoff_data_dots_n=2.png>]
 \openout2 = conclusiones.aux
- (./conclus
-iones.tex
+ (./conclusiones.tex
 Chapter 5.
 ) [8
 
@@ -1902,14 +1896,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45665 strings out of 476431
- 745510,1977958 words of node,token memory allocated
- 773 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 20 attribute, 96 glue_spec
+ 45688 strings out of 476431
+ 745522,1977958 words of node,token memory allocated
+ 766 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 20 attribute, 96 glue_spec
 , 11 attribute_list, 4 write, 1 pdf_action nodes
-   avail lists: 1:11,2:14276,3:385,4:13744,5:11837,6:138,7:22258,8:14,9:36058,10
-:38,11:1853
- 66374 multiletter control sequences out of 65536+600000
+   avail lists: 1:9,2:14276,3:385,4:13744,5:11837,6:138,7:22258,8:34,9:36058,10:
+38,11:1853
+ 66388 multiletter control sequences out of 65536+600000
  76 fonts using 12123119 bytes
  123i,12n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><//?/
@@ -1926,9 +1920,9 @@ m/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (20 pages, 377577 bytes).
+Output written on main.pdf (20 pages, 392079 bytes).
 
-PDF statistics: 455 PDF objects out of 1000 (max. 8388607)
- 228 named destinations out of 1000 (max. 131072)
+PDF statistics: 472 PDF objects out of 1000 (max. 8388607)
+ 234 named destinations out of 1000 (max. 131072)
  104 words of extra memory for PDF output out of 10000 (max. 100000000)
 
