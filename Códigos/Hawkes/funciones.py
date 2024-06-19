@@ -262,8 +262,8 @@ def bivariate_algorithm(rate1, rate2, mu1, mu2, n11, n22, n12, n21):
 
     #Output: rate x_k, x_k
     """             
-    rate1_tk, xk1 = algorithm(rate1, mu1, n11)
-    rate2_tk, xk2 = algorithm(rate2, mu2, n22)
+    _, xk1 = algorithm(rate1, mu1, n11)
+    _, xk2 = algorithm(rate2, mu2, n22)
 
     xk = min(xk1, xk2)
 
