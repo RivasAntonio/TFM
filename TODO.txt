@@ -1,18 +1,14 @@
 Chapters
 
 1- Hawkes Processes, how do we generate them and where we can found them (intro)
-2- Time binning (metodología)
-3- Criticality in biosciences or neuroscience (intro, 1º)
+2- Time binning y generación de procesos computacionalmente (metodología) a lo mejor explicar o demostrar algortimo(s)
+3- Criticality in biosciences or neuroscience (intro, 1º) (Procesos estocásticos y cambios de fase con Perc 1D o C-B process para avalanchas)
+Muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro.
+En metodología hacer figura de los diferentes delta y referenciar luego en los resultados
+
 4- Results (1º Reproducir artículo, n=2, modelo inhibición?)
 
 
 
 
 Mirar becas FPU, y plan propio UCO y UGR
-
-Repetir con n=2, promediar en número de realizaciones y ver como cambia el cutoff mientras que los exponentes son los mismos
-
-Diagrama de fases: suma de lambdas y diferencia de lambdas. n_IE=n_EI
-
-K = 10^5 R=100, intentar que en una única figura, doble se vena todos los deltas. Primero hacer una cada uno y luego unir
-Hacer fichero pruebas modelo
