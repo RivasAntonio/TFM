@@ -256,14 +256,25 @@ def identify_clusters_model(times, delta):
     clusters_times = [cluster[-1] - cluster[0] for cluster in clusters]
     return clusters, clusters_sizes, clusters_times
 
-def bivariate_algorithm(rate1, rate2, mu1, mu2, n11, n22, n12, n21):
+def bivariate_algorithm(rate1, rate2, muE, muI, nEE, nII, nEI, nIE):
     """
     Algorithm that computes interevent times and Hawkes intensity for a bivariate Hawkes process
 
+    #Inputs:
+    rate1: Previous excitation rate
+    rate2: Previous inhibition rate
+    nEE: "Strength" of the autoexcitation process
+    nII: "Strength" of the autoinhibition process
+    nEI: "Strength" of the excitation to the inhibition
+    nIE: "Strength" of the inhibition to the excitation 
+    muE: Background intensity of the excitation
+    muI: Background intensity of the inhibition
+
+
     #Output: rate x_k, x_k
     """             
-    _, xk1 = algorithm(rate1, mu1, n11)
-    _, xk2 = algorithm(rate2, mu2, n22)
+    _, xk1 = algorithm(rate1, muE, nEE)
+    _, xk2 = algorithm(rate2, muI, nII)
 
     xks = [xk1, xk2]
 
@@ -276,45 +287,45 @@ def bivariate_algorithm(rate1, rate2, mu1, mu2, n11, n22, n12, n21):
     reaction = np.argmin(xks)
 
     if reaction == 0:
-        rate1_tk = (rate1 - mu1) * np.exp(-xk1) + n11 + mu1
-        rate2_tk = (rate2 - mu2) * np.exp(-xk1) + n12 + mu2
+        rate1_tk = (rate1 - muE) * np.exp(-xk1) + nEE + muE
+        rate2_tk = (rate2 - muI) * np.exp(-xk1) + nEI + muI
     else:
-        rate1_tk = (rate1 - mu1) * np.exp(-xk2) + n21 + mu1
-        rate2_tk = (rate2 - mu2) * np.exp(-xk2) + n22 + mu2
+        rate1_tk = (rate1 - muE) * np.exp(-xk2) + nIE + muE
+        rate2_tk = (rate2 - muI) * np.exp(-xk2) + nII + muI
     
-    if rate1_tk <= mu1:
-        rate1_tk = mu1
-    if rate2_tk <= mu2:
-        rate2_tk = mu2
+    if rate1_tk <= muE:
+        rate1_tk = muE
+    if rate2_tk <= muI:
+        rate2_tk = muI
         
     xk = xks[reaction]
     
     return rate1_tk, rate2_tk, xk, reaction
 
-def generate_series_bivariate(K, n11, n22, n12, n21, mu1, mu2):
+def generate_series_bivariate(K, nEE, nII, nEI, nIE, muE, muI):
     """
     Generates temporal series for K bivariate Hawkes processes
     
     ##Inputs:
     K: Number of events
-    n11: Strength of the excitatory process
-    n22: Strength of the inhibitory process
-    n12: Influence of process 2 on process 1
-    n21: Influence of process 1 on process 2
-    mu1: Background intensity of process 1
-    mu2: Background intensity of process 2
+    nEE: "Strength" of the autoexcitation process
+    nII: "Strength" of the autoinhibition process
+    nEI: "Strength" of the excitation to the inhibition
+    nIE: "Strength" of the inhibition to the excitation 
+    muE: Background intensity of the excitation
+    muI: Background intensity of the inhibition
 
     ##Output:
     times_between_events: time series the interevent times
     times: time series the events
-    rate1: time series for the intensity of process 1
-    rate2: time series for the intensity of process 2
+    rate1: time series for the intensity of process 1 (Excitation)
+    rate2: time series for the intensity of process 2 (Inhibition)
     """
     times_between_events = [0]
-    rate1 = [mu1]
-    rate2 = [mu2]
+    rate1 = [muE]
+    rate2 = [muI]
     for _ in range(K):
-        rate1_tk, rate2_tk, xk, _ = bivariate_algorithm(rate1[-1], rate2[-1], mu1, mu2, n11, n22, n12, n21)
+        rate1_tk, rate2_tk, xk, _ = bivariate_algorithm(rate1[-1], rate2[-1], muE, muI, nEE, nII, nEI, nIE)
         rate1.append(rate1_tk)
         rate2.append(rate2_tk)
         times_between_events.append(xk)

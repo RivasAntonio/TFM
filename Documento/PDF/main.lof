@@ -4,7 +4,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Percolation phase diagrams for different event number $K$ taking average values of $R=1000$ realizations.\relax }}{5}{figure.caption.5}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Time series for $n=1$ and $n=2$.\relax }}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Percolation phase diagrams for a Hawkes process with $n=2$.\relax }}{6}{figure.caption.7}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Avalanches' statistics for a Hawkes process with $n=2$.\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Avalanche statistics for a self-exciting Hawkes process with $n=1$ for $K=10^5$ events averaged over $R=1000$ realizations.\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Time series for $n=1$ and $n=2$.\relax }}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Percolation phase diagrams for a Hawkes process with $n=2$.\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Avalanche statistics for a self-exciting Hawkes process with $n=2$ for $K=10^5$ events averaged over $R=1000$ realizations.\relax }}{8}{figure.caption.9}%
 \addvspace {10\p@ }

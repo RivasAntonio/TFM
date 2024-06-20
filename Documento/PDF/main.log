@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  18 JUN 2024 13:21
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  20 JUN 2024 20:17
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
@@ -1689,7 +1689,7 @@ fBuzz].
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<Idep.jpg, id=50, 789.95125pt x 473.77pt>
+<Idep.jpg, id=54, 789.95125pt x 473.77pt>
 File: Idep.jpg Graphic file (type jpg)
 <use Idep.jpg>
 Package luatex.def Info: Idep.jpg  used on input line 14.
@@ -1711,7 +1711,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 14
 ("C:/Program Files/MiKTeX/tex/latex/base/ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<Máster.png, id=51, 79.8255pt x 43.6905pt>
+<Máster.png, id=55, 79.8255pt x 43.6905pt>
 File: Máster.png Graphic file (type png)
 <use Máster.png>
 Package luatex.def Info: Máster.png  used on input line 14.
@@ -1818,7 +1818,7 @@ Chapter 3.
 \openout2 = resultados.aux
  (./resultados.tex
 Chapter 4.
-<./img/phase_article_R=1000.png, id=135, 852.786pt x 289.8027pt>
+<./img/phase_article_R=1000.png, id=148, 852.786pt x 289.8027pt>
 File: ./img/phase_article_R=1000.png Graphic file (type png)
 <use ./img/phase_article_R=1000.png>
 Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
@@ -1830,33 +1830,66 @@ Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
 
 
 <./img/phase_article_R=1000.png>]
-<./img/n=1 vs n=2.png, id=150, 354.123pt x 209.583pt>
+<./img/stats article.png, id=161, 711.8595pt x 714.7503pt>
+File: ./img/stats article.png Graphic file (type png)
+<use ./img/stats article.png>
+Package luatex.def Info: ./img/stats article.png  used on input line 40.
+(luatex.def)             Requested size: 326.49686pt x 327.81848pt.
+
+Underfull \hbox (badness 1472) in paragraph at lines 46--51
+\TU/lmr/m/n/10.95 the res-o-lu-tion pa-ram-e-ter
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 46--51
+\TU/lmr/m/n/10.95 pat-i-ble with the uni-ver-
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 52--55
+[]\TU/lmr/m/n/10.95 For $\OML/cmm/m/it/10.95  \OT1/cmr/m/n/10.95 = 10[]$\TU/lm
+r/m/n/10.95 , the re-
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 52--55
+\TU/lmr/m/n/10.95 avalanches un-less $\OT1/cmr/m/n/10.95  \OMS/cmsy/m/n/10.95 
+
+ []
+
+[6<./img/stats article.png>]
+<./img/n=1 vs n=2.png, id=171, 354.123pt x 209.583pt>
 File: ./img/n=1 vs n=2.png Graphic file (type png)
 <use ./img/n=1 vs n=2.png>
-Package luatex.def Info: ./img/n=1 vs n=2.png  used on input line 41.
+Package luatex.def Info: ./img/n=1 vs n=2.png  used on input line 65.
 (luatex.def)             Requested size: 314.40001pt x 186.08694pt.
-<./img/phase_R=1000_n=2.png, id=154, 852.786pt x 289.8027pt>
+<./img/phase_R=1000_n=2.png, id=175, 852.786pt x 289.8027pt>
 File: ./img/phase_R=1000_n=2.png Graphic file (type png)
 <use ./img/phase_R=1000_n=2.png>
-Package luatex.def Info: ./img/phase_R=1000_n=2.png  used on input line 50.
+Package luatex.def Info: ./img/phase_R=1000_n=2.png  used on input line 74.
 (luatex.def)             Requested size: 459.51054pt x 156.15504pt.
- [6<./img/n=1 vs n=2.png><./img/phase_R=1000_n=2.png>]
-<./img/cutoff_data_dots_n=2.png, id=165, 710.4141pt x 714.7503pt>
+<./img/cutoff_data_dots_n=2.png, id=177, 501.5538pt x 498.663pt>
 File: ./img/cutoff_data_dots_n=2.png Graphic file (type png)
 <use ./img/cutoff_data_dots_n=2.png>
-Package luatex.def Info: ./img/cutoff_data_dots_n=2.png  used on input line 61.
+Package luatex.def Info: ./img/cutoff_data_dots_n=2.png  used on input line 86.
 
-(luatex.def)             Requested size: 314.40001pt x 316.31244pt.
-) [7<./img/cutoff_data_dots_n=2.png>]
+(luatex.def)             Requested size: 326.49686pt x 324.62169pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7<./img/n=1 vs n=2.png><./img/phase_R=1000_n=2.png>] [8<./img/cutoff_data_dots
+_n=2.png>]) [9
+
+]
 \openout2 = conclusiones.aux
  (./conclusiones.tex
 Chapter 5.
-) [8
+) [10
 
 
 
 
-] [9
+] [11
 
 
 
@@ -1865,17 +1898,23 @@ Chapter 5.
  (./Anexo.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
- (./funciones.py [10
+ (../Códigos/Hawkes/funciones.py [12
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]))
-[13] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]))
+[17] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/intro.aux)
@@ -1889,21 +1928,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3EAF2A7910AE2F9F1C413CFE20604F7D;1294.
+(rerunfilecheck)             Checksum: 2703F21C3F71FC5C4E9D7B41B03A2975;1566.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 45688 strings out of 476431
- 745522,1977958 words of node,token memory allocated
- 766 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 20 attribute, 96 glue_spec
-, 11 attribute_list, 4 write, 1 pdf_action nodes
-   avail lists: 1:9,2:14276,3:385,4:13744,5:11837,6:138,7:22258,8:34,9:36058,10:
-38,11:1853
- 66388 multiletter control sequences out of 65536+600000
+ 45881 strings out of 476431
+ 745551,1977958 words of node,token memory allocated
+ 790 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 24 attribute, 96 glue_spec
+, 13 attribute_list, 4 write, 3 pdf_action nodes
+   avail lists: 1:8,2:14723,3:386,4:14222,5:12317,6:138,7:23644,8:31,9:37448,10:
+38,11:1928
+ 66426 multiletter control sequences out of 65536+600000
  76 fonts using 12123119 bytes
  123i,12n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><//?/
@@ -1920,9 +1959,9 @@ m/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (20 pages, 392079 bytes).
+Output written on main.pdf (24 pages, 503019 bytes).
 
-PDF statistics: 472 PDF objects out of 1000 (max. 8388607)
- 234 named destinations out of 1000 (max. 131072)
- 104 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 653 PDF objects out of 1000 (max. 8388607)
+ 385 named destinations out of 1000 (max. 131072)
+ 112 words of extra memory for PDF output out of 10000 (max. 100000000)
 

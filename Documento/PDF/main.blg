@@ -1,15 +1,15 @@
-[1] Config.pm:308> INFO - This is Biber 2.20
-[2] Config.pm:311> INFO - Logfile is 'PDF\main.blg'
-[386] biber-MSWIN64:340> INFO - === 
-[562] Biber.pm:420> INFO - Reading 'PDF\main.bcf'
-[830] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
-[864] Biber.pm:4463> INFO - Processing section 0
-[893] Biber.pm:4654> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[1124] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1177] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
-[1260] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1260] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1260] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1260] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[1263] bbl.pm:676> INFO - Writing 'PDF\main.bbl' with encoding 'UTF-8'
-[1265] bbl.pm:779> INFO - Output to PDF\main.bbl
+[0] Config.pm:308> INFO - This is Biber 2.20
+[1] Config.pm:311> INFO - Logfile is 'PDF\main.blg'
+[549] biber-MSWIN64:340> INFO - === 
+[683] Biber.pm:420> INFO - Reading 'PDF\main.bcf'
+[1151] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
+[1219] Biber.pm:4463> INFO - Processing section 0
+[1265] Biber.pm:4654> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[1477] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1635] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
+[1814] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1815] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1815] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1815] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1820] bbl.pm:676> INFO - Writing 'PDF\main.bbl' with encoding 'UTF-8'
+[1826] bbl.pm:779> INFO - Output to PDF\main.bbl

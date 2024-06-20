@@ -685,6 +685,11 @@ INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
 INPUT .\img\phase_article_R=1000.png
+INPUT .\img\stats article.png
+INPUT .\img\stats article.png
+INPUT .\img\stats article.png
+INPUT .\img\stats article.png
+INPUT .\img\stats article.png
 INPUT .\img\n=1 vs n=2.png
 INPUT .\img\n=1 vs n=2.png
 INPUT .\img\n=1 vs n=2.png
@@ -692,13 +697,13 @@ INPUT .\img\n=1 vs n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\phase_R=1000_n=2.png
-INPUT .\img\phase_R=1000_n=2.png
-INPUT .\img\n=1 vs n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\n=1 vs n=2.png
+INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
@@ -709,8 +714,8 @@ OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\Anexo.aux
 INPUT .\Anexo.tex
 INPUT .\Anexo.tex
 INPUT C:\Users\anton\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmroman9-regular.luc
-INPUT .\funciones.py
-INPUT .\funciones.py
+INPUT ..\Códigos\Hawkes\funciones.py
+INPUT ..\Códigos\Hawkes\funciones.py
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.aux
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\índices.aux

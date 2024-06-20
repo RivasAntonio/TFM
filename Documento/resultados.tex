@@ -15,7 +15,9 @@ The first result is the percolation phase diagram is shown in Figure \ref{f:phas
 \end{figure}
 
 The first plot configuration is a Markovian ($n=0$) Poisson process with rate $\mu$. This is the simplest case, where the inter-event time $x=t_i-t_{i-1}$ follows an exponential 
-distribution $P(x_i)=\mu e^{\mu x_i}$. The other two plots are non-Markovian Hawkes processes for $\mu \ll 1$ and $\mu\gg 1$. In one hand, a double transition is observed when 
+distribution $P(x_i)=\mu e^{\mu x_i}$. The other two plots are Hawkes processes for $\mu \ll 1$ and $\mu\gg 1$ that are also Markovian as we have chosen an exponential kernel (REFERENCIAR 
+AQUÍ A LA PARTE EN LA QUE SE EXPLICA EN METODOLOGÍA.)
+. In one hand, a double transition is observed when 
 $\mu = 10^{-4}$, in the other hand, a single transition occurs when $\mu = 10^2$. 
 
 Once we have the phase diagram, we can study avalanche statistics. Given a resolution parameter $\Delta$, we can spot clusters or avalanches of activity.
@@ -51,6 +53,7 @@ For $\mu = 10^2$, the result shows another power-law distribution for both size 
 . In this case, the exponents are $\alpha=\tau=2$ corresponding to the universality 
 class of 1D percolation.
 
+HABLAR AQUÍ DE LA INFLUENCIA DEL MENOR NÚMERO DE EVENTOS, SE SIGUE PRODUCIENDO LA TRANSICIÓN, PERO PARA OTROS VALORES DE DELTA
 
 \section{Results for n=2}
 
