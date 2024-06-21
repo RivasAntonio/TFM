@@ -668,6 +668,11 @@ OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\intro.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\intro.aux
 INPUT .\intro.tex
 INPUT .\intro.tex
+INPUT .\img\Point process.png
+INPUT .\img\Point process.png
+INPUT .\img\Point process.png
+INPUT .\img\Point process.png
+INPUT .\img\Point process.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\objetivos.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\objetivos.aux
 INPUT .\objetivos.tex
