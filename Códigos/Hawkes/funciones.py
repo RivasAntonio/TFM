@@ -271,7 +271,7 @@ def bivariate_algorithm(rate1, rate2, muE, muI, nEE, nII, nEI, nIE):
     muI: Background intensity of the inhibition
 
 
-    #Output: rate x_k, x_k
+    #Output: ratex_k, x_k, reaction (0 for excitatory events and 1 for inhibitory events)
     """             
     _, xk1 = algorithm(rate1, muE, nEE)
     _, xk2 = algorithm(rate2, muI, nII)
@@ -284,6 +284,7 @@ def bivariate_algorithm(rate1, rate2, muE, muI, nEE, nII, nEI, nIE):
     if xk2 < 0:
         print(xk2)
         xk2 = 0
+
     reaction = np.argmin(xks)
 
     if reaction == 0:
@@ -320,14 +321,17 @@ def generate_series_bivariate(K, nEE, nII, nEI, nIE, muE, muI):
     times: time series the events
     rate1: time series for the intensity of process 1 (Excitation)
     rate2: time series for the intensity of process 2 (Inhibition)
+    reactions: list the event type (0 for excitation. 1 for inhibition)
     """
     times_between_events = [0]
     rate1 = [muE]
     rate2 = [muI]
+    reactions= []
     for _ in range(K):
-        rate1_tk, rate2_tk, xk, _ = bivariate_algorithm(rate1[-1], rate2[-1], muE, muI, nEE, nII, nEI, nIE)
+        rate1_tk, rate2_tk, xk, reaction = bivariate_algorithm(rate1[-1], rate2[-1], muE, muI, nEE, nII, nEI, nIE)
         rate1.append(rate1_tk)
         rate2.append(rate2_tk)
+        reactions.append(reaction)
         times_between_events.append(xk)
     times = np.cumsum(times_between_events)
-    return  times_between_events, times, rate1, rate2
+    return  times_between_events, times, rate1, rate2, reactions

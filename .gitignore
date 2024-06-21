@@ -260,7 +260,12 @@ TSWLatexianTemp*
 __pycache__/
 *.py[cod]
 *$py.class
-
+*.cpython-310.pyc
+*.cpython-*.pyc
+*.blg
+main.blg
+main.fdb_latexmk
+*.fdb_latexmk
 # C extensions
 *.so
 
