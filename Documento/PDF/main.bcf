@@ -2377,8 +2377,13 @@
     <bcf:citekey order="3" intorder="1">azaele2016statistical</bcf:citekey>
     <bcf:citekey order="4" intorder="1">McKane</bcf:citekey>
     <bcf:citekey order="5" intorder="1">notarmuzi2021percolation</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">kanazawa2021ubiquitous</bcf:citekey>
+    <bcf:citekey order="5" intorder="3">dassios2013exact</bcf:citekey>
+    <bcf:citekey order="5" intorder="4">laub2021elements</bcf:citekey>
     <bcf:citekey order="6" intorder="1">notarmuzi2021percolation</bcf:citekey>
     <bcf:citekey order="7" intorder="1">notarmuzi2021percolation</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">notarmuzi2021percolation</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">notarmuzi2021percolation</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

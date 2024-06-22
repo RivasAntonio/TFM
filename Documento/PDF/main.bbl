@@ -235,6 +235,106 @@
       \field{pages}{L020302}
       \range{pages}{1}
     \endentry
+    \entry{kanazawa2021ubiquitous}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=958071112db6ab40ff6c7165e00d4ecb}{%
+           family={Kanazawa},
+           familyi={K\bibinitperiod},
+           given={Kiyoshi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f09839d6781db87008be2b09a018e899}{%
+           family={Sornette},
+           familyi={S\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{199814cbcfe9acfdc1e098067495bb35}
+      \strng{fullhash}{199814cbcfe9acfdc1e098067495bb35}
+      \strng{fullhashraw}{199814cbcfe9acfdc1e098067495bb35}
+      \strng{bibnamehash}{199814cbcfe9acfdc1e098067495bb35}
+      \strng{authorbibnamehash}{199814cbcfe9acfdc1e098067495bb35}
+      \strng{authornamehash}{199814cbcfe9acfdc1e098067495bb35}
+      \strng{authorfullhash}{199814cbcfe9acfdc1e098067495bb35}
+      \strng{authorfullhashraw}{199814cbcfe9acfdc1e098067495bb35}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical review letters}
+      \field{number}{18}
+      \field{title}{Ubiquitous power law scaling in nonlinear self-excited Hawkes processes}
+      \field{volume}{127}
+      \field{year}{2021}
+      \field{pages}{188301}
+      \range{pages}{1}
+    \endentry
+    \entry{dassios2013exact}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d6255051eb47b9afa290057a72ea68b9}{%
+           family={Dassios},
+           familyi={D\bibinitperiod},
+           given={Angelos},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ecb0e5b576e7ccb649e4f7e475da2bee}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Hongbiao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a722878460e24abc6e16bf7b896ceed}
+      \strng{fullhash}{7a722878460e24abc6e16bf7b896ceed}
+      \strng{fullhashraw}{7a722878460e24abc6e16bf7b896ceed}
+      \strng{bibnamehash}{7a722878460e24abc6e16bf7b896ceed}
+      \strng{authorbibnamehash}{7a722878460e24abc6e16bf7b896ceed}
+      \strng{authornamehash}{7a722878460e24abc6e16bf7b896ceed}
+      \strng{authorfullhash}{7a722878460e24abc6e16bf7b896ceed}
+      \strng{authorfullhashraw}{7a722878460e24abc6e16bf7b896ceed}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exact simulation of Hawkes process with exponentially decaying intensity}
+      \field{year}{2013}
+    \endentry
+    \entry{laub2021elements}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=29cba9d0a0a24fc427ceb7f948c8ff9d}{%
+           family={Laub},
+           familyi={L\bibinitperiod},
+           given={Patrick\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=921e122a8a060141d55261c9a170b8da}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Young},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7fc8456199d7cba505b3b67f7fda2d03}{%
+           family={Taimre},
+           familyi={T\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{843c21870f99a3caee9f936573e22a8e}
+      \strng{fullhash}{843c21870f99a3caee9f936573e22a8e}
+      \strng{fullhashraw}{843c21870f99a3caee9f936573e22a8e}
+      \strng{bibnamehash}{843c21870f99a3caee9f936573e22a8e}
+      \strng{authorbibnamehash}{843c21870f99a3caee9f936573e22a8e}
+      \strng{authornamehash}{843c21870f99a3caee9f936573e22a8e}
+      \strng{authorfullhash}{843c21870f99a3caee9f936573e22a8e}
+      \strng{authorfullhashraw}{843c21870f99a3caee9f936573e22a8e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The elements of Hawkes processes}
+      \field{year}{2021}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

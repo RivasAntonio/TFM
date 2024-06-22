@@ -1,10 +1,13 @@
 Chapters
 
-1- Hawkes Processes, how do we generate them and where we can found them (INTRO)
-2- Time binning y generación de procesos computacionalmente (METODOLOGÍA) a lo mejor explicar o demostrar algortimo(s)
+1- Hawkes Processes, where we can found them (INTRO)  MÁS O MENOS ACABADO
 
-3- Criticality in biosciences or neuroscience (INTRO, 1º) (Procesos estocásticos y cambios de fase con Perc 1D o C-B process para avalanchas)
-Muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro.
+2- Criticality in biosciences or neuroscience (INTRO, 1º) (Procesos estocásticos y cambios de fase con Perc 1D o C-B process para avalanchas)
+Hablar de que muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro.
+
+
+3- Time binning y generación de procesos computacionalmente (METODOLOGÍA) a lo mejor explicar o demostrar algortimo(s)
+
 En METODOLOGÍA hacer figura de los diferentes delta y referenciar luego en los resultados
 
 4- Results (1º Reproducir artículo, n=2, modelo inhibición?)

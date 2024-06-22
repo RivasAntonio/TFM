@@ -673,6 +673,21 @@ INPUT .\img\Point process.png
 INPUT .\img\Point process.png
 INPUT .\img\Point process.png
 INPUT .\img\Point process.png
+INPUT .\img\Poisson probabilidad y nº eventos.png
+INPUT .\img\Poisson probabilidad y nº eventos.png
+INPUT .\img\Poisson probabilidad y nº eventos.png
+INPUT .\img\Poisson probabilidad y nº eventos.png
+INPUT .\img\Poisson probabilidad y nº eventos.png
+INPUT .\img\Hawkes mu 0.01.png
+INPUT .\img\Hawkes mu 0.01.png
+INPUT .\img\Hawkes mu 0.01.png
+INPUT .\img\Hawkes mu 0.01.png
+INPUT .\img\Hawkes mu 10.png
+INPUT .\img\Hawkes mu 10.png
+INPUT .\img\Hawkes mu 10.png
+INPUT .\img\Hawkes mu 10.png
+INPUT .\img\Hawkes mu 0.01.png
+INPUT .\img\Hawkes mu 10.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\objetivos.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\objetivos.aux
 INPUT .\objetivos.tex
@@ -744,6 +759,8 @@ INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.run.xml
 INPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.run.xml
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.run.xml
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.run.xml
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
