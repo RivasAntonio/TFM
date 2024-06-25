@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  24 JUN 2024 18:21
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  25 JUN 2024 18:55
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
@@ -1089,15 +1089,40 @@ File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt
 t.sty
 Package: pythonhighlight 2017/02/09 python code highlighting; provided by Olivi
 er Verdier <olivier.verdier@gmail.com>
+)
+(C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+\@float@every@algorithm=\toks42
+\c@algorithm=\count472
+)
+(C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+(C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count473
+\c@ALG@rem=\count474
+\c@ALG@nested=\count475
+\ALG@tlm=\skip97
+\ALG@thistlm=\skip98
+\c@ALG@Lnr=\count476
+\c@ALG@blocknr=\count477
+\c@ALG@storecount=\count478
+\c@ALG@tmpcounter=\count479
+\ALG@tmplength=\skip99
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 ("C:/Program Files/MiKTeX/tex/generic/iftex/ifvtex.sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count472
-\Gm@cntv=\count473
-\c@Gm@tempcnt=\count474
+\Gm@cnth=\count480
+\Gm@cntv=\count481
+\c@Gm@tempcnt=\count482
 \Gm@bindingoffset=\dimen277
 \Gm@wd@mp=\dimen278
 \Gm@odd@mp=\dimen279
@@ -1106,14 +1131,14 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen282
 \Gm@layouthoffset=\dimen283
 \Gm@layoutvoffset=\dimen284
-\Gm@dimlist=\toks42
+\Gm@dimlist=\toks43
 
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.cfg))
 ("C:/Program Files/MiKTeX/tex/latex/pgf/frontendlayer/tikz.sty"
 ("C:/Program Files/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty"
 ("C:/Program Files/MiKTeX/tex/latex/pgf/utilities/pgfrcs.sty"
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfutil-common.tex"
-\pgfutil@everybye=\toks43
+\pgfutil@everybye=\toks44
 \pgfutil@tempdima=\dimen285
 \pgfutil@tempdimb=\dimen286
 )
@@ -1132,12 +1157,12 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks44
-\pgfkeys@temptoks=\toks45
+\pgfkeys@pathtoks=\toks45
+\pgfkeys@temptoks=\toks46
 
 ("C:/Program Files/MiKTeX/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code
 .tex"
-\pgfkeys@tmptoks=\toks46
+\pgfkeys@tmptoks=\toks47
 ))
 \pgf@x=\dimen287
 \pgf@y=\dimen288
@@ -1151,14 +1176,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen296
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
-\c@pgf@counta=\count475
-\c@pgf@countb=\count476
-\c@pgf@countc=\count477
-\c@pgf@countd=\count478
-\t@pgf@toka=\toks47
-\t@pgf@tokb=\toks48
-\t@pgf@tokc=\toks49
-\pgf@sys@id@count=\count479
+\c@pgf@counta=\count483
+\c@pgf@countb=\count484
+\c@pgf@countc=\count485
+\c@pgf@countd=\count486
+\t@pgf@toka=\toks48
+\t@pgf@tokb=\toks49
+\t@pgf@tokc=\toks50
+\pgf@sys@id@count=\count487
  ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgf.cfg"
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -1172,8 +1197,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.t
 ex"
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count480
-\pgfsyssoftpath@bigbuffer@items=\count481
+\pgfsyssoftpath@smallbuffer@items=\count488
+\pgfsyssoftpath@bigbuffer@items=\count489
 ) ("C:/Program Files/MiKTeX/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 "
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1184,11 +1209,11 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathutil.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen297
-\pgfmath@count=\count482
+\pgfmath@count=\count490
 \pgfmath@box=\box118
-\pgfmath@toks=\toks50
-\pgfmath@stack@operand=\toks51
-\pgfmath@stack@operation=\toks52
+\pgfmath@toks=\toks51
+\pgfmath@stack@operand=\toks52
+\pgfmath@stack@operation=\toks53
 )
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex"
@@ -1204,7 +1229,7 @@ ode.tex")
 ics.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathcalc.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count483
+\c@pgfmathroundto@lastzeros=\count491
 ))
 ("C:/Program Files/MiKTeX/tex/generic/pgf/math/pgfint.code.tex")
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex"
@@ -1239,7 +1264,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box119
 \pgf@hbox=\box120
 \pgf@layerbox@main=\box121
-\pgf@picture@serial@count=\count484
+\pgf@picture@serial@count=\count492
 )
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.t
 ex"
@@ -1270,8 +1295,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen321
-\pgf@sys@shading@range@num=\count485
-\pgf@shadingcount=\count486
+\pgf@sys@shading@range@num=\count493
+\pgf@shadingcount=\count494
 )
 ("C:/Program Files/MiKTeX/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -1314,8 +1339,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen324
 \pgffor@skip=\dimen325
-\pgffor@stack=\toks53
-\pgffor@toks=\toks54
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
 ))
 ("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex"
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -1323,7 +1348,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 ("C:/Program Files/MiKTeX/tex/generic/pgf/libraries/pgflibraryplothandlers.code
 .tex"
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count487
+\pgf@plot@mark@count=\count495
 \pgfplotmarksize=\dimen326
 )
 \tikz@lastx=\dimen327
@@ -1338,18 +1363,18 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box125
 \tikz@tempbox=\box126
 \tikz@tempbox@bg=\box127
-\tikztreelevel=\count488
-\tikznumberofchildren=\count489
-\tikznumberofcurrentchild=\count490
-\tikz@fig@count=\count491
+\tikztreelevel=\count496
+\tikznumberofchildren=\count497
+\tikznumberofcurrentchild=\count498
+\tikz@fig@count=\count499
 
 ("C:/Program Files/MiKTeX/tex/generic/pgf/modules/pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count492
-\pgfmatrixcurrentcolumn=\count493
-\pgf@matrix@numberofcolumns=\count494
+\pgfmatrixcurrentrow=\count500
+\pgfmatrixcurrentcolumn=\count501
+\pgf@matrix@numberofcolumns=\count502
 )
-\tikz@expandcount=\count495
+\tikz@expandcount=\count503
 
 ("C:/Program Files/MiKTeX/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibr
 arytopaths.code.tex"
@@ -1365,9 +1390,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count496
+\c@svg@param@lastpage=\count504
 \svg@box=\box128
-\c@svg@param@currpage=\count497
+\c@svg@param@currpage=\count505
 )
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
@@ -1380,11 +1405,11 @@ Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box129
-\beforetitleunit=\skip97
-\aftertitleunit=\skip98
+\beforetitleunit=\skip100
+\aftertitleunit=\skip101
 \ttl@plus=\dimen335
 \ttl@minus=\dimen336
-\ttl@toksa=\toks55
+\ttl@toksa=\toks56
 \titlewidth=\dimen337
 \titlewidthlast=\dimen338
 \titlewidthfirst=\dimen339
@@ -1403,8 +1428,8 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen346
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count498
-\c@continuedfloat=\count499
+\c@caption@flags=\count506
+\c@continuedfloat=\count507
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1415,15 +1440,15 @@ Package caption Info: wrapfig package is loaded.
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
-\f@nch@headwidth=\skip99
-\f@nch@O@elh=\skip100
-\f@nch@O@erh=\skip101
-\f@nch@O@olh=\skip102
-\f@nch@O@orh=\skip103
-\f@nch@O@elf=\skip104
-\f@nch@O@erf=\skip105
-\f@nch@O@olf=\skip106
-\f@nch@O@orf=\skip107
+\f@nch@headwidth=\skip102
+\f@nch@O@elh=\skip103
+\f@nch@O@erh=\skip104
+\f@nch@O@olh=\skip105
+\f@nch@O@orh=\skip106
+\f@nch@O@elf=\skip107
+\f@nch@O@erf=\skip108
+\f@nch@O@olf=\skip109
+\f@nch@O@orf=\skip110
 )
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
@@ -1431,9 +1456,9 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 ("C:/Program Files/MiKTeX/tex/latex/listings/lstlang1.sty"
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 68.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 68.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 68.
+Package hyperref Info: Option `colorlinks' set `true' on input line 72.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 72.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 72.
 
 
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/tocbibind/tocbibind.sty
@@ -1458,7 +1483,7 @@ Package zref Info: New property: page on input line 769.
 ))
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
-\c@abspage=\count500
+\c@abspage=\count508
 Package zref Info: New property: abspage on input line 65.
 )
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/zref/zref-user.sty
@@ -1481,32 +1506,32 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/Anexo.aux))
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-2.
+1.
 
 ("C:/Program Files/MiKTeX/tex/latex/base/ts1cmr.fd"
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1523,22 +1548,22 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.bbl)
-Package biblatex Info: Reference section=0 on input line 12.
-Package biblatex Info: Reference segment=0 on input line 12.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
 
 ("C:/Program Files/MiKTeX/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count501
+\scratchcounter=\count509
 \scratchdimen=\dimen347
 \scratchbox=\box130
-\nofMPsegments=\count502
-\nofMParguments=\count503
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count504
+\nofMPsegments=\count510
+\nofMParguments=\count511
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count512
 \MPscratchDim=\dimen348
-\MPnumerator=\count505
-\makeMPintoPDFobject=\count506
-\everyMPtoPDFconversion=\toks57
+\MPnumerator=\count513
+\makeMPintoPDFobject=\count514
+\everyMPtoPDFconversion=\toks58
 ) ("C:/Program Files/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1549,20 +1574,20 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 ("C:/Program Files/MiKTeX/tex/latex/ragged2e/ragged2e.sty"
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip108
-\RaggedLeftLeftskip=\skip109
-\RaggedRightLeftskip=\skip110
-\CenteringRightskip=\skip111
-\RaggedLeftRightskip=\skip112
-\RaggedRightRightskip=\skip113
-\CenteringParfillskip=\skip114
-\RaggedLeftParfillskip=\skip115
-\RaggedRightParfillskip=\skip116
-\JustifyingParfillskip=\skip117
-\CenteringParindent=\skip118
-\RaggedLeftParindent=\skip119
-\RaggedRightParindent=\skip120
-\JustifyingParindent=\skip121
+\CenteringLeftskip=\skip111
+\RaggedLeftLeftskip=\skip112
+\RaggedRightLeftskip=\skip113
+\CenteringRightskip=\skip114
+\RaggedLeftRightskip=\skip115
+\RaggedRightRightskip=\skip116
+\CenteringParfillskip=\skip117
+\RaggedLeftParfillskip=\skip118
+\RaggedRightParfillskip=\skip119
+\JustifyingParfillskip=\skip120
+\CenteringParindent=\skip121
+\RaggedLeftParindent=\skip122
+\RaggedRightParindent=\skip123
+\JustifyingParindent=\skip124
 )
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -1572,8 +1597,8 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count507
-Package hyperref Info: Link coloring ON on input line 12.
+\c@lstlisting=\count515
+Package hyperref Info: Link coloring ON on input line 11.
 
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.out)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.out)
@@ -1587,56 +1612,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 12.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 12.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 12.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 12.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 12.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 12.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 12.
-LaTeX Font Info:    Redeclaring math accent \check on input line 12.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 12.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 12.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 12.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 12.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 12.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 11.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 11.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 11.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 11.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 11.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 11.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 11.
+LaTeX Font Info:    Redeclaring math accent \check on input line 11.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 11.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 11.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 11.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 11.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 12.
+(Font)              `operators' in the math version `normal' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 12.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 11.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 12.
+(Font)              `operators' in the math version `bold' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 12.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 12.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 12.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 12.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 12.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 12.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 12.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 12.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 12.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 11.
 luaotfload | cache : Lookup cache loaded from C:/Users/anton/AppData/Local/MiKTe
 X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
@@ -1689,35 +1714,35 @@ fBuzz].
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<Idep.jpg, id=54, 789.95125pt x 473.77pt>
+<Idep.jpg, id=70, 789.95125pt x 473.77pt>
 File: Idep.jpg Graphic file (type jpg)
 <use Idep.jpg>
-Package luatex.def Info: Idep.jpg  used on input line 14.
+Package luatex.def Info: Idep.jpg  used on input line 13.
 (luatex.def)             Requested size: 58.04126pt x 34.80829pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
 
 ("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
 
 
 ("C:/Program Files/MiKTeX/tex/latex/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 14
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 13
 .
 
 ("C:/Program Files/MiKTeX/tex/latex/base/ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-<Máster.png, id=55, 79.8255pt x 43.6905pt>
+<Máster.png, id=71, 79.8255pt x 43.6905pt>
 File: Máster.png Graphic file (type png)
 <use Máster.png>
-Package luatex.def Info: Máster.png  used on input line 14.
+Package luatex.def Info: Máster.png  used on input line 13.
 (luatex.def)             Requested size: 58.04126pt x 31.76779pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
 
  []
 
@@ -1726,38 +1751,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
 {C:/Users/anton/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./Idep.jpg><./
 Máster.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
+[1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
  []
 
+[2
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2
-
-]
-[3
+] [3
 
 ]
 \openout2 = índices.aux
@@ -1798,51 +1816,51 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \openout2 = intro.aux
  (./intro.tex
 Chapter 1.
-<./img/Point process.png, id=153, 1445.4pt x 526.96875pt>
+<./img/Point process.png, id=175, 1445.4pt x 526.96875pt>
 File: ./img/Point process.png Graphic file (type png)
 <use ./img/Point process.png>
 Package luatex.def Info: ./img/Point process.png  used on input line 16.
 (luatex.def)             Requested size: 411.14528pt x 149.89818pt.
-[2
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
 
 
 
 
 <./img/Point process.png>]
-<./img/Poisson probabilidad y nº eventos.png, id=168, 859.2903pt x 281.853pt>
+<./img/Poisson probabilidad y nº eventos.png, id=190, 859.2903pt x 281.853pt>
 File: ./img/Poisson probabilidad y nº eventos.png Graphic file (type png)
 <use ./img/Poisson probabilidad y nº eventos.png>
 Package luatex.def Info: ./img/Poisson probabilidad y nº eventos.png  used on 
 input line 35.
 (luatex.def)             Requested size: 459.51054pt x 150.7232pt.
-
-Underfull \vbox (badness 2680) has occurred while \output is active []
-
  [3<./img/Poisson probabilidad y nº eventos.png>]
-<./img/Hawkes mu 0.01.png, id=191, 859.2903pt x 281.853pt>
+<./img/Hawkes mu 0.01.png, id=212, 859.2903pt x 281.853pt>
 File: ./img/Hawkes mu 0.01.png Graphic file (type png)
 <use ./img/Hawkes mu 0.01.png>
-Package luatex.def Info: ./img/Hawkes mu 0.01.png  used on input line 79.
+Package luatex.def Info: ./img/Hawkes mu 0.01.png  used on input line 81.
 (luatex.def)             Requested size: 459.51054pt x 150.7232pt.
-<./img/Hawkes mu 10.png, id=192, 859.2903pt x 281.853pt>
+<./img/Hawkes mu 10.png, id=213, 859.2903pt x 281.853pt>
 File: ./img/Hawkes mu 10.png Graphic file (type png)
 <use ./img/Hawkes mu 10.png>
-Package luatex.def Info: ./img/Hawkes mu 10.png  used on input line 86.
+Package luatex.def Info: ./img/Hawkes mu 10.png  used on input line 88.
 (luatex.def)             Requested size: 459.51054pt x 150.7232pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5064) has occurred while \output is active []
 
  [4<./img/Hawkes mu 0.01.png>]
-<./img/Hawkes mu 0.01 events.png, id=207, 857.8449pt x 281.853pt>
+<./img/Hawkes mu 0.01 events.png, id=229, 857.8449pt x 281.853pt>
 File: ./img/Hawkes mu 0.01 events.png Graphic file (type png)
 <use ./img/Hawkes mu 0.01 events.png>
-Package luatex.def Info: ./img/Hawkes mu 0.01 events.png  used on input line 99
-.
+Package luatex.def Info: ./img/Hawkes mu 0.01 events.png  used on input line 10
+1.
 (luatex.def)             Requested size: 459.51054pt x 150.98125pt.
-<./img/Hawkes mu 10 events.png, id=208, 859.2903pt x 281.853pt>
+<./img/Hawkes mu 10 events.png, id=230, 859.2903pt x 281.853pt>
 File: ./img/Hawkes mu 10 events.png Graphic file (type png)
 <use ./img/Hawkes mu 10 events.png>
-Package luatex.def Info: ./img/Hawkes mu 10 events.png  used on input line 106.
+Package luatex.def Info: ./img/Hawkes mu 10 events.png  used on input line 108.
 
 (luatex.def)             Requested size: 459.51054pt x 150.7232pt.
 
@@ -1862,28 +1880,38 @@ Chapter 2.
 \openout2 = Metodología.aux
  (./Metodología.tex
 Chapter 3.
-) [8
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 14.
+<./img/Figura cálculo probabilidad acumulada.png, id=257, 1445.4pt x 526.96875
+pt>
+File: ./img/Figura cálculo probabilidad acumulada.png Graphic file (type png)
+<use ./img/Figura cálculo probabilidad acumulada.png>
+Package luatex.def Info: ./img/Figura cálculo probabilidad acumulada.png  used
+ on input line 39.
+(luatex.def)             Requested size: 338.58632pt x 123.44366pt.
+[8
 
 
 
 
-]
+] [9<./img/Figura cálculo probabilidad acumulada.png>] [10]) [11]
 \openout2 = resultados.aux
- (./resultados.tex
+
+(./resultados.tex
 Chapter 4.
-<./img/phase_article_R=1000.png, id=233, 852.786pt x 289.8027pt>
+<./img/phase_article_R=1000.png, id=314, 852.786pt x 289.8027pt>
 File: ./img/phase_article_R=1000.png Graphic file (type png)
 <use ./img/phase_article_R=1000.png>
 Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
 
 (luatex.def)             Requested size: 459.51054pt x 156.15504pt.
-[9
+[12
 
 
 
 
 <./img/phase_article_R=1000.png>]
-<./img/stats article.png, id=242, 711.8595pt x 714.7503pt>
+<./img/stats article.png, id=323, 711.8595pt x 714.7503pt>
 File: ./img/stats article.png Graphic file (type png)
 <use ./img/stats article.png>
 Package luatex.def Info: ./img/stats article.png  used on input line 40.
@@ -1910,36 +1938,36 @@ Underfull \hbox (badness 1867) in paragraph at lines 52--55
 
  []
 
-[10<./img/stats article.png>]
-<./img/n=1 vs n=2.png, id=252, 354.123pt x 209.583pt>
+[13<./img/stats article.png>]
+<./img/n=1 vs n=2.png, id=333, 354.123pt x 209.583pt>
 File: ./img/n=1 vs n=2.png Graphic file (type png)
 <use ./img/n=1 vs n=2.png>
 Package luatex.def Info: ./img/n=1 vs n=2.png  used on input line 65.
 (luatex.def)             Requested size: 314.40001pt x 186.08694pt.
-<./img/phase_R=1000_n=2.png, id=256, 852.786pt x 289.8027pt>
+<./img/phase_R=1000_n=2.png, id=337, 852.786pt x 289.8027pt>
 File: ./img/phase_R=1000_n=2.png Graphic file (type png)
 <use ./img/phase_R=1000_n=2.png>
 Package luatex.def Info: ./img/phase_R=1000_n=2.png  used on input line 74.
 (luatex.def)             Requested size: 459.51054pt x 156.15504pt.
- [11<./img/n=1 vs n=2.png><./img/phase_R=1000_n=2.png>]
-<./img/cutoff_data_dots_n=2.png, id=265, 501.5538pt x 498.663pt>
+ [14<./img/n=1 vs n=2.png><./img/phase_R=1000_n=2.png>]
+<./img/cutoff_data_dots_n=2.png, id=347, 501.5538pt x 498.663pt>
 File: ./img/cutoff_data_dots_n=2.png Graphic file (type png)
 <use ./img/cutoff_data_dots_n=2.png>
 Package luatex.def Info: ./img/cutoff_data_dots_n=2.png  used on input line 86.
 
 (luatex.def)             Requested size: 326.49686pt x 324.62169pt.
- [12<./img/cutoff_data_dots_n=2.png>]) [13
+ [15<./img/cutoff_data_dots_n=2.png>]) [16
 
 ]
 \openout2 = conclusiones.aux
  (./conclusiones.tex
 Chapter 5.
-) [14
+) [17
 
 
 
 
-] [15
+] [18
 
 
 
@@ -1948,23 +1976,23 @@ Chapter 5.
  (./Anexo.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
- (../Códigos/Hawkes/funciones.py [16
+ (../Códigos/Hawkes/funciones.py [19
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]))
-[21] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
+ [23]))
+[24] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/intro.aux)
@@ -1978,41 +2006,47 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2703F21C3F71FC5C4E9D7B41B03A2975;1566.
+(rerunfilecheck)             Checksum: D2CF170179ECB7FDA48BD21577F66F37;2210.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 46021 strings out of 476431
- 745542,1977958 words of node,token memory allocated
- 904 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 50 attribute, 96 glue_spec
-, 26 attribute_list, 4 write, 9 pdf_action nodes
-   avail lists: 1:12,2:14723,3:385,4:14222,5:12317,6:138,7:23729,8:56,9:37448,10
+ 46677 strings out of 476431
+ 745530,1977958 words of node,token memory allocated
+ 988 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 78 attribute, 96 glue_spec
+, 40 attribute_list, 4 write, 9 pdf_action nodes
+   avail lists: 1:14,2:14717,3:385,4:14222,5:12317,6:138,7:23729,8:90,9:37448,10
 :38,11:1928
- 66523 multiletter control sequences out of 65536+600000
- 76 fonts using 12123119 bytes
- 123i,23n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67133 multiletter control sequences out of 65536+600000
+ 77 fonts using 12249207 bytes
+ 123i,26n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><//?/
-c:/program files/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/pr
-ogram files/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/program f
-iles/miktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/program files/
-miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/program files/mikt
-ex/fonts/opentype/public/lm/lmroman12-regular.otf><//?/c:/program files/miktex/f
-onts/opentype/public/lm/lmroman12-bold.otf><//?/c:/program files/miktex/fonts/op
-entype/public/lm/lmroman17-regular.otf><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
-es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy8.pfb>
-Output written on main.pdf (28 pages, 805420 bytes).
+c:/program files/miktex/fonts/opentype/public/lm/lmmono10-regular.otf><//?/c:/pr
+ogram files/miktex/fonts/opentype/public/lm/lmroman8-regular.otf><//?/c:/program
+ files/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/program file
+s/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/c:/program files/mikte
+x/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/program files/miktex/fon
+ts/opentype/public/lm/lmroman10-regular.otf><//?/c:/program files/miktex/fonts/o
+pentype/public/lm/lmroman12-regular.otf><//?/c:/program files/miktex/fonts/opent
+ype/public/lm/lmroman12-bold.otf><//?/c:/program files/miktex/fonts/opentype/pub
+lic/lm/lmroman17-regular.otf><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cme
+x7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/latxfont/line10.pfb>
+Output written on main.pdf (31 pages, 938955 bytes).
 
-PDF statistics: 741 PDF objects out of 1000 (max. 8388607)
- 410 named destinations out of 1000 (max. 131072)
- 112 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 855 PDF objects out of 1000 (max. 8388607)
+ 438 named destinations out of 1000 (max. 131072)
+ 144 words of extra memory for PDF output out of 10000 (max. 100000000)
 

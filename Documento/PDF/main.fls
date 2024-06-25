@@ -304,6 +304,12 @@ INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrsize11pt.cl
 INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrsize11pt.clo
 INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\pythonhighlight\pythonhighlight.sty
 INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\pythonhighlight\pythonhighlight.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\algorithms\algorithm.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
 INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\anton\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
@@ -706,6 +712,11 @@ OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\Metodología.au
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\Metodología.aux
 INPUT .\Metodología.tex
 INPUT .\Metodología.tex
+INPUT .\img\Figura cálculo probabilidad acumulada.png
+INPUT .\img\Figura cálculo probabilidad acumulada.png
+INPUT .\img\Figura cálculo probabilidad acumulada.png
+INPUT .\img\Figura cálculo probabilidad acumulada.png
+INPUT .\img\Figura cálculo probabilidad acumulada.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\resultados.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\resultados.aux
 INPUT .\resultados.tex
@@ -739,6 +750,7 @@ OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.au
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
 INPUT .\conclusiones.tex
 INPUT .\conclusiones.tex
+INPUT C:\Users\anton\AppData\Local\MiKTeX\luatex-cache\generic\fonts\otl\lmmono10-regular.luc
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\Anexo.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\Anexo.aux
 INPUT .\Anexo.tex
@@ -771,6 +783,10 @@ OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.run.xml
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\main.run.xml
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
@@ -779,9 +795,15 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\latxfont\line10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\latxfont\line10.pfb

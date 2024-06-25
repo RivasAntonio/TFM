@@ -8,10 +8,11 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces First, a temporal series of $K=10^5$ events of a Hawkes process with $\mu =10$, on the right, the event distribution.\relax }}{6}{figure.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram to calculate the cumulative probability of the inter-event time.\relax }}{9}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Percolation phase diagrams for different event number $K$ taking average values of $R=1000$ realizations.\relax }}{9}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Avalanche statistics for a self-exciting Hawkes process with $n=1$ for $K=10^5$ events averaged over $R=1000$ realizations.\relax }}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Time series for $n=1$ and $n=2$.\relax }}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Percolation phase diagrams for a Hawkes process with $n=2$.\relax }}{11}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Avalanche statistics for a self-exciting Hawkes process with $n=2$ for $K=10^5$ events averaged over $R=1000$ realizations.\relax }}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Percolation phase diagrams for different event number $K$ taking average values of $R=1000$ realizations.\relax }}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Avalanche statistics for a self-exciting Hawkes process with $n=1$ for $K=10^5$ events averaged over $R=1000$ realizations.\relax }}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Time series for $n=1$ and $n=2$.\relax }}{14}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Percolation phase diagrams for a Hawkes process with $n=2$.\relax }}{14}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Avalanche statistics for a self-exciting Hawkes process with $n=2$ for $K=10^5$ events averaged over $R=1000$ realizations.\relax }}{15}{figure.caption.16}%
 \addvspace {10\p@ }

@@ -2382,8 +2382,15 @@
     <bcf:citekey order="5" intorder="4">laub2021elements</bcf:citekey>
     <bcf:citekey order="6" intorder="1">notarmuzi2021percolation</bcf:citekey>
     <bcf:citekey order="7" intorder="1">notarmuzi2021percolation</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">notarmuzi2021percolation</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">notarmuzi2021percolation</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">McKinney</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">VanderPlas</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">numpy</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">matplotlib</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">barbu2020monte</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Toral</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">dassios2013exact</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">notarmuzi2021percolation</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">notarmuzi2021percolation</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

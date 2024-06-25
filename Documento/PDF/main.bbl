@@ -335,6 +335,177 @@
       \field{title}{The elements of Hawkes processes}
       \field{year}{2021}
     \endentry
+    \entry{McKinney}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
+           family={McKinney},
+           familyi={M\bibinitperiod},
+           given={Wes},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {``'' O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{fullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{fullhashraw}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{bibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorbibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authornamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorfullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorfullhashraw}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python for data analysis: Data wrangling with Pandas, NumPy, and IPython}
+      \field{year}{2012}
+    \endentry
+    \entry{VanderPlas}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=0fd9a0e34f1b2adda41357c948d14986}{%
+           family={VanderPlas},
+           familyi={V\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {'' O'Reilly Media, Inc."}%
+      }
+      \strng{namehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{fullhash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{fullhashraw}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{bibnamehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{authorbibnamehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{authornamehash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{authorfullhash}{0fd9a0e34f1b2adda41357c948d14986}
+      \strng{authorfullhashraw}{0fd9a0e34f1b2adda41357c948d14986}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python data science handbook: Essential tools for working with data}
+      \field{year}{2016}
+    \endentry
+    \entry{numpy}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=84194a0ad9431322c2f58a085b3991f0}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{10c11c909d6a4be4116d7c85622b8b73}
+      \strng{fullhash}{10c11c909d6a4be4116d7c85622b8b73}
+      \strng{fullhashraw}{10c11c909d6a4be4116d7c85622b8b73}
+      \strng{bibnamehash}{10c11c909d6a4be4116d7c85622b8b73}
+      \strng{authorbibnamehash}{10c11c909d6a4be4116d7c85622b8b73}
+      \strng{authornamehash}{10c11c909d6a4be4116d7c85622b8b73}
+      \strng{authorfullhash}{10c11c909d6a4be4116d7c85622b8b73}
+      \strng{authorfullhashraw}{10c11c909d6a4be4116d7c85622b8b73}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://numpy.org/}}
+      \field{note}{Accessed: 2024-06-21}
+      \field{title}{NumPy}
+      \field{year}{2024}
+    \endentry
+    \entry{matplotlib}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \strng{fullhash}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \strng{fullhashraw}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \strng{bibnamehash}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \strng{authorbibnamehash}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \strng{authornamehash}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \strng{authorfullhash}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \strng{authorfullhashraw}{44457fed8cd18ad09b7022aa7dd9cd9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://matplotlib.org/}}
+      \field{note}{Accessed: 2024-06-21}
+      \field{title}{Matplotlib}
+      \field{year}{2024}
+    \endentry
+    \entry{barbu2020monte}{book}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=a83c8036789ea95544661945eb34e807}{%
+           family={Barbu},
+           familyi={B\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9b4356508155ef61bbcbb2e10e2c918b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Song-Chun},
+           giveni={S\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f80a39b58dcea248f7830836b41785fc}
+      \strng{fullhash}{f80a39b58dcea248f7830836b41785fc}
+      \strng{fullhashraw}{f80a39b58dcea248f7830836b41785fc}
+      \strng{bibnamehash}{f80a39b58dcea248f7830836b41785fc}
+      \strng{authorbibnamehash}{f80a39b58dcea248f7830836b41785fc}
+      \strng{authornamehash}{f80a39b58dcea248f7830836b41785fc}
+      \strng{authorfullhash}{f80a39b58dcea248f7830836b41785fc}
+      \strng{authorfullhashraw}{f80a39b58dcea248f7830836b41785fc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Monte Carlo Methods}
+      \field{volume}{35}
+      \field{year}{2020}
+    \endentry
+    \entry{Toral}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=1db7a5c45fc9c8b6b03bbe41409a9f74}{%
+           family={Toral},
+           familyi={T\bibinitperiod},
+           given={Raúl},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c769419773403493f56850a76489fb93}{%
+           family={Colet},
+           familyi={C\bibinitperiod},
+           given={Pere},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{fullhash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{fullhashraw}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{bibnamehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{authorbibnamehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{authornamehash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{authorfullhash}{d066ea1686c1f08748c681ead4ecc949}
+      \strng{authorfullhashraw}{d066ea1686c1f08748c681ead4ecc949}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stochastic numerical methods: an introduction for students and scientists}
+      \field{year}{2014}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
