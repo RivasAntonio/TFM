@@ -71,28 +71,45 @@ Where we have used the following expression for the rate of the Hawkes process a
 Despite being a Markovian process, it is still an inhomogeneous Poisson process because the rate is not constant. In addition, it is a self-exciting process, which means that the occurrence
 of an event increases the probability of the occurrence of another event. This is why it is used to model the spiking activity of neurons, where the occurrence of a spike increases the
 probability of the occurrence of another spike. This self-excitation will enable the appearance of bursts of activity that we will measure. The parameters chosen for the kernel function 
-will be $\alpha=\beta=1$ and we will vary the background rate $\mu$ from values much smaller than 1 to values much larger than 1. In Figures \ref{f: Hawkes rate} and \ref{f: Hawkes rate 2}
+will be $\alpha=\beta=1$ and we will vary the background rate $\mu$ from values much smaller than 1 to values greater than 1. In Figures \ref{f: Hawkes rate} and \ref{f: Hawkes rate 2}
 we can see typical diagrams of Hawkes processes with these parameters.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{Hawkes mu 0.01.png}
-    \caption{On the left, a temporal series of $K=150$ events of a Hawkes process with $\mu=0.01$, on the right, a raster plotof the same process.}
+    \caption{On the left, a temporal series of $K=150$ events of a Hawkes process with $\mu=0.01$, on the right, a raster plot of the same process.}
     \label{f: Hawkes rate}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.55\textwidth]{Hawkes mu 10.png}
+    \includegraphics[width=0.95\textwidth]{Hawkes mu 10.png}
     \caption{On the left, a temporal series of $K=150$ events of a Hawkes process with $\mu=0.01$, on the right, a raster plot of the same process.}
     \label{f: Hawkes rate 2}
 \end{figure}
 
+As shown in Figure \ref{f: Hawkes rate}, when the background rate is smaller than 1, events are less likely to occur, but when they do, they tend to form avalanches of activity thanks 
+to the self-excitation. On the other hand, when the background rate is greater than 1, events occur more frequently, forming avalanches of activity more frequently and longer, as
+shown in Figure \ref{f: Hawkes rate 2}. If we ignore the time of occurrence of the events and we focus only on the structure of $\lambda$ and therefore of the events, we can see that
+the process with $\mu=0.01$ has a bursty structure, while the process with $\mu=10$ has a more regular structure. This phenomenon is exposed in Figures \ref{f: Hawkes rate burst} and
+\ref{f: Hawkes rate burst 2}.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Hawkes mu 0.01 events.png}
+    \caption{First, a temporal series of $K=10^5$ events of a Hawkes process with $\mu=0.01$, on the right, the event distribution.}
+    \label{f: Hawkes rate burst}    
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Hawkes mu 10 events.png}
+    \caption{First, a temporal series of $K=10^5$ events of a Hawkes process with $\mu=10$, on the right, the event distribution.}
+    \label{f: Hawkes rate burst 2}    
+\end{figure}
 
 In most cases, the motivation of study of point processes is counting the events, but in our case we also are interested in the time of occurrence of the events
-which will let us define bursts or avalanches of activity that we will use to describe the dynamics of the system. 
+which will let us define bursts or avalanches of activity that we will use to describe the dynamics of the system. Additionally, 
 
 
 

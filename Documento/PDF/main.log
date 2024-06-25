@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  22 JUN 2024 20:36
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.5.30)  24 JUN 2024 18:21
  restricted system commands enabled.
  file:line:error style messages enabled.
 **c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/main.tex
@@ -1431,9 +1431,9 @@ Package: cancel 2013/04/12 v2.2 Cancel math terms
 ("C:/Program Files/MiKTeX/tex/latex/listings/lstlang1.sty"
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 67.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 67.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 67.
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 68.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 68.
 
 
 (C:/Users/anton/AppData/Roaming/MiKTeX/tex/latex/tocbibind/tocbibind.sty
@@ -1740,7 +1740,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--16
 
  []
 
-[1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
 ]
@@ -1748,9 +1751,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
-[2
 
-] [3
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2
+
+]
+[3
 
 ]
 \openout2 = índices.aux
@@ -1791,7 +1798,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \openout2 = intro.aux
  (./intro.tex
 Chapter 1.
-<./img/Point process.png, id=147, 1445.4pt x 526.96875pt>
+<./img/Point process.png, id=153, 1445.4pt x 526.96875pt>
 File: ./img/Point process.png Graphic file (type png)
 <use ./img/Point process.png>
 Package luatex.def Info: ./img/Point process.png  used on input line 16.
@@ -1802,34 +1809,51 @@ Package luatex.def Info: ./img/Point process.png  used on input line 16.
 
 
 <./img/Point process.png>]
-<./img/Poisson probabilidad y nº eventos.png, id=162, 859.2903pt x 281.853pt>
+<./img/Poisson probabilidad y nº eventos.png, id=168, 859.2903pt x 281.853pt>
 File: ./img/Poisson probabilidad y nº eventos.png Graphic file (type png)
 <use ./img/Poisson probabilidad y nº eventos.png>
 Package luatex.def Info: ./img/Poisson probabilidad y nº eventos.png  used on 
 input line 35.
 (luatex.def)             Requested size: 459.51054pt x 150.7232pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2680) has occurred while \output is active []
 
  [3<./img/Poisson probabilidad y nº eventos.png>]
-<./img/Hawkes mu 0.01.png, id=185, 859.2903pt x 281.853pt>
+<./img/Hawkes mu 0.01.png, id=191, 859.2903pt x 281.853pt>
 File: ./img/Hawkes mu 0.01.png Graphic file (type png)
 <use ./img/Hawkes mu 0.01.png>
 Package luatex.def Info: ./img/Hawkes mu 0.01.png  used on input line 79.
 (luatex.def)             Requested size: 459.51054pt x 150.7232pt.
-<./img/Hawkes mu 10.png, id=186, 859.2903pt x 281.853pt>
+<./img/Hawkes mu 10.png, id=192, 859.2903pt x 281.853pt>
 File: ./img/Hawkes mu 10.png Graphic file (type png)
 <use ./img/Hawkes mu 10.png>
 Package luatex.def Info: ./img/Hawkes mu 10.png  used on input line 86.
-(luatex.def)             Requested size: 266.03474pt x 87.2617pt.
+(luatex.def)             Requested size: 459.51054pt x 150.7232pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4<./img/Hawkes mu 0.01.png>]) [5<./img/Hawkes mu 10.png>]
+ [4<./img/Hawkes mu 0.01.png>]
+<./img/Hawkes mu 0.01 events.png, id=207, 857.8449pt x 281.853pt>
+File: ./img/Hawkes mu 0.01 events.png Graphic file (type png)
+<use ./img/Hawkes mu 0.01 events.png>
+Package luatex.def Info: ./img/Hawkes mu 0.01 events.png  used on input line 99
+.
+(luatex.def)             Requested size: 459.51054pt x 150.98125pt.
+<./img/Hawkes mu 10 events.png, id=208, 859.2903pt x 281.853pt>
+File: ./img/Hawkes mu 10 events.png Graphic file (type png)
+<use ./img/Hawkes mu 10 events.png>
+Package luatex.def Info: ./img/Hawkes mu 10 events.png  used on input line 106.
+
+(luatex.def)             Requested size: 459.51054pt x 150.7232pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5<./img/Hawkes mu 10.png><./img/Hawkes mu 0.01 events.png>]) [6<./img/Hawkes m
+u 10 events.png>]
 \openout2 = objetivos.aux
  (./objetivos.tex
 Chapter 2.
-) [6
+) [7
 
 
 
@@ -1838,7 +1862,7 @@ Chapter 2.
 \openout2 = Metodología.aux
  (./Metodología.tex
 Chapter 3.
-) [7
+) [8
 
 
 
@@ -1847,19 +1871,19 @@ Chapter 3.
 \openout2 = resultados.aux
  (./resultados.tex
 Chapter 4.
-<./img/phase_article_R=1000.png, id=214, 852.786pt x 289.8027pt>
+<./img/phase_article_R=1000.png, id=233, 852.786pt x 289.8027pt>
 File: ./img/phase_article_R=1000.png Graphic file (type png)
 <use ./img/phase_article_R=1000.png>
 Package luatex.def Info: ./img/phase_article_R=1000.png  used on input line 12.
 
 (luatex.def)             Requested size: 459.51054pt x 156.15504pt.
-[8
+[9
 
 
 
 
 <./img/phase_article_R=1000.png>]
-<./img/stats article.png, id=223, 711.8595pt x 714.7503pt>
+<./img/stats article.png, id=242, 711.8595pt x 714.7503pt>
 File: ./img/stats article.png Graphic file (type png)
 <use ./img/stats article.png>
 Package luatex.def Info: ./img/stats article.png  used on input line 40.
@@ -1886,39 +1910,36 @@ Underfull \hbox (badness 1867) in paragraph at lines 52--55
 
  []
 
-[9<./img/stats article.png>]
-<./img/n=1 vs n=2.png, id=233, 354.123pt x 209.583pt>
+[10<./img/stats article.png>]
+<./img/n=1 vs n=2.png, id=252, 354.123pt x 209.583pt>
 File: ./img/n=1 vs n=2.png Graphic file (type png)
 <use ./img/n=1 vs n=2.png>
 Package luatex.def Info: ./img/n=1 vs n=2.png  used on input line 65.
 (luatex.def)             Requested size: 314.40001pt x 186.08694pt.
-<./img/phase_R=1000_n=2.png, id=237, 852.786pt x 289.8027pt>
+<./img/phase_R=1000_n=2.png, id=256, 852.786pt x 289.8027pt>
 File: ./img/phase_R=1000_n=2.png Graphic file (type png)
 <use ./img/phase_R=1000_n=2.png>
 Package luatex.def Info: ./img/phase_R=1000_n=2.png  used on input line 74.
 (luatex.def)             Requested size: 459.51054pt x 156.15504pt.
-<./img/cutoff_data_dots_n=2.png, id=239, 501.5538pt x 498.663pt>
+ [11<./img/n=1 vs n=2.png><./img/phase_R=1000_n=2.png>]
+<./img/cutoff_data_dots_n=2.png, id=265, 501.5538pt x 498.663pt>
 File: ./img/cutoff_data_dots_n=2.png Graphic file (type png)
 <use ./img/cutoff_data_dots_n=2.png>
 Package luatex.def Info: ./img/cutoff_data_dots_n=2.png  used on input line 86.
 
 (luatex.def)             Requested size: 326.49686pt x 324.62169pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10<./img/n=1 vs n=2.png><./img/phase_R=1000_n=2.png>] [11<./img/cutoff_data_do
-ts_n=2.png>]) [12
+ [12<./img/cutoff_data_dots_n=2.png>]) [13
 
 ]
 \openout2 = conclusiones.aux
  (./conclusiones.tex
 Chapter 5.
-) [13
+) [14
 
 
 
 
-] [14
+] [15
 
 
 
@@ -1927,13 +1948,10 @@ Chapter 5.
  (./Anexo.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 6.
- (../Códigos/Hawkes/funciones.py [15
+ (../Códigos/Hawkes/funciones.py [16
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
@@ -1942,8 +1960,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]))
-[20] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]))
+[21] (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/main.aux
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/índices.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/abstract.aux)
 (c:/Users/anton/OneDrive/Desktop/Máster/TFM/Documento/PDF/intro.aux)
@@ -1964,14 +1985,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45992 strings out of 476431
- 745559,1977958 words of node,token memory allocated
- 880 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 46 attribute, 96 glue_spec
-, 24 attribute_list, 4 write, 7 pdf_action nodes
-   avail lists: 1:12,2:14717,3:386,4:14222,5:12317,6:138,7:23729,8:55,9:37448,10
+ 46021 strings out of 476431
+ 745542,1977958 words of node,token memory allocated
+ 904 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 50 attribute, 96 glue_spec
+, 26 attribute_list, 4 write, 9 pdf_action nodes
+   avail lists: 1:12,2:14723,3:385,4:14222,5:12317,6:138,7:23729,8:56,9:37448,10
 :38,11:1928
- 66503 multiletter control sequences out of 65536+600000
+ 66523 multiletter control sequences out of 65536+600000
  76 fonts using 12123119 bytes
  123i,23n,114p,1246b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/program files/miktex/fonts/opentype/public/lm/lmroman9-regular.otf><//?/
@@ -1989,9 +2010,9 @@ es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
 msy8.pfb>
-Output written on main.pdf (27 pages, 745254 bytes).
+Output written on main.pdf (28 pages, 805420 bytes).
 
-PDF statistics: 721 PDF objects out of 1000 (max. 8388607)
- 407 named destinations out of 1000 (max. 131072)
+PDF statistics: 741 PDF objects out of 1000 (max. 8388607)
+ 410 named destinations out of 1000 (max. 131072)
  112 words of extra memory for PDF output out of 10000 (max. 100000000)
 

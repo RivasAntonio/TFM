@@ -687,7 +687,17 @@ INPUT .\img\Hawkes mu 10.png
 INPUT .\img\Hawkes mu 10.png
 INPUT .\img\Hawkes mu 10.png
 INPUT .\img\Hawkes mu 0.01.png
+INPUT .\img\Hawkes mu 0.01 events.png
+INPUT .\img\Hawkes mu 0.01 events.png
+INPUT .\img\Hawkes mu 0.01 events.png
+INPUT .\img\Hawkes mu 0.01 events.png
+INPUT .\img\Hawkes mu 10 events.png
+INPUT .\img\Hawkes mu 10 events.png
+INPUT .\img\Hawkes mu 10 events.png
+INPUT .\img\Hawkes mu 10 events.png
 INPUT .\img\Hawkes mu 10.png
+INPUT .\img\Hawkes mu 0.01 events.png
+INPUT .\img\Hawkes mu 10 events.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\objetivos.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\objetivos.aux
 INPUT .\objetivos.tex
@@ -718,12 +728,12 @@ INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\phase_R=1000_n=2.png
 INPUT .\img\phase_R=1000_n=2.png
-INPUT .\img\cutoff_data_dots_n=2.png
-INPUT .\img\cutoff_data_dots_n=2.png
-INPUT .\img\cutoff_data_dots_n=2.png
-INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\n=1 vs n=2.png
 INPUT .\img\phase_R=1000_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
+INPUT .\img\cutoff_data_dots_n=2.png
 INPUT .\img\cutoff_data_dots_n=2.png
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
 OUTPUT c:\Users\anton\OneDrive\Desktop\Máster\TFM\Documento\PDF\conclusiones.aux
