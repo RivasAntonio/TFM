@@ -16,5 +16,7 @@ Hacer tabla de exponentes con el bivariate
 
 Mirar grupo whatsapp, hay demostración y TODO
 
+Hacer análisis estadística solo de mu pequeño, con mu grande habría que utilizar thinning method
+
 
 Mirar becas FPU, y plan propio UCO y UGR

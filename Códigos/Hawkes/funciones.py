@@ -278,14 +278,10 @@ def bivariate_algorithm(rate1, rate2, muE, muI, nEE, nII, nEI, nIE):
 
     xks = [xk1, xk2]
 
-    if xk1 < 0:
-        print(xk1)
-        xk1 = 0
-    if xk2 < 0:
-        print(xk2)
-        xk2 = 0
-
     reaction = np.argmin(xks)
+
+    rate1_tk = 0.
+    rate2_tk = 0.
 
     if reaction == 0:
         rate1_tk = (rate1 - muE) * np.exp(-xk1) + nEE + muE
@@ -293,6 +289,7 @@ def bivariate_algorithm(rate1, rate2, muE, muI, nEE, nII, nEI, nIE):
     else:
         rate1_tk = (rate1 - muE) * np.exp(-xk2) + nIE + muE
         rate2_tk = (rate2 - muI) * np.exp(-xk2) + nII + muI
+
     
     if rate1_tk <= muE:
         rate1_tk = muE
@@ -334,4 +331,5 @@ def generate_series_bivariate(K, nEE, nII, nEI, nIE, muE, muI):
         reactions.append(reaction)
         times_between_events.append(xk)
     times = np.cumsum(times_between_events)
+    
     return  times_between_events, times, rate1, rate2, reactions

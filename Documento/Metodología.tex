@@ -143,7 +143,8 @@ we will define resolution parameter $\Delta >0$ as a time interval which will he
 $\left\{ t_1,\ldots, t_K \right\}$. Considering this, a cluster os events starts at time $t_i$ and ends at time $t_j$ if $t_j-t_i\leq \Delta$. The number of events in the cluster (cluster 
 size) is the number of events in the interval $[t_i,t_j]$ and it's duration is $t_j-t_i$. The extreme cases are when $\Delta$ is smaller than the minimun inter-event time, in this case,
 each event is a cluster of size 1 and duration 0. On the other hand when $\Delta$ is greater than the largest inter-event time, all the events are in the same cluster of size $K$ and
-duration $t_K-t_1$. Between these two extremes, we will have different regimes of the process. To identify these regimes, we need a phase diagram, in our case, it will be a percolation 
+duration $t_K-t_1$. Between these two extremes, we will have different regimes of the process and we should be careful with the choice of $\Delta$ because it will determine the
+characteristics of the clusters and their statistics. To identify these regimes, we need a phase diagram, in our case, it will be a percolation 
 diagram where we will plot the percolation strength $P_{\infty}$ as a function of the resolution parameter $\Delta$. The percolation strength is defined as the fraction of events that are
 in the largest cluster over the total number of events. Three different set of parameters will be used to generate the time series in order to compare them. The parameters $\alpha$ and 
 $\beta$ will be fixed to 1 in all cases, the other parameters are shown in Table \ref{tab: parameters}.
@@ -154,7 +155,7 @@ $\beta$ will be fixed to 1 in all cases, the other parameters are shown in Table
     \label{tab: parameters}
     \begin{tabular}{@{}lcc@{}}
     \toprule
-    Configuration & \multicolumn{1}{l}{$\mu$} & \multicolumn{1}{l}{$n$} \\ \midrule
+    Configuration & \multicolumn{1}{c}{$\mu$} & \multicolumn{1}{c}{$n$} \\ \midrule
     First & 1 & 0 \\
     Second & $10^{-4}$ & 1 \\
     Third & $10^2$ & 1 \\ \bottomrule
@@ -166,7 +167,7 @@ processes as we can observer in Figure \ref{f: Hawkes not stationary}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Signals.png}
+    \includegraphics[width=0.9\textwidth]{Signals.png}
     \caption{Five a temporal series of $K=10^5$ events of Hawkes processes with $\mu=10^{-4}$ on the left side and $\mu = 10^2$ on the right one.}
     \label{f: Hawkes not stationary}
 \end{figure}
@@ -186,10 +187,29 @@ inter-event time distribution solving the following equation:
     \begin{split}
         &K\int_{\Delta^*}^{\infty}P(x) dx=1\\
         &K\int_{\Delta^*}^{\infty}\mu e^{-\mu x}dx=1\\
-        &-K\left[ e^{-\mu x} \right]_{\Delta^*}^{\infty}=K\left[ e^{-\mu\Delta^*} - \cancelto{0}{e^{-\mu\infty}} \right]=1\\
+        &-K\left[ e^{-\mu x} \right]_{\Delta^*}^{\infty}=K\left[ e^{-\mu\Delta^*} - \cancelto{0}{e^{-\mu\infty}\quad} \right]=1\\
         &K e^{-\mu\Delta^*}=1\\
         &\Delta^*(K)=-\dfrac{\ln\left(K \right)}{\mu}
     \end{split}
     \label{eq: critical point}
 \end{equation}
+
+For the other two configurations, on both we have a self-exciting process with $n=0$, which means that we have a critical dynamical regime as we shall see later but with different background 
+rates, one much smaller than 1 and the other much greater than 1. This fact will be reflected in the percolation diagram. We will not approach this cases from a theoretical point of view
+but from a graphic one. With the second configuration, as we have seen in Figure \ref{f: Hawkes rate burst} if the condition $\mu\ll 1$ is satisfied, we will have a bursty structure in the 
+time series. Due to the low background rate, the events are less likely to occur, but when they do, they tend to form avalanches of activity thanks to the self-excitation. This will be
+reflected in the percolation diagram as a first phase transition at a critical point $\Delta^*_1$ when $\Delta$ is of the order of the average cluster size. Then, a second phase transition
+will occur at a critical point $\Delta^*_2$ when $\Delta$ is greater than the greatest inter-event time. This phenomena is illustrated in Figure \ref{f: Delta percolación}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Raster plot deltas.png}
+    \caption{Diagram for the second configuration. Red lines represent the events, clusters are coloured. As we can see, we have two regimes, one when $\Delta$ is of the order of the average 
+    cluster size and another when is of the order of the inter-event time where the system percolates.}
+    \label{f: Delta percolación}
+\end{figure}
+
+On the other hand, when $\mu\gg 1$ events occur more frequently, without making the bursty structure of Figure \ref{f: Hawkes rate burst}, but making a more regular structure as
+illustrated in Figure \ref{f: Hawkes rate burst 2}. This will be reflected in the phase diagram as a single phase transition at a critical point $\Delta^*$ when $\Delta$ is of the order of
+the average cluster size. This phenomena is illustrated in Figure \ref{f: Delta percolación 2}. HACER IMAGEN DE ESTE CASO EN CANVA.
 
