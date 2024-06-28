@@ -10,13 +10,18 @@ Hablar de que muchos fenómenos en la naturaleza se encuentran en puntos crític
 
 En METODOLOGÍA hacer figura de los diferentes delta y referenciar luego en los resultados
 
-4- Results (1º Reproducir artículo, n=2, modelo inhibición?)
+HACER FIGURA RASTER DELTA PARA MU GRANDE
 
-Hacer tabla de exponentes con el bivariate  
+4- Results (1º Reproducir artículo, n=2, modelo inhibición)
+
+TABLA DE CONFIGURACIONES BIVARIATE 
+
+TABLA DE EXPONENTES EN CONCLUSIONES
 
 Mirar grupo whatsapp, hay demostración y TODO
 
-Hacer análisis estadística solo de mu pequeño, con mu grande habría que utilizar thinning method
+Hacer análisis estadística solo de mu pequeño
 
+HACER ANÁLISIS ESTADÍSTICA BIVARIATE MU PEQUEÑO CON PARÁMETROS PRL (LOS COMENTADOS) Y ESTACIONARIOS
 
 Mirar becas FPU, y plan propio UCO y UGR
