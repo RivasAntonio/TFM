@@ -1,27 +1,28 @@
 Chapters
 
-1- Hawkes Processes, where we can found them (INTRO)  MÁS O MENOS ACABADO
+1- Hawkes Processes, where we can found them (INTRO)  MÁS O MENOS ACABADO, AÑADIR ALGO DE BIVARIATE
 
 2- Criticality in biosciences or neuroscience (INTRO, 1º) (Procesos estocásticos y cambios de fase con Perc 1D o C-B process para avalanchas)
 Hablar de que muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro.
 
 
-3- Time binning y generación de procesos computacionalmente (METODOLOGÍA) a lo mejor explicar o demostrar algortimo(s)
+3- Time binning y generación de procesos computacionalmente (METODOLOGÍA) a lo mejor explicar o demostrar algortimo(s) AÑADIR ALGORITMO BIVARIATE
 
 En METODOLOGÍA hacer figura de los diferentes delta y referenciar luego en los resultados
 
 HACER FIGURA RASTER DELTA PARA MU GRANDE
 
-4- Results (1º Reproducir artículo, n=2, modelo inhibición)
+4- RESULTS (1º Reproducir artículo, n=2, modelo inhibición)
+
+PONER TB QUE EL DELTA ESTRELLA QUE PROPONEN NO VALE PARA NUESTRO TAMAÑO DE EVENTOS
 
 TABLA DE CONFIGURACIONES BIVARIATE 
 
-TABLA DE EXPONENTES EN CONCLUSIONES
+TABLA DE EXPONENTES EN CONCLUSIONES O FINAL RESULTADOS
+
+PONER CAPÍTULO A DE ANEXO Y PONER LABEL DE ALGORITMO SI SE PUEDE
 
 Mirar grupo whatsapp, hay demostración y TODO
 
-Hacer análisis estadística solo de mu pequeño
 
-HACER ANÁLISIS ESTADÍSTICA BIVARIATE MU PEQUEÑO CON PARÁMETROS PRL (LOS COMENTADOS) Y ESTACIONARIOS
-
-Mirar becas FPU, y plan propio UCO y UGR
+HACER ANÁLISIS ESTADÍSTICA BIVARIATE SOLO MU PEQUEÑO CON PARÁMETROS PRL (LOS COMENTADOS) Y ESTACIONARIOS
