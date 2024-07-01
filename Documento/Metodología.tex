@@ -15,7 +15,7 @@ presented in Algorithm \ref{alg: slow method}.
     \begin{algorithmic}
         \Require $t_max$, $n_{intervals}$, $\lambda(t_0)=\mu$, $p$
         \State $dt \gets \frac{t_{max}}{n_{intervals}}$
-        \For {$i=0$ to $n_{intervals}$}
+        \For {$i=0$ to $n_{intervals}$}1
             \State $\lambda(t_k) \gets \mu + n\sum_{t_i<t_k}\phi(t_k-t_i)$ \Comment{$t_i=i\cdot dt$}
             \If {$\lambda(t_k)\cdot dt > p$}
                 \State $t_{event} \gets t_k$
@@ -204,12 +204,20 @@ will occur at a critical point $\Delta^*_2$ when $\Delta$ is greater than the gr
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Raster plot deltas.png}
-    \caption{Diagram for the second configuration. Red lines represent the events, clusters are coloured. As we can see, we have two regimes, one when $\Delta$ is of the order of the average 
+    \caption{Diagram for $\mu\ll 1$. Red lines represent the events, clusters are coloured. As we can see, we have two regimes, one when $\Delta$ is of the order of the average 
     cluster size and another when is of the order of the inter-event time where the system percolates.}
     \label{f: Delta percolación}
 \end{figure}
 
 On the other hand, when $\mu\gg 1$ events occur more frequently, without making the bursty structure of Figure \ref{f: Hawkes rate burst}, but making a more regular structure as
 illustrated in Figure \ref{f: Hawkes rate burst 2}. This will be reflected in the phase diagram as a single phase transition at a critical point $\Delta^*$ when $\Delta$ is of the order of
-the average cluster size. This phenomena is illustrated in Figure \ref{f: Delta percolación 2}. HACER IMAGEN DE ESTE CASO EN CANVA.
+the average cluster size. This phenomena is illustrated in Figure \ref{f: Delta percolación 2}. Note the absence of a time scale in both diagram, they are diagrams for the explanation of 
+the phase diagram.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Raster plot deltas 2.png}
+    \caption{Diagram for $\mu\gg1$. Red lines represent the events, clusters are coloured. In this situation, events occur more regularly, resulting in a unique transition corresponding 
+    the case of $\Delta$ is similar to the inter-event time producing the system percolation.}
+    \label{f: Delta percolación 2}
+\end{figure}
