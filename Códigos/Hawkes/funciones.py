@@ -5,7 +5,14 @@ def algorithm(rate, mu, n):
     """
     Algorithm that computes interevent times and Hawkes intensity for a self-exciting process
 
-    #Output: rate x_k, x_k
+    ## Inputs:
+    rate: Previous rate
+    mu: Background intensity
+    n: Weight of the Hawkes process
+
+    ## Outputs: rate x_k, x_k
+    x_k: Inter-event time
+    rate_tk: Intensity at time tk
     """                                    
     # 1st step
     u1 = np.random.uniform()
@@ -57,30 +64,6 @@ def generate_series(K, n, mu):
     times = np.cumsum(times_between_events)
     return times, rate
 
-def identify_clusters(times, delta):
-    """
-    Identifies clusters in a temporal series given a resolution parameter delta
-    
-    ## Inputs:
-    times: temporal series
-    delta: resolution parameter
-
-    ## Output:
-    clusters: list of clusters
-    """
-    clusters = []
-    current_cluster = []
-    for i in range(len(times) - 1):
-        if times[i + 1] - times[i] <= delta:
-            if not current_cluster:
-                current_cluster.append(times[i])
-            current_cluster.append(times[i + 1])
-        else:
-            if current_cluster:
-                clusters.append(current_cluster)
-                current_cluster = []
-    return clusters
-
 def generate_series_perc(K, n, mu):
     """
     Generates temporal series for K Hawkes processes
@@ -90,7 +73,7 @@ def generate_series_perc(K, n, mu):
     n: Strength of the Hawkes process
     mu: Background intensity 
 
-    ##Output:
+    ##Outputs:
     times_between_events: time series the interevent times
     times: time series the events
     rate: time series for the intensity
@@ -142,32 +125,29 @@ def calculate_percolation_strength(times_between_events, deltas):
     
     return percolation_strengths
 
+def identify_clusters(times, delta):
+    """
+    Identifies clusters in a temporal series given a resolution parameter delta
+    
+    ## Inputs:
+    times: temporal series
+    delta: resolution parameter
 
-"""def calculate_percolation_strength(times_between_events, deltas):
-    percolation_strengths = []
-
-    for delta in deltas:
-        cluster_sizes = []
-        # Initialize the size of the current cluster
-        current_cluster_size = 1 # The first event is always a cluster
-
-        for i in range(len(times_between_events)):
-            if times_between_events[i] <= delta:
-                current_cluster_size += 1
-            else:
-                if current_cluster_size > 1: # Only consider clusters with more than one event
-                    cluster_sizes.append(current_cluster_size)
-                # Reset the size of the current cluster
-                current_cluster_size = 1 # The next event is always a cluster
-
-        # Add the size of the last cluster
-        if current_cluster_size > 1: # Only consider clusters with more than one event
-            cluster_sizes.append(current_cluster_size)
-
-        max_cluster_size = max(cluster_sizes) 
-
-        percolation_strengths.append(max_cluster_size / len(times_between_events))
-    return percolation_strengths"""
+    ## Output:
+    clusters: list of clusters
+    """
+    clusters = []
+    current_cluster = []
+    for i in range(len(times) - 1):
+        if times[i + 1] - times[i] <= delta:
+            if not current_cluster:
+                current_cluster.append(times[i])
+            current_cluster.append(times[i + 1])
+        else:
+            if current_cluster:
+                clusters.append(current_cluster)
+                current_cluster = []
+    return clusters
 
 def model(n_max, mu_E, mu_I, tau, n_EE, n_IE, n_EI, n_II, dt):
     """

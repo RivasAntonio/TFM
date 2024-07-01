@@ -54,20 +54,20 @@ of happening in the interval $[t+\Delta t,t+\Delta t+ dt]$. Putting words into m
 Knowing that the probability of having an event in the interval $[t+\Delta t,t+\Delta t+dt]$ is $\lambda(t+\Delta t)dt$, we have:
 
 \begin{equation}
-P(\text{event}\in [t+\Delta t,t+\Delta t+dt])\cancel{dt}= \lambda(t+\Delta t)dt\cdot e^{-\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime}PDF(\text{inter-event time}=\Delta t)\cancel{dt}.
+P(\text{event}\in [t+\Delta t,t+\Delta t+dt])\cancel{dt}= \lambda(t+\Delta t)dt\cdot e^{-\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime}\times PDF(\text{inter-event time}=\Delta t)\cancel{dt}.
 \label{eq: probability of having an event}
 \end{equation}
 
 Having that we can calculate the inter-event time following the next steps. 
 
-$$ \text{PDF}\left( \text{inter-event time } = \Delta,t \right) = \lambda(t+\Delta t)\underbrace{e^{\int_{t}^{t+\Delta t}\lambda(t^{\prime}dt^\prime)}}_{\text{No events during }(t,t+\Delta t)}$$
+$$ \text{PDF}\left( \text{inter-event time } = \Delta,t \right) = \lambda(t+\Delta t)\times \underbrace{e^{\int_{t}^{t+\Delta t}\lambda(t^{\prime}dt^\prime)}}_{\text{No events during }(t,t+\Delta t)}$$
 
 In order to generate $\Delta t$, we will use the inverse transform method \cite{Toral}, therefore we have to calculate the cumulative probability of the inter-event time:
 \begin{equation}
     \begin{split}
         \text{accum}(\Delta t)=&\int_{0}^{\Delta t}\text{PDF}\left( \Delta t^\prime \right)d\Delta t^\prime = u\in\mathcal{U}  [0,1]\\
-        &\int_{0}^{\Delta t} \underbrace{\lambda(t+\Delta t^\prime)e^{\int_{t}^{t+\Delta t^\prime}\lambda(t^{\prime})dt^{\prime}}}_{-\dfrac{d}{d\Delta t^{\prime}}\left[ e^{-\int_{t}^{t+\Delta t}\lambda t^\prime dt^\prime} \right]}d\Delta t^\prime=u \qquad \text{Using Barrow rule}\\
-        &-e^{-\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime}\Big|_{0}^{\Delta t}=1-e^{-\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime}=u\qquad \text{Taking logarithms}\\
+        &\int_{0}^{\Delta t} \underbrace{\lambda(t+\Delta t^\prime)e^{\int_{t}^{t+\Delta t^\prime}\lambda(t^{\prime})dt^{\prime}}}_{-\dfrac{d}{d\Delta t^{\prime}}\left[ e^{-\int_{t}^{t+\Delta t}\lambda t^\prime dt^\prime} \right]}d\Delta t^\prime=u \qquad  \text{Using Barrow rule}\\
+        &-e^{-\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime}\Big|_{0}^{\Delta t}=1-e^{-\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime}=u\qquad  \text{Taking logarithms}\\
         &\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime=-\ln(1-u) = \ln (\bar{u})\\
     \end{split}
     \label{eq: cumulative probability}
@@ -96,7 +96,7 @@ see the expressions in Eqs \ref{eq: u = 1 - P(t_{k+1} > t)P(t_{k+1} > t), previo
 method to generate the inter-event time. Then, the algorithm to generate the inter-event time is:
 \begin{enumerate}
     \item Generate $t_{k+1}^{(1)}\sim P \left( t_{k+1}^{(1)}>t \right) = e^{-\mu\left( t-t_k \right)}$ using 
-    $$P\left( t_{k+1}^{(1)}\leq t \right) = 1- \underbrace{e^{-\mu(t-t_k)}}_{\bar{u_1}\in\mathcal{U}[0,1]\Rightarrow =u_1-\bar{u_1}}=u_1 \in \mathcal{U}[0,1]$$
+    $$P\left( t_{k+1}^{(1)}\leq t \right) = \underbrace{1- \underbrace{e^{-\mu(t-t_k)}}_{\bar{u_1}\in\mathcal{U}[0,1]}}_{1-\bar{u_1}=u_1}=u_1 \in \mathcal{U}[0,1]$$
     This is done by generating $u_1\in\mathcal{U}[0,1]$ and solving the equation.
     \begin{equation}
         \begin{split}
@@ -109,10 +109,10 @@ method to generate the inter-event time. Then, the algorithm to generate the int
     in a similar way as before:
     \begin{equation}
         \begin{split}
-            u_2=&1-e^{-\left( \left( \lambda(t_k)+\alpha-\mu \right)\beta^{-1}\left( 1-e^{-\beta\left( t_{k+1}^{(2)-t_k}\right)}\right)\right)}\\
-            -\ln(u_2)=&\left( \left( \lambda(t_k)+\alpha-\mu \right)\beta^{-1}\left( 1-e^{-\beta\left( t_{k+1}^{(2)-t_k}\right)}\right)\right)\\ 
+            &u_2=1-e^{-\left( \left( \lambda(t_k)+\alpha-\mu \right)\beta^{-1}\left( 1-e^{-\beta\left( t_{k+1}^{(2)-t_k}\right)}\right)\right)}\\
+            -&\ln(u_2)=\left( \left( \lambda(t_k)+\alpha-\mu \right)\beta^{-1}\left( 1-e^{-\beta\left( t_{k+1}^{(2)-t_k}\right)}\right)\right)\\ 
             & 1+\dfrac{\beta\ln u_2}{\lambda(t_k)+\alpha-\mu}=e^{-\beta\left( t_{k+1}^{(2)-t_k}\right)}\\
-            t_{k+1}^{(2)}=&t_k-\beta^{-1}\ln\underbrace{\left( 1+\dfrac{\beta\ln u_2}{\lambda(t_k)+\alpha-\mu} \right)}_{\text{This number must be positive}}   
+            &t_{k+1}^{(2)}=t_k-\beta^{-1}\ln\underbrace{\left( 1+\dfrac{\beta\ln u_2}{\lambda(t_k)+\alpha-\mu} \right)}_{\text{This number must be positive}}   
         \end{split}
         \label{eq: inter-event time 2}
     \end{equation}   
@@ -135,6 +135,43 @@ With this method, we can generate time series efficiently. The pseudo-code for t
     \end{algorithmic}
 \end{algorithm}
 
+To conclude generation of time series section, we can generalise the algorithm in order to generate $M$ Hawkes processes coupled \cite{dassios2013exact,laub2021elements}. 
+In this work we will generate 2 coupled Hawkes processes, one corresponding to an excitatory population and the other to an inhibitory population. The essence of the algorithm is the 
+same as the one presented. First, we generate the inter-event time for the excitatory population and the inhibitory population, after that, we choose the minimum of both and update the
+rates of both populations according to the event that has just occurred. Mathematically it is expressed as follows:
+
+\begin{enumerate}
+    \item Generate $\Delta_{k+1} = \min\left\{ \Delta_{k+1}^{(1)},\Delta_{k+1}^{(2)} \right\}$ with $\Delta_{k+1}^{(j)}=t_{k+1}^{(j)}-t_k^{(j)}$ generated 
+    as in Eqs \ref{eq: inter-event time 1} and \ref{eq: inter-event time 2}.
+    \begin{equation}
+        \Delta_{k+1}^{(j)} = \min \left\{ -\dfrac{\ln(u_1^{(j)})}{\mu_j},-\beta_j^{-1}\ln\left( \underbrace{1+\dfrac{\beta_j\ln u_2^{(j)}}{\lambda_j\left( t_k^{(j)} \right)+\alpha_j-\mu_j}}_{g_j} \right) \right\}
+        \label{eq: inter-event time coupled}
+    \end{equation}
+    Note that $g_j$ must be positive, otherwise, take the other term.
+    \item Once we have the process $(l)$, we update the time for the following event as $t_{k+1}=t_k+\Delta_{k+1}^{(l)}$.
+    \item Update the rates for the excitatory and inhibitory populations as follows:
+    \begin{equation}
+        \lambda_j(t_{k+1}) = \mu_j + e^{-\beta_j(t_{k+1}-t_k)}\left( \lambda_j(t_k)-\mu_j+\alpha_{l\to j} \right) \qquad \text{with } j=1,2
+    \end{equation}
+\end{enumerate}
+
+The pseudo-code for this method is presented in Algorithm \ref{alg: fast method coupled}.
+
+\begin{algorithm}
+    \caption{Algorithm to generate $K$ Hawkes events for two coupled processes.}\label{alg: fast method coupled}
+    \begin{algorithmic}
+        \Require $\alpha_{11}$, $\alpha_{12}$, $\beta_1$, $\mu_1$, $\alpha_{22}$, $\alpha_{21}$, $\beta_2$, $\mu_2$, $K$
+        \For {$k=0$ to $K$}
+            \State $u_1^{(1)},u_2^{(1)},u_1^{(2)},u_2^{(2)} \gets \mathcal{U}[0,1]$
+            \State $\Delta_{k+1}^{(1)}\gets \min\left( -\dfrac{\ln(u_1^{(1)})}{\mu_1},-\beta_1^{-1}\ln\left( 1+\dfrac{\beta_1\ln u_2^{(1)}}{\lambda_1(t_k)+\alpha_{11}-\mu_1} \right) \right)$
+            \State $\Delta_{k+1}^{(2)}\gets \min\left( -\dfrac{\ln(u_1^{(2)})}{\mu_2},-\beta_2^{-1}\ln\left( 1+\dfrac{\beta_2\ln u_2^{(2)}}{\lambda_2(t_k)+\alpha_{22}-\mu_2} \right) \right)$
+            \State $l\gets \arg\min\left( \Delta_{k+1}^{(1)},\Delta_{k+1}^{(2)} \right)$
+            \State $t_{k+1}\gets t_k+\Delta_{k+1}^{(l)}$
+            \State $\lambda_1(t_{k+1}) \gets \mu_1 + e^{-\beta_1(t_{k+1}-t_k)}\left( \lambda_1(t_k)-\mu_1+\alpha_{l\to 1} \right)$
+            \State $\lambda_2(t_{k+1}) \gets \mu_2 + e^{-\beta_2(t_{k+1}-t_k)}\left( \lambda_2(t_k)-\mu_2+\alpha_{l\to 2} \right)$
+        \EndFor
+    \end{algorithmic}
+\end{algorithm}
 
 \section{When physics and cooking merge}\label{sec:physics_cooking}
 
@@ -163,7 +200,7 @@ $\beta$ will be fixed to 1 in all cases, the other parameters are shown in Table
 \end{table}
 
 The percolation diagram will be generated by generating 1000 time series for each configuration and calculating the percolation strength for each one because in general they are not stationary
-processes as we can observer in Figure \ref{f: Hawkes not stationary}.
+processes as we can observe in Figure \ref{f: Hawkes not stationary}.
 
 \begin{figure}[H]
     \centering
