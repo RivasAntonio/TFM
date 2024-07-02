@@ -2,12 +2,26 @@
 
 ESTRUCTURA:
 
-This work is divided into 5 chapters. In the first chapter, we will introduce the concept of complex systems and the importance of stochastic processes in the study of these systems. 
-In particular, a brief overview of point processes and Hawkes processes, which are the main focus of this work, will be presented. Additionally, we will introduce the concept of criticality
-and its relevance in the study of complex systems and its relationship with biological systems. After that, we will present the objectives of this work. 
-In the third chapter, we will present the methodology used in this work, including the simulation of Hawkes processes, 
+The following Master's thesis is divided into 5 chapters. In the first chapter, we will introduce the concept of criticality in complex systems, both in living and non-living systems.  
+We will also make a brief summary of stochastic and their relation with point processes and Hawkes processes, which are the main focus of this work. 
+After that, we will present the objectives of this work. In the third chapter, we will present the methodology used in this work, including the simulation of Hawkes processes, 
 the phase diagram of the process, and the avalanche analysis. In the penultimate chapter, we will present the results of the simulations, including the phase diagram of the process, the 
-susceptibility analysis, and the avalanche analysis and we will discuss them .Finally, in the fifth chapter, we will present the conclusions of this work and the future lines of research.
+susceptibility analysis, and the avalanche analysis and we will discuss them. Finally, in the fifth chapter, we will present the conclusions of this work and the future lines of research.
+
+
+\section{Criticality and its presence in living systems}
+
+For the first simulations, we will fix $n=1$, making our self-excitation critical. 
+
+The concept of criticality is a central idea in the study of complex systems. It is a state of the system where the dynamics of the system are scale-invariant, which means that the
+dynamics of the system are the same at different scales. This means that the system is at the edge of chaos, where the system is neither ordered nor disordered. This state is characterized
+by the presence of avalanches of activity that follow a power-law distribution. This means that the probability of having an avalanche of size $s$ is proportional to $s^{-\tau}$, where
+$\tau$ is the exponent of the power-law distribution. This state is present in many systems such as earthquakes, forest fires, or the brain. In the brain, it is believed that the
+critical state is the optimal state for information processing, as it allows the system to respond quickly to stimuli and to have a high capacity for information storage. This state
+is also associated with the presence of avalanches of activity that follow a power-law distribution. This means that the probability of having an avalanche of size $s$ is proportional
+to $s^{-\tau}$, where $\tau$ is the exponent of the power-law distribution. This state is present in many systems such as earthquakes, forest fires, or the brain. In the brain, it is
+believed that the critical state is the optimal state for information processing, as it allows the system to respond quickly to stimuli and to have a high capacity for information storage.
+
 
 
 \section{Point processes} \label{sec:point_processes}
@@ -29,6 +43,8 @@ of the events $t_k$ and the intensity or rate of occurrence of these events $\la
     \label{f:point_process}
 \end{figure}
 
+\subsection{Poisson processes} \label{subsec:Poisson_processes}
+
 In general, the rate is a function of the history of the process, which makes the process non-Markovian, but in our case, it will be a Markovian process, which means that the rate depends 
 only on the last event that occurred as we will see. An example of a Markovian point process is the Poisson process, which is a simple and one of the most studied point processes because 
 they are present in many everyday situations such as the arrival of customers at a store, occurrence of defects on a Production line. They are also present in some physics phenomena,
@@ -48,7 +64,7 @@ or time-dependent. In Figure \ref{f:poisson} we can see an example of a homogene
     \label{f:poisson}
 \end{figure}
 
-\section{Hawkes processes} \label{sec:Hawkes_processes}
+\subsection{Hawkes processes} \label{subsec:Hawkes_processes}
 
 On the other hand if we consider a non-homogeneous Poisson process, the rate is a function of time, $\lambda(t)$, which is the case of the Hawkes process. The rate can be written in several 
 ways \cite{notarmuzi2021percolation,kanazawa2021ubiquitous,dassios2013exact,laub2021elements}. We will use the expression from \cite{notarmuzi2021percolation}:
@@ -126,16 +142,4 @@ which will let us define bursts or avalanches of activity that we will use to de
 As we have said previously $\alpha = 1$, $\beta = 1$, making $n$ the parameter that controls the weigth of the self-excitation. Essentially, $n$ and $\alpha$ play the same role,
 so we will use them indistinctly. 
 
-\section{Criticality and its presence in living systems}
-
-For the first simulations, we will fix $n=1$, making our self-excitation critical. 
-
-The concept of criticality is a central idea in the study of complex systems. It is a state of the system where the dynamics of the system are scale-invariant, which means that the
-dynamics of the system are the same at different scales. This means that the system is at the edge of chaos, where the system is neither ordered nor disordered. This state is characterized
-by the presence of avalanches of activity that follow a power-law distribution. This means that the probability of having an avalanche of size $s$ is proportional to $s^{-\tau}$, where
-$\tau$ is the exponent of the power-law distribution. This state is present in many systems such as earthquakes, forest fires, or the brain. In the brain, it is believed that the
-critical state is the optimal state for information processing, as it allows the system to respond quickly to stimuli and to have a high capacity for information storage. This state
-is also associated with the presence of avalanches of activity that follow a power-law distribution. This means that the probability of having an avalanche of size $s$ is proportional
-to $s^{-\tau}$, where $\tau$ is the exponent of the power-law distribution. This state is present in many systems such as earthquakes, forest fires, or the brain. In the brain, it is
-believed that the critical state is the optimal state for information processing, as it allows the system to respond quickly to stimuli and to have a high capacity for information storage.
 
