@@ -51,29 +51,7 @@ def generate_series(K, n, mu):
     mu: Background intensity 
 
     ##Output:
-    times: time series the events
-    rate: time series for the intensity
-    """
-    times_between_events = [0]
-    rate = [mu]
-    for _ in range(K):
-        rate_tk, xk = algorithm(rate[-1], mu, n)
-        rate.append(rate_tk)
-        times_between_events.append(xk)
-    times = np.cumsum(times_between_events)
-    return times, rate
-
-def generate_series_perc(K, n, mu):
-    """
-    Generates temporal series for K Hawkes processes
-    
-    ##Inputs:
-    K: Number of events
-    n: Strength of the Hawkes process
-    mu: Background intensity 
-
-    ##Outputs:
-    times_between_events: time series the interevent times
+    times_between_events: time series the inter-event times
     times: time series the events
     rate: time series for the intensity
     """

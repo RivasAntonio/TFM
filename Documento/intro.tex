@@ -140,6 +140,22 @@ the process with $\mu=0.01$ has a bursty structure, while the process with $\mu=
 In most cases, the motivation of study of point processes is counting the events, but in our case we also are interested in the time of occurrence of the events
 which will let us define bursts or avalanches of activity that we will use to describe the dynamics of the system. 
 As we have said previously $\alpha = 1$, $\beta = 1$, making $n$ the parameter that controls the weigth of the self-excitation. Essentially, $n$ and $\alpha$ play the same role,
-so we will use them indistinctly. 
+so we will use them indistinctly. The previous figures showed the dynamics for $n=1$, making the system critical as a critical branching process PONER ALGO AQUÍ EN REFERENCIA A LA SECCIÓN 
+ANTERIOR \cite{notarmuzi2021percolation}.
+, but we will also study the dynamics for $n=2$ and two coupled Hawkes processes.
 
+\subsubsection{Hawkes processes with $n=2$} \label{subsubsec:Hawkes_processes_n_2}
+
+\subsubsection{Coupled Hawkes processes} \label{subsubsec:Coupled_Hawkes_processes}
+CAMBIAR ESTE TEXTO
+In this work we will generate 2 coupled Hawkes processes, one corresponding to an excitatory population and the other to an inhibitory population. The interactions between them are
+presented in Figure \ref{f: Hawkes coupled}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{Esquema inhibición-excitación.png}
+\caption{Scheme of the interaction between the excitatory and inhibitory populations. As illustrated, the excitatory population can excite itself and the inhibitory population, while the
+inhibitory population can only inhibit the excitatory population, because on most cases the auto-inhibition is negligible \cite{kalle2018growing}.}
+\label{f: Hawkes coupled}
+\end{figure}
 

@@ -136,7 +136,7 @@ With this method, we can generate time series efficiently. The pseudo-code for t
 \end{algorithm}
 
 To conclude generation of time series section, we can generalise the algorithm in order to generate $M$ Hawkes processes coupled \cite{dassios2013exact,laub2021elements}. 
-In this work we will generate 2 coupled Hawkes processes, one corresponding to an excitatory population and the other to an inhibitory population. The essence of the algorithm is the 
+The essence of the algorithm is the 
 same as the one presented. First, we generate the inter-event time for the excitatory population and the inhibitory population, after that, we choose the minimum of both and update the
 rates of both populations according to the event that has just occurred. Mathematically it is expressed as follows:
 
@@ -172,6 +172,7 @@ The pseudo-code for this method is presented in Algorithm \ref{alg: fast method 
         \EndFor
     \end{algorithmic}
 \end{algorithm}
+
 
 \section{When physics and cooking merge}\label{sec:physics_cooking}
 
