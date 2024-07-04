@@ -7,7 +7,7 @@ CLASIC MODEL OF A CRITICAL PROCESS IS CBP, n FOLLOWS A DISRTIBUTION OF MEAN <n> 
 Hablar de que muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro.
 1.2- POINT PROCESSES (DONE)
 1.2.1-POISSON PROCESSES (DONE) A LO MEJOR AÑADIR ALGO MÁS SI SE QUEDA CORTO
-1.2.2- Hawkes Processes (DONE) AÑADIR ALGUNA SEÑAL DE BIVARIATE (Añadir esquema de nuestro bivariate) Y n=2 (Añadir alguna serie temporal y de eventos, están en pruebas.ipynb) 
+1.2.2- Hawkes Processes (DONE) AÑADIR ALGUNA SEÑAL DE BIVARIATE Y RASTER() ESQUEMA DE BIVARIATE(DONE) Y n=2 (DONE) 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                     2 OBJETIVOS
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
