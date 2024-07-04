@@ -590,6 +590,42 @@
       \field{title}{Introduction to percolation theory}
       \field{year}{2018}
     \endentry
+    \entry{stauffer1978critical}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e1ecd719b8eeb5b591b82e26936b963c}{%
+           family={Stauffer},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=66b79dca677bd2876beca72a2216cd56}{%
+           family={Jayaprakash},
+           familyi={J\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{685a010d5ef63710bdadc04dbc99cd8e}
+      \strng{fullhash}{685a010d5ef63710bdadc04dbc99cd8e}
+      \strng{fullhashraw}{685a010d5ef63710bdadc04dbc99cd8e}
+      \strng{bibnamehash}{685a010d5ef63710bdadc04dbc99cd8e}
+      \strng{authorbibnamehash}{685a010d5ef63710bdadc04dbc99cd8e}
+      \strng{authornamehash}{685a010d5ef63710bdadc04dbc99cd8e}
+      \strng{authorfullhash}{685a010d5ef63710bdadc04dbc99cd8e}
+      \strng{authorfullhashraw}{685a010d5ef63710bdadc04dbc99cd8e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Letters A}
+      \field{number}{5}
+      \field{title}{Critical exponents for one-dimensional percolation clusters}
+      \field{volume}{64}
+      \field{year}{1978}
+      \field{pages}{433\bibrangedash 434}
+      \range{pages}{2}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

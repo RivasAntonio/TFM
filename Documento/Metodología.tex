@@ -178,8 +178,9 @@ The pseudo-code for this method is presented in Algorithm \ref{alg: fast method 
 
 Once we have a method to generate time series, we can start analyzing them. We should stablish a control parameter to distinguish between different regimes of the process. In this case,
 we will define resolution parameter $\Delta >0$ as a time interval which will help us to identify clusters of activities. Our time series will have $K$ events that occur in times 
-$\left\{ t_1,\ldots, t_K \right\}$. Considering this, a cluster os events starts at time $t_i$ and ends at time $t_j$ if $t_j-t_i\leq \Delta$. The number of events in the cluster (cluster 
-size) is the number of events in the interval $[t_i,t_j]$ and it's duration is $t_j-t_i$. The extreme cases are when $\Delta$ is smaller than the minimun inter-event time, in this case,
+$\left\{ t_1,\ldots, t_K \right\}$. Considering this, a cluster of events starts at time $t_i$ and ends at time $t_j$ if $t_j-t_i\leq \Delta$ for all consecutive events in the time series. 
+The number of events in the cluster (cluster size) is the number of events in the interval $[t_{first},t_{last}]$ and its duration is $t_{last}-t_{first}$. 
+The extreme cases are when $\Delta$ is smaller than the minimun inter-event time, in this case,
 each event is a cluster of size 1 and duration 0. On the other hand when $\Delta$ is greater than the largest inter-event time, all the events are in the same cluster of size $K$ and
 duration $t_K-t_1$. Between these two extremes, we will have different regimes of the process and we should be careful with the choice of $\Delta$ because it will determine the
 characteristics of the clusters and their statistics. To identify these regimes, we need a phase diagram, in our case, it will be a percolation 
@@ -189,7 +190,7 @@ $\beta$ will be fixed to 1 in all cases, the other parameters are shown in Table
 
 \begin{table}[H]
     \centering
-    \caption{Configuration of the parameters for the simulations of \cite{notarmuzi2021percolation}.}
+    \caption{Configuration of the parameters for the simulations of the article \cite{notarmuzi2021percolation}.}
     \label{tab: parameters}
     \begin{tabular}{@{}lcc@{}}
     \toprule
