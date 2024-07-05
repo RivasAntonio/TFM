@@ -23,7 +23,7 @@ DONE, FALTA CAMBIAR EL ORDEN
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4.1- Reproducir artículo (DONE) PONER TB QUE EL DELTA ESTRELLA QUE PROPONEN NO VALE PARA NUESTRO TAMAÑO DE EVENTOS (DONE)
-4.2- Resultados n=2 (AÑADIR SUSCEPTIBILIDAD)
+4.2- Resultados n=2 (DONE)
 4.3- Resultados BIVARIATE
     .1 ¿Meter figuras que ya tenemos? 
     A partir de la susceptibilidad del modelo, con los parámetros doble fase, podemos decir que no es crítico ya que no encontramos leyes de potencia a no ser que afinemos mucho Delta

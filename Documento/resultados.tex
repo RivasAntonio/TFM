@@ -79,10 +79,8 @@ of the phase diagram. We just are going to show the results for $\mu=10^{-4}$ an
 
 
 \begin{wrapfigure}{l}{0.65\textwidth}
-    \begin{center}
       \includegraphics[width=0.6\textwidth]{stats article.png}
-    \end{center}
-    \caption{Avalanche analysis for Hawkes process with $n=1$, $K=10^5$ events averaged over $R=1000$ realizations.}
+    \caption{Avalanche analysis for Hawkes process with $n=1$, $K=10^5$ events. The histograms have been calculated over $R=1000$ time series.}
     \label{f:avalanches_article}
 \end{wrapfigure}
 
@@ -149,12 +147,19 @@ As we can recognize from both figures, now we have a single transition for $\mu=
 the exponents for the size and duration should be $\alpha=\tau=2$. Identically to the case of $n=1$, we have studied the avalanches for $K=10^5$ events and $R=1000$ realizations to 
 obtain the histograms. The statistics of the avalanches are shown in Figure \ref{f:avalanches_n=2}.
 
-\begin{wrapfigure}{l}{0.65\textwidth}
-    \begin{center}
-      \includegraphics[width=0.6\textwidth]{cutoff_data_dots_n=2.png}
-    \end{center}
-    \caption{Avalanche statistics for a self-exciting Hawkes process with $n=2$ for $K=10^5$ events averaged over $R=1000$ realizations.}
+\begin{wrapfigure}{l}{0.7\textwidth}
+      \includegraphics[width=0.65\textwidth]{stats n=2.png}
+    \caption{Avalanche statistics for a self-exciting Hawkes process with $n=2$ for $K=10^5$ events. The histograms have been calculated over $R=1000$ time series.}
     \label{f:avalanches_n=2}
 \end{wrapfigure}
+
+As the image shows, we have obtained the exponents $\alpha=\tau=2$ for both cases, which is compatible with the universality class of 1D percolation. Knowing the time series, like the ones
+shown in Figure \ref{f: Hawkes rate n 2}, after the first event, we find a unique cluster of events caused by the supercriticality. This situation is analogous to the one shown in 
+the case of $n=1, \mu=10$ (Figure \ref{f: Hawkes rate burst 2}) but with a more pronounced effect due to the value of $n$. Moreover, as happened with $n=1$, the cutoff of the power-law 
+(caused by the finite size of K) for the cluster duration monotonically shift to higher values as $\Delta$ increases.
+In conclusion, we can also observe percolation phenomena for 
+$n\neq 1$, we also observe power law distributions for the size and duration of the avalanches but not caused by criticality as we have seen in the susceptibility diagram, $\chi$ only diverges
+at $\Delta^*$.
+
 
 \section{Inhibitory and excitatory neurons coupled}
