@@ -157,7 +157,7 @@ rates of both populations according to the event that has just occurred. Mathema
 
 The pseudo-code for this method is presented in Algorithm \ref{alg: fast method coupled}.
 
-\begin{algorithm}
+\begin{algorithm}[H]
     \caption{Algorithm to generate $K$ Hawkes events for two coupled processes.}\label{alg: fast method coupled}
     \begin{algorithmic}
         \Require $\alpha_{11}$, $\alpha_{12}$, $\beta_1$, $\mu_1$, $\alpha_{22}$, $\alpha_{21}$, $\beta_2$, $\mu_2$, $K$
@@ -176,17 +176,17 @@ The pseudo-code for this method is presented in Algorithm \ref{alg: fast method 
 
 \section{When physics and cooking merge}\label{sec:physics_cooking}
 
-Once we have a method to generate time series, we can start analyzing them. We should stablish a control parameter to distinguish between different regimes of the process. In this case,
-we will define resolution parameter $\Delta >0$ as a time interval which will help us to identify clusters of activities. Our time series will have $K$ events that occur in times 
-$\left\{ t_1,\ldots, t_K \right\}$. Considering this, a cluster of events starts at time $t_i$ and ends at time $t_j$ if $t_j-t_i\leq \Delta$ for all consecutive events in the time series. 
-The number of events in the cluster (cluster size) is the number of events in the interval $[t_{first},t_{last}]$ and its duration is $t_{last}-t_{first}$. 
-The extreme cases are when $\Delta$ is smaller than the minimun inter-event time, in this case,
-each event is a cluster of size 1 and duration 0. On the other hand when $\Delta$ is greater than the largest inter-event time, all the events are in the same cluster of size $K$ and
-duration $t_K-t_1$. Between these two extremes, we will have different regimes of the process and we should be careful with the choice of $\Delta$ because it will determine the
-characteristics of the clusters and their statistics. To identify these regimes, we need a phase diagram, in our case, it will be a percolation 
-diagram where we will plot the percolation strength $P_{\infty}$ as a function of the resolution parameter $\Delta$. The percolation strength is defined as the fraction of events that are
-in the largest cluster over the total number of events. Three different set of parameters will be used to generate the time series in order to compare them. The parameters $\alpha$ and 
-$\beta$ will be fixed to 1 in all cases, the other parameters are shown in Table \ref{tab: parameters}.
+Now we have a method to generate the main ingredient, time series. In order to cook (analyze) them, our tools will be Python libraries and a control parameter, which in our case will be 
+a resolution parameter $\Delta >0$ that will allow us to identify clusters of activity. Assuming that we have a time series with $K$ events that happen in times $\left\{ t_1,\ldots, t_K \right\}$.
+Each event starts a cluster and the following event will be part of this cluster if the time between both events is less than $\Delta$ and so on for the rest. We define the size of the cluster 
+as the number of events in the interval $[t_{first},t_{last}]$ and its duration as $t_{last}-t_{first}$. The extreme cases are when $\Delta$ is smaller than the minimun inter-event time, 
+where each event is a cluster of size 1 and duration 0. The other extreme is when $\Delta$ is greater than the largest inter-event time, where all the events are in the same cluster of size $K$
+and duration $t_K-t_1$. Between these two extremes, we will have different regimes of the process. Our recipe will be the phase diagram, specifically the percolation diagram, where we will
+plot the percolation strength $P_{\infty}$ as a function of the resolution parameter $\Delta$. The percolation strength is defined as the fraction of events that are in the largest cluster over
+the total number of events. Three different set of parameters will be used to generate the time series in order to compare them. The parameters $\alpha$ and $\beta$ will be fixed to unless 
+otherwise stated, the other parameters are shown in Table \ref{tab: parameters}. Once we got our recipe (the percolation diagram), we should be able to identify the critical points and the
+different regimes of the process. By carefully choosing  $\Delta$ from the percolation diagram, we will be able to identify the different regimes with their respective power law exponentes. 
+
 
 \begin{table}[H]
     \centering

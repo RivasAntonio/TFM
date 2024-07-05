@@ -115,35 +115,46 @@ the critical points $\Delta_1^*(K)$ given by Eq. \ref{eq:Ecuación delta1 *} and
 \section{Results for n=2}
 
 In the article, the authors have studied a process which is critical itself because the parameter $n$ is fixed to $n=1$. We have studied the case $n=2$ to see if the process is still critical. 
-In the Figure \ref{f:n=1 vs n=2} two time series for $n=1$ and $n=2$ are shown. 
+In the Figure \ref{f:n=1 vs n=2} two event series for $n=1$ and $n=2$ are shown. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.65\textwidth]{n=1 vs n=2.png}
-    \caption{Time series for $n=1$ and $n=2$.}
+    \caption{Event series for $n=1$ and $n=2$.}
     \label{f:n=1 vs n=2}
 \end{figure}
 
-Similarly to the previous section, first we obtain the phase diagram in order to observe the transitions. In this case, Eqs. \ref{eq:Ecuación delta1 *},\ref{eq:Ecuación delta2 *} are not valid.
-Therefore, we will obtain this parameter graphically from the phase diagrams shown in Figure \ref{f:phase_diagram_n=2}.
+As presented in the figure above, the rate of the process for $n=2$ explodes in comparison with the rate for $n=1$. This is due to the fact that choosing $n=2$ makes the process supercritical.
+Similarly to the previous section, the first step is obtaining the phase diagram in order to distinguish the regimes. 
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{phase_R=1000_n=2.png}
     \caption{Percolation phase diagrams for a Hawkes process with $n=2$.}
     \label{f:phase_diagram_n=2}
 \end{figure}
+In this case, Eqs. \ref{eq:Ecuación delta1 *},\ref{eq:Ecuación delta2 *} are not valid because they were derived for $n=1$. 
+Therefore, we will obtain this parameter graphically from the phase diagrams shown in Figure \ref{f:phase_diagram_n=2}. We will stablish $\Delta^*$ at the resolution parameter where the
+percolation strength $P_{\infty} = 0.5$, consequently, $\Delta^*\approx 10^{-4}$ for both cases. Alike the previous section, in Figure \ref{f:susceptibilidad_n=2} the susceptibility is shown.
 
-As we can see, now we have a single transition for $\mu=10^{-4}$ and $\mu=10^2$ corresponding to 1D percolation, consequently, the exponents for the size and duration 
-should be $\alpha=\tau=2$. In a similar way, we have studied the avalanches for $K=10^5$ events and $R=1000$ realizations to obtain the average values. The statistics of the avalanches 
-are shown in Figure \ref{f:avalanches_n=2}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{susceptibilidad n=2.png}
+    \caption{Susceptibility $\chi$ normalized to the number of evetns $K$, for different event number $K$ and taking average values for $R=1000$ realizations.}
+    \label{f:susceptibilidad_n=2}
+\end{figure}
 
 
-\begin{wrapfigure}{l}{0.75\textwidth}
+As we can recognize from both figures, now we have a single transition for $\mu=10^{-4}$ and $\mu=10^2$, in principle corresponds to 1D percolation, ergo, 
+the exponents for the size and duration should be $\alpha=\tau=2$. Identically to the case of $n=1$, we have studied the avalanches for $K=10^5$ events and $R=1000$ realizations to 
+obtain the histograms. The statistics of the avalanches are shown in Figure \ref{f:avalanches_n=2}.
+
+\begin{wrapfigure}{l}{0.65\textwidth}
     \begin{center}
-      \includegraphics[width=0.675\textwidth]{cutoff_data_dots_n=2.png}
+      \includegraphics[width=0.6\textwidth]{cutoff_data_dots_n=2.png}
     \end{center}
     \caption{Avalanche statistics for a self-exciting Hawkes process with $n=2$ for $K=10^5$ events averaged over $R=1000$ realizations.}
     \label{f:avalanches_n=2}
 \end{wrapfigure}
-\clearpage
+
 \section{Inhibitory and excitatory neurons coupled}
