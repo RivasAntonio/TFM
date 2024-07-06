@@ -163,3 +163,81 @@ at $\Delta^*$.
 
 
 \section{Inhibitory and excitatory neurons coupled}
+
+To conclude the chapter on results, the results for the case of an excitatory and an inhibitory processes are presented. First of all we will show the results for ``pseudo-critical'' 
+signals shown in figure\ref{f: Hawkes coupled pseudo}. Both the phase diagrams and avalanche statistics shall be calculated with the event times in general, without distinguishing
+between excitatory and inhibitory events. Future work could be to study the avalanches for each type of event. As always, the phase diagram and its corresponding susceptibility are shown in
+Figures \ref{f:phase_diagram_coupled critical} and \ref{f:susceptibilidad_coupled critical} respectively.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{phase bivariate critical 10-2.png}
+    \caption{Percolation phase diagrams averaged over $R=1000$ ``pseudo-critical'' signals of $K=10^5$ events.}
+    \label{f:phase_diagram_coupled critical}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{susceptibilidad bivariate critical 10-2.png}
+    \caption{Susceptibility $\chi$ normalized to the number of events associated with the above the phase diagram.}
+    \label{f:susceptibilidad_coupled critical}
+\end{figure}
+
+Both figures show a single transition around $\Delta^*\approx 2\cdot 10^{-4}$ for $10^5$ events, that so far has corresponded with the universality class of 1D percolation, but in this occasion, we have the same 
+situation as in the case of $n=1$ and $\mu=10^-4$, as illustrated in Figure %\ref{f:avalanches_coupled critical}.
+
+DESCOMENTAR ESTA LÍNEA CUANDO TENGA LAS IMÁGENES
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.7\textwidth]{stats bivariate critical 10-2.png}
+%     \caption{Avalanche statistics of $K=10^5$ events for ``pseudo-critical'' signals of two coupled Hawkes processes. Histograms have been calculated over $R=1000$ time series.}
+%     \label{f: stats pseudocritical}
+% \end{figure}
+
+In this case, the exponents for the size and duration of the avalanches behave as if there where a double transition in the phase diagram, but without it. On the contrary, for the case of 
+the ``controlled'' signal shown in Figure \ref{f: Hawkes coupled oscilatory} we do not have this anomaly. The phase diagram and susceptibility are shown in Figures 
+\ref{f:phase_diagram_coupled oscilatory} and \ref{f:susceptibilidad_coupled oscilatory} respectively.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{phase bivariate stationary 10-2.png}
+    \caption{Percolation phase diagrams averaged over $R=1000$ ``controlled'' signals of $K=10^5$ events.}
+    \label{f:phase_diagram_coupled oscilatory}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{susceptibilidad bivariate stationary 10-2.png}
+    \caption{Susceptibility $\chi$ normalized to $K$ associated with the above the phase diagram.}
+    \label{f:susceptibilidad_coupled oscilatory}
+\end{figure}
+
+We note an almost identical behaviour to the one shown in the case of the ``pseudo-critical'' signals with just a single transition around $\Delta^*\approx 2\cdot 10^{-4}$ for $10^5$ events, 
+agreeing with the universality class of 1D percolation. In this case, as Figure %\ref{f:avalanches_coupled oscilatory} 
+indicates, the exponents are indeed $\alpha=\tau=2$.
+
+DESCOMENTAR ESTA LÍNEA CUANDO TENGA LAS IMÁGENES
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.7\textwidth]{stats stationary bivariate 10-2.png}
+%     \caption{Avalanche statistics of $K=10^5$ events for ``controlled'' signals of two coupled Hawkes processes. Histograms have been calculated over $R=1000$ time series.}
+%     \label{f: stats oscilatory}
+% \end{figure}
+
+To conclude the chapter, in Table \ref{tab: all exponents} are presented all the exponents obtained for the different configurations studied.
+
+
+\begin{table}[H]
+    \centering
+    \caption{Power-law exponents for every configuration studied.}
+    \label{tab: all exponents}
+    \begin{tabular}{@{}cccccccc@{}}
+    \toprule
+    \multicolumn{1}{c}{} & \multicolumn{1}{c}{Poisson} & \multicolumn{2}{c}{n=1}      & \multicolumn{2}{c}{n=2}      & \multicolumn{2}{c}{Coupled processes} \\ \midrule
+                         & $\mu=1$                     & $\mu=10^{-4}$ & $\mu=10^{2}$ & $\mu=10^{-4}$ & $\mu=10^{2}$ & ``Pseudo-critical''  & ``Controlled'' \\
+    \alpha & 2 & 2$\overset{\Delta\uparrow}{\longrightarrow} 3/2$ & 2 & 2 & 2 & 2$\overset{\Delta\uparrow}{\longrightarrow} 3/2$  & 2 \\
+    \tau   & 2 & 2          & 2 & 2 & 2 & 2          & 2 \\ \bottomrule
+    \end{tabular}
+\end{table}

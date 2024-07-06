@@ -8,13 +8,13 @@ CLASIC MODEL OF A CRITICAL PROCESS IS CBP, n FOLLOWS A DISRTIBUTION OF MEAN <n> 
 Hablar de que muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro.
 1.2- POINT PROCESSES (DONE)
 1.2.1-POISSON PROCESSES (DONE) A LO MEJOR AÑADIR ALGO MÁS SI SE QUEDA CORTO (NO HACE FALTA)
-1.2.2- Hawkes Processes (DONE) AÑADIR ALGUNA SEÑAL DE BIVARIATE Y RASTER() ESQUEMA DE BIVARIATE(DONE) Y n=2 (DONE) 
+1.2.2- Hawkes Processes (DONE) AÑADIR ALGUNA SEÑAL DE BIVARIATE Y RASTER(DONE) ESQUEMA DE BIVARIATE(DONE) Y n=2 (DONE) 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                     2 OBJETIVOS
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DONE, FALTA CAMBIAR EL ORDEN
+FALTA CAMBIAR EL ORDEN
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                    3 METODOLOGÍA
+                                                                    3 METODOLOGÍA (DONE)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3.1 Time series factory (DONE)
 3.2 Physics and cooking merge (DONE)
@@ -29,12 +29,16 @@ DONE, FALTA CAMBIAR EL ORDEN
     A partir de la susceptibilidad del modelo, con los parámetros doble fase, podemos decir que no es crítico ya que no encontramos leyes de potencia a no ser que afinemos mucho Delta
     Plateau más bajo cuanto mayor es la población, debido a el efecto de las fluctuaciones "demográficas" de lambda, al principio muy estocástico pero luego tiende a un "estacionario"
     asintóticamente
-    .2 Meter un par de gráficas en régimen crítico (n_IE~0.3) y régimen estable (n_IE~0.5), dando dos fases teniendo el resto cte y sacar estadística en ambas.
-TABLA DE EXPONENTES EN CONCLUSIONES O FINAL RESULTADOS
+    .2 Meter un par de gráficas en régimen crítico (n_IE~0.33) y régimen estable (n_IE~0.5), dando dos fases teniendo el resto cte y sacar estadística en ambas.
+
+    COMENTAR ALGO DE NO CRÍTICO SUSCEPTIBILIDAD ? PERO SI CROSSOVER THE EXPONENTES?
+    
+TABLA DE EXPONENTES EN CONCLUSIONES O FINAL RESULTADOS (DONE)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                    5 CONCLUSIONES
+                                                                    5 CONCLUSIONES (DONE)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 PONER TB EN CONCLUSIONES QUE FUTUROS TRABAJOS PODRÍA SER EXPLORAR TODO EL ESPACIO DE PARÁMETROS EN EL BIVARIATE Y GENERALIZAR PARA N PROCESOS
+PONER QUE SE PODRÍAN ESTUDIAR PS TIEMPOS POR SEPARAO
 BUSCAR ALGUNA REFERENCIA DE HAWKES PROCESSES
 SE PUEDE PONER OBJETIVOS ANTES DE LA INTRODUCCIÓN?
 

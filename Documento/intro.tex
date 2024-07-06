@@ -194,6 +194,46 @@ inhibitory population can only inhibit the excitatory population, because on mos
 \end{figure}
 
 In a similar way to the previous cases, the background rates will only change time until the first event occurs, but signals will only rely on the ``strength'' $n_{i,j}$ of the interactions.
-Studying this parameter space, the different phases and the respective avalanche statistics could be a Master's thesis in itself. That is why we will only look at a few parameter 
-configurations.
+Studying this parameter space, the different phases and the respective avalanche statistics could be a Master's thesis in itself. That is why we will only look at a couple parameter 
+configurations. The first one gives us a pseudo-critical signal, regulated by the inhibition. On the other hand, the second one gives us an oscilatory stable signal. For both signals, 
+the background rates will be $\mu_E=\mu_I=0.01$, the other interaction parameters are shown in Table \ref{tab: Hawkes coupled parameters}.
+
+
+\begin{table}[H]
+    \centering
+    \caption{Interaction parameters for both bivariate processes}
+    \label{tab: Hawkes coupled parameters}
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+     & \multicolumn{1}{c}{Pseudo-critical} & \multicolumn{1}{c}{Stable} \\ \midrule
+    $n_{EE}$ & 1.5 & 1.5 \\
+    $n_{EI}$ & 1.5 & 1.5 \\
+    $n_{IE}$ & -0.33 & -0.5 \\
+    $n_{II}$ & 0 & 0 \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+With the values of $n_{EE}$ and $n_{EI}$, the signals would be supercritical, but adding the inhibition, the comportment will be totally different. Moreover, we will see that a 
+slight change in the inhibition strength will change the signal from pseudo-critical to oscilatory. In Figures \ref{f: Hawkes coupled pseudo} and \ref{f: Hawkes coupled oscilatory}
+are presented time series and raster plots for the two different signals.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{raster plot bivariate critical.png}
+    \caption{On the left, a temporal series of $K=10^4$ events of a bivariate Hawkes process with the interaction parameters of the pseudo-critical signal shown in Table \ref{tab: Hawkes coupled parameters},
+    on the right, the raster plot of the same process for excitatory and inhibitory events.}
+    \label{f: Hawkes coupled pseudo}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{raster plot bivariate stationary.png}
+    \caption{On the left, a temporal series of $K=10^4$ events of a bivariate Hawkes process with the interaction parameters of the ``stable'' signal shown in Table \ref{tab: Hawkes coupled parameters},
+    on the right, the raster plot of the same process for excitatory and inhibitory events.}
+    \label{f: Hawkes coupled oscilatory}
+\end{figure}
+
+As illustrated, the pseudo-critical signal has a bursty structure until a big avalanche of activity occurs, on the contrary, the oscilatory signal has a more regular structure. Later on,
+in Chapter \ref{ch:resultados} we will see how this difference in the structure of the signals affects the avalanche statistics.
+
 

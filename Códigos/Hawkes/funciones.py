@@ -102,88 +102,8 @@ def calculate_percolation_strength(times_between_events, deltas):
     
     return percolation_strengths
 
+
 def identify_clusters(times, delta):
-    """
-    Identifies clusters in a temporal series given a resolution parameter delta
-    
-    ## Inputs:
-    times: temporal series
-    delta: resolution parameter
-
-    ## Output:
-    clusters: list of clusters
-    """
-    clusters = []
-    current_cluster = []
-    for i in range(len(times) - 1):
-        if times[i + 1] - times[i] <= delta:
-            if not current_cluster:
-                current_cluster.append(times[i])
-            current_cluster.append(times[i + 1])
-        else:
-            if current_cluster:
-                clusters.append(current_cluster)
-                current_cluster = []
-    return clusters
-
-def model(n_max, mu_E, mu_I, tau, n_EE, n_IE, n_EI, n_II, dt):
-    """
-    Solve the equations of the mena field model for a given number of iterations n_max
-    
-    Inputs:
-    n_max: number of iterations
-    mu_E: Poisson rate of excitatory neurons
-    mu_I: Poisson rate of inhibitory neurons
-    tau: characteristic time of the system
-    n_EE: influence of excitatory neurons on excitatory neurons
-    n_IE: influence of excitatory neurons on inhibitory neurons
-    n_EI: influence of inhibitory neurons on excitatory neurons
-    n_II: influence of inhibitory neurons on inhibitory neurons
-    dt: time step
-
-    Outputs:
-    time: time series
-    t_events_E: times of events of excitatory neurons
-    t_events_I: times of events of inhibitory neurons
-    rates_E: rates of excitatory neurons
-    rates_I: rates of inhibitory neurons
-    """
-    n_E = n_I = n = 0
-    t_events_E = [0]
-    t_events_I = [0]
-    rates_E = [mu_E]
-    rates_I = [mu_I]
-    time = [0]
-    while n <= n_max:
-        # Excitation neurons
-        l_Enew = rates_E[-1]  + dt * (mu_E- rates_E[-1])/tau
-        if np.random.uniform() < rates_E[-1]*dt:
-            l_Enew += n_EE
-            t_events_E.append(time[-1]+dt*np.random.uniform())
-            n_E += 1
-        if np.random.uniform() < rates_I[-1]*dt:
-            l_Enew -= n_IE
-            t_events_E.append(time[-1]+dt*np.random.uniform())
-            n_E += 1
-
-        # Inhibition neurons
-        l_Inew = rates_I[-1] + dt * (mu_I- rates_I[-1])/tau
-        if np.random.uniform() < rates_E[-1]*dt:
-            l_Inew += n_EI
-            t_events_I.append(time[-1]+dt*np.random.uniform())
-            n_I += 1
-        if np.random.uniform() < rates_I[-1]*dt:
-            l_Inew -= n_II
-            t_events_I.append(time[-1]+dt*np.random.uniform())
-            n_I += 1
-        rates_E.append(l_Enew)
-        rates_I.append(l_Inew)
-        time.append(time[-1]+dt)
-
-        n = n_E + n_I
-    return time, t_events_E, t_events_I, rates_E, rates_I
-
-def identify_clusters_model(times, delta):
     """
     Identifies clusters in a temporal series given a resolution parameter delta
     Computes the size and duration of clusters
