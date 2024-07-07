@@ -3,9 +3,9 @@ AÑADIR AGRADECIMIENTOS
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                                     1 INTRODUCCIÓN
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-1.1- CRITICALTY IN GENERAL, BLABLABLA OF THE REVIEW AND SOME EXAMPLES OF NON LIVING SYSTEMS AS ISING MODEL OR ANOTHER AFTER THAT, IN LINVING SYSTEMS SUCH BRAIN OR EARTHQUAKES
+1.1- CRITICALTY IN GENERAL, BLABLABLA OF THE REVIEW AND SOME EXAMPLES OF NON LIVING SYSTEMS AS ISING MODEL OR ANOTHER AFTER THAT, IN LIVING SYSTEMS SUCH BRAIN OR EARTHQUAKES
 CLASIC MODEL OF A CRITICAL PROCESS IS CBP, n FOLLOWS A DISRTIBUTION OF MEAN <n> AND THE DIFFERENT REGIMES 2ITH A DIAGRAM, IF n=1, IT'S CRITICAL COICIDING WITH n=1 IN OUR MODEL
-Hablar de que muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro.
+Hablar de que muchos fenómenos en la naturaleza se encuentran en puntos críticos, seismología, o por ej neuro. COFFE PERCOLATION 
 1.2- POINT PROCESSES (DONE)
 1.2.1-POISSON PROCESSES (DONE) A LO MEJOR AÑADIR ALGO MÁS SI SE QUEDA CORTO (NO HACE FALTA)
 1.2.2- Hawkes Processes (DONE) AÑADIR ALGUNA SEÑAL DE BIVARIATE Y RASTER(DONE) ESQUEMA DE BIVARIATE(DONE) Y n=2 (DONE) 

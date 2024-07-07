@@ -19,6 +19,382 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{munoz2018colloquium}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=87b53bbdd848254b54211cc47904684a}{%
+           family={Munoz},
+           familyi={M\bibinitperiod},
+           given={Miguel\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{87b53bbdd848254b54211cc47904684a}
+      \strng{fullhash}{87b53bbdd848254b54211cc47904684a}
+      \strng{fullhashraw}{87b53bbdd848254b54211cc47904684a}
+      \strng{bibnamehash}{87b53bbdd848254b54211cc47904684a}
+      \strng{authorbibnamehash}{87b53bbdd848254b54211cc47904684a}
+      \strng{authornamehash}{87b53bbdd848254b54211cc47904684a}
+      \strng{authorfullhash}{87b53bbdd848254b54211cc47904684a}
+      \strng{authorfullhashraw}{87b53bbdd848254b54211cc47904684a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{number}{3}
+      \field{title}{Colloquium: Criticality and dynamical scaling in living systems}
+      \field{volume}{90}
+      \field{year}{2018}
+      \field{pages}{031001}
+      \range{pages}{1}
+    \endentry
+    \entry{baiesi2004scale}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0fc4763a530e7e4266e4b1f3555f2ec0}{%
+           family={Baiesi},
+           familyi={B\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8cdc1aac8a53ea834c4184793b4b5545}{%
+           family={Paczuski},
+           familyi={P\bibinitperiod},
+           given={Maya},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \strng{fullhash}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \strng{fullhashraw}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \strng{bibnamehash}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \strng{authorbibnamehash}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \strng{authornamehash}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \strng{authorfullhash}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \strng{authorfullhashraw}{ae21a7573f7e9c4d3c7fdfa45227043e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E—Statistical, Nonlinear, and Soft Matter Physics}
+      \field{number}{6}
+      \field{title}{Scale-free networks of earthquakes and aftershocks}
+      \field{volume}{69}
+      \field{year}{2004}
+      \field{pages}{066106}
+      \range{pages}{1}
+    \endentry
+    \entry{pastor2015epidemic}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c393ec202f2fc7875421592989acbc18}{%
+           family={Pastor-Satorras},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Romualdo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
+           family={Castellano},
+           familyi={C\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ce1c658cc6c540c525926a9c08a8decc}{%
+           family={Van\bibnamedelima Mieghem},
+           familyi={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Piet},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8f9932ed1839be02bb53a62b258449a8}{%
+           family={Vespignani},
+           familyi={V\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{fullhash}{7e9676d7659853e79f199eb4e2e692e7}
+      \strng{fullhashraw}{7e9676d7659853e79f199eb4e2e692e7}
+      \strng{bibnamehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{authorbibnamehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{authornamehash}{8bfd5356ec67c4e2846e21cde4195bd1}
+      \strng{authorfullhash}{7e9676d7659853e79f199eb4e2e692e7}
+      \strng{authorfullhashraw}{7e9676d7659853e79f199eb4e2e692e7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of modern physics}
+      \field{number}{3}
+      \field{title}{Epidemic processes in complex networks}
+      \field{volume}{87}
+      \field{year}{2015}
+      \field{pages}{925\bibrangedash 979}
+      \range{pages}{55}
+    \endentry
+    \entry{castellano2009statistical}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
+           family={Castellano},
+           familyi={C\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3f057d4175c110c6302b495f38eebcb6}{%
+           family={Fortunato},
+           familyi={F\bibinitperiod},
+           given={Santo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{%
+           family={Loreto},
+           familyi={L\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{fullhash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{fullhashraw}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{bibnamehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{authorbibnamehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{authornamehash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{authorfullhash}{3810a653f6ab29a3d9469b736436cd47}
+      \strng{authorfullhashraw}{3810a653f6ab29a3d9469b736436cd47}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of modern physics}
+      \field{number}{2}
+      \field{title}{Statistical physics of social dynamics}
+      \field{volume}{81}
+      \field{year}{2009}
+      \field{pages}{591}
+      \range{pages}{1}
+    \endentry
+    \entry{aparicio2015model}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=4e077d9f003adfcd952d767b1cfa3e16}{%
+           family={Aparicio},
+           familyi={A\bibinitperiod},
+           given={Sofía},
+           giveni={S\bibinitperiod}}}%
+        {{hash=70b5e201a8d1be2d1c45bdd83a942ea7}{%
+           family={Villazón-Terrazas},
+           familyi={V\bibinithyphendelim T\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bccecc550cb73f4c1786bc65540002e9}{%
+           family={Álvarez},
+           familyi={Á\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{d516eabaea24a05f7107f99c77c7af43}
+      \strng{fullhash}{d516eabaea24a05f7107f99c77c7af43}
+      \strng{fullhashraw}{d516eabaea24a05f7107f99c77c7af43}
+      \strng{bibnamehash}{d516eabaea24a05f7107f99c77c7af43}
+      \strng{authorbibnamehash}{d516eabaea24a05f7107f99c77c7af43}
+      \strng{authornamehash}{d516eabaea24a05f7107f99c77c7af43}
+      \strng{authorfullhash}{d516eabaea24a05f7107f99c77c7af43}
+      \strng{authorfullhashraw}{d516eabaea24a05f7107f99c77c7af43}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{8}
+      \field{title}{A model for scale-free networks: application to twitter}
+      \field{volume}{17}
+      \field{year}{2015}
+      \field{pages}{5848\bibrangedash 5867}
+      \range{pages}{20}
+    \endentry
+    \entry{barabasi1999emergence}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=15bacd7ddfc866c5dd96976d4b0244d5}{%
+           family={Barabási},
+           familyi={B\bibinitperiod},
+           given={Albert-László},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=d85e8d2b76e8626b1a45373f4e027914}{%
+           family={Albert},
+           familyi={A\bibinitperiod},
+           given={Réka},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{b4063d5171bad9750494dbdb05406431}
+      \strng{fullhash}{b4063d5171bad9750494dbdb05406431}
+      \strng{fullhashraw}{b4063d5171bad9750494dbdb05406431}
+      \strng{bibnamehash}{b4063d5171bad9750494dbdb05406431}
+      \strng{authorbibnamehash}{b4063d5171bad9750494dbdb05406431}
+      \strng{authornamehash}{b4063d5171bad9750494dbdb05406431}
+      \strng{authorfullhash}{b4063d5171bad9750494dbdb05406431}
+      \strng{authorfullhashraw}{b4063d5171bad9750494dbdb05406431}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{science}
+      \field{number}{5439}
+      \field{title}{Emergence of scaling in random networks}
+      \field{volume}{286}
+      \field{year}{1999}
+      \field{pages}{509\bibrangedash 512}
+      \range{pages}{4}
+    \endentry
+    \entry{ising1925}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fff6f76dbfd2bb6a5a3d111f4d5a5d9c}{%
+           family={Ising},
+           familyi={I\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \strng{fullhash}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \strng{fullhashraw}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \strng{bibnamehash}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \strng{authorbibnamehash}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \strng{authornamehash}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \strng{authorfullhash}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \strng{authorfullhashraw}{fff6f76dbfd2bb6a5a3d111f4d5a5d9c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Z. Phys}
+      \field{number}{1}
+      \field{title}{Contribution to the theory of ferromagnetism}
+      \field{volume}{31}
+      \field{year}{1925}
+      \field{pages}{253\bibrangedash 258}
+      \range{pages}{6}
+    \endentry
+    \entry{wilting201925}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8c82980b1f1d4144351db3bbdd752116}{%
+           family={Wilting},
+           familyi={W\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fb278d39f81cd393535c4ef5bccd9fc5}{%
+           family={Priesemann},
+           familyi={P\bibinitperiod},
+           given={Viola},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{418ef9e829498fc3e356814a24d4fbf9}
+      \strng{fullhash}{418ef9e829498fc3e356814a24d4fbf9}
+      \strng{fullhashraw}{418ef9e829498fc3e356814a24d4fbf9}
+      \strng{bibnamehash}{418ef9e829498fc3e356814a24d4fbf9}
+      \strng{authorbibnamehash}{418ef9e829498fc3e356814a24d4fbf9}
+      \strng{authornamehash}{418ef9e829498fc3e356814a24d4fbf9}
+      \strng{authorfullhash}{418ef9e829498fc3e356814a24d4fbf9}
+      \strng{authorfullhashraw}{418ef9e829498fc3e356814a24d4fbf9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current opinion in neurobiology}
+      \field{title}{25 years of criticality in neuroscience—established results, open controversies, novel concepts}
+      \field{volume}{58}
+      \field{year}{2019}
+      \field{pages}{105\bibrangedash 111}
+      \range{pages}{7}
+    \endentry
+    \entry{notarmuzi2021percolation}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=150a542d29015186211567414819c4f9}{%
+           family={Notarmuzi},
+           familyi={N\bibinitperiod},
+           given={Daniele},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
+           family={Castellano},
+           familyi={C\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2596bc60fbbe46dccfc09ae3fd2522d0}{%
+           family={Flammini},
+           familyi={F\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aaa4fc4f2c05d7fb50f913944622918f}{%
+           family={Mazzilli},
+           familyi={M\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7bf86f8cac7f65e65f53c7cd54661e36}{%
+           family={Radicchi},
+           familyi={R\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{fullhash}{afd386b94a56e5f2f7a93522ad054f70}
+      \strng{fullhashraw}{afd386b94a56e5f2f7a93522ad054f70}
+      \strng{bibnamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{authorbibnamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{authornamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
+      \strng{authorfullhash}{afd386b94a56e5f2f7a93522ad054f70}
+      \strng{authorfullhashraw}{afd386b94a56e5f2f7a93522ad054f70}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E}
+      \field{number}{2}
+      \field{title}{Percolation theory of self-exciting temporal processes}
+      \field{volume}{103}
+      \field{year}{2021}
+      \field{pages}{L020302}
+      \range{pages}{1}
+    \endentry
+    \entry{stauffer2018introduction}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=675ef0bdd0b4b4135b48c838ade149ef}{%
+           family={Stauffer},
+           familyi={S\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+        {{hash=41e93a35da80f1e2e7378645f136b5ea}{%
+           family={Aharony},
+           familyi={A\bibinitperiod},
+           given={Ammon},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{d4a080954f05d1f2ea54a192ccf68be6}
+      \strng{fullhash}{d4a080954f05d1f2ea54a192ccf68be6}
+      \strng{fullhashraw}{d4a080954f05d1f2ea54a192ccf68be6}
+      \strng{bibnamehash}{d4a080954f05d1f2ea54a192ccf68be6}
+      \strng{authorbibnamehash}{d4a080954f05d1f2ea54a192ccf68be6}
+      \strng{authornamehash}{d4a080954f05d1f2ea54a192ccf68be6}
+      \strng{authorfullhash}{d4a080954f05d1f2ea54a192ccf68be6}
+      \strng{authorfullhashraw}{d4a080954f05d1f2ea54a192ccf68be6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to percolation theory}
+      \field{year}{2018}
+    \endentry
     \entry{Chowell}{article}{}{}
       \name{author}{4}{}{%
         {{hash=7110a6f6ee457d86a15dde8924429aac}{%
@@ -53,8 +429,8 @@
       \strng{authornamehash}{fa89bd870b1114db97c581ad24040d22}
       \strng{authorfullhash}{ed9e4de02a88e04fb08788e925d6da6a}
       \strng{authorfullhashraw}{ed9e4de02a88e04fb08788e925d6da6a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physics of life reviews}
@@ -63,47 +439,6 @@
       \field{year}{2016}
       \field{pages}{66\bibrangedash 97}
       \range{pages}{32}
-    \endentry
-    \entry{castellano2009statistical}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
-           family={Castellano},
-           familyi={C\bibinitperiod},
-           given={Claudio},
-           giveni={C\bibinitperiod}}}%
-        {{hash=3f057d4175c110c6302b495f38eebcb6}{%
-           family={Fortunato},
-           familyi={F\bibinitperiod},
-           given={Santo},
-           giveni={S\bibinitperiod}}}%
-        {{hash=7144c0bfd01cbf1afe3f7fd7b9650abe}{%
-           family={Loreto},
-           familyi={L\bibinitperiod},
-           given={Vittorio},
-           giveni={V\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {APS}%
-      }
-      \strng{namehash}{3810a653f6ab29a3d9469b736436cd47}
-      \strng{fullhash}{3810a653f6ab29a3d9469b736436cd47}
-      \strng{fullhashraw}{3810a653f6ab29a3d9469b736436cd47}
-      \strng{bibnamehash}{3810a653f6ab29a3d9469b736436cd47}
-      \strng{authorbibnamehash}{3810a653f6ab29a3d9469b736436cd47}
-      \strng{authornamehash}{3810a653f6ab29a3d9469b736436cd47}
-      \strng{authorfullhash}{3810a653f6ab29a3d9469b736436cd47}
-      \strng{authorfullhashraw}{3810a653f6ab29a3d9469b736436cd47}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Reviews of modern physics}
-      \field{number}{2}
-      \field{title}{Statistical physics of social dynamics}
-      \field{volume}{81}
-      \field{year}{2009}
-      \field{pages}{591}
-      \range{pages}{1}
     \endentry
     \entry{azaele2016statistical}{article}{}{}
       \name{author}{6}{}{%
@@ -149,8 +484,8 @@
       \strng{authornamehash}{8fa927f774ade37d88a5ee0c277ace9c}
       \strng{authorfullhash}{40a10dc368f373283dcde70a17b81e5c}
       \strng{authorfullhashraw}{40a10dc368f373283dcde70a17b81e5c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Reviews of Modern Physics}
@@ -177,63 +512,12 @@
       \strng{authornamehash}{d73b0b09dc8cfbef6e397ed0108a0c07}
       \strng{authorfullhash}{d73b0b09dc8cfbef6e397ed0108a0c07}
       \strng{authorfullhashraw}{d73b0b09dc8cfbef6e397ed0108a0c07}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Stochastic Processes.}
       \field{year}{2009}
-    \endentry
-    \entry{notarmuzi2021percolation}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=150a542d29015186211567414819c4f9}{%
-           family={Notarmuzi},
-           familyi={N\bibinitperiod},
-           given={Daniele},
-           giveni={D\bibinitperiod}}}%
-        {{hash=1f995e83b34c1fad8cc8ec5fccfc9629}{%
-           family={Castellano},
-           familyi={C\bibinitperiod},
-           given={Claudio},
-           giveni={C\bibinitperiod}}}%
-        {{hash=2596bc60fbbe46dccfc09ae3fd2522d0}{%
-           family={Flammini},
-           familyi={F\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=aaa4fc4f2c05d7fb50f913944622918f}{%
-           family={Mazzilli},
-           familyi={M\bibinitperiod},
-           given={Dario},
-           giveni={D\bibinitperiod}}}%
-        {{hash=7bf86f8cac7f65e65f53c7cd54661e36}{%
-           family={Radicchi},
-           familyi={R\bibinitperiod},
-           given={Filippo},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {APS}%
-      }
-      \strng{namehash}{22cd451848f57d6d49b53dd75f0ef4b0}
-      \strng{fullhash}{afd386b94a56e5f2f7a93522ad054f70}
-      \strng{fullhashraw}{afd386b94a56e5f2f7a93522ad054f70}
-      \strng{bibnamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
-      \strng{authorbibnamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
-      \strng{authornamehash}{22cd451848f57d6d49b53dd75f0ef4b0}
-      \strng{authorfullhash}{afd386b94a56e5f2f7a93522ad054f70}
-      \strng{authorfullhashraw}{afd386b94a56e5f2f7a93522ad054f70}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Review E}
-      \field{number}{2}
-      \field{title}{Percolation theory of self-exciting temporal processes}
-      \field{volume}{103}
-      \field{year}{2021}
-      \field{pages}{L020302}
-      \range{pages}{1}
     \endentry
     \entry{kanazawa2021ubiquitous}{article}{}{}
       \name{author}{2}{}{%
@@ -259,8 +543,8 @@
       \strng{authornamehash}{199814cbcfe9acfdc1e098067495bb35}
       \strng{authorfullhash}{199814cbcfe9acfdc1e098067495bb35}
       \strng{authorfullhashraw}{199814cbcfe9acfdc1e098067495bb35}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical review letters}
@@ -292,8 +576,8 @@
       \strng{authornamehash}{7a722878460e24abc6e16bf7b896ceed}
       \strng{authorfullhash}{7a722878460e24abc6e16bf7b896ceed}
       \strng{authorfullhashraw}{7a722878460e24abc6e16bf7b896ceed}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Exact simulation of Hawkes process with exponentially decaying intensity}
@@ -328,8 +612,8 @@
       \strng{authornamehash}{843c21870f99a3caee9f936573e22a8e}
       \strng{authorfullhash}{843c21870f99a3caee9f936573e22a8e}
       \strng{authorfullhashraw}{843c21870f99a3caee9f936573e22a8e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The elements of Hawkes processes}
@@ -407,8 +691,8 @@
       \strng{authornamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
       \strng{authorfullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
       \strng{authorfullhashraw}{27ca77940a5e8c07c5d89d0f3fb11d75}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Python for data analysis: Data wrangling with Pandas, NumPy, and IPython}
@@ -433,8 +717,8 @@
       \strng{authornamehash}{0fd9a0e34f1b2adda41357c948d14986}
       \strng{authorfullhash}{0fd9a0e34f1b2adda41357c948d14986}
       \strng{authorfullhashraw}{0fd9a0e34f1b2adda41357c948d14986}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Python data science handbook: Essential tools for working with data}
@@ -458,8 +742,8 @@
       \strng{authornamehash}{10c11c909d6a4be4116d7c85622b8b73}
       \strng{authorfullhash}{10c11c909d6a4be4116d7c85622b8b73}
       \strng{authorfullhashraw}{10c11c909d6a4be4116d7c85622b8b73}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://numpy.org/}}
@@ -485,8 +769,8 @@
       \strng{authornamehash}{44457fed8cd18ad09b7022aa7dd9cd9a}
       \strng{authorfullhash}{44457fed8cd18ad09b7022aa7dd9cd9a}
       \strng{authorfullhashraw}{44457fed8cd18ad09b7022aa7dd9cd9a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://matplotlib.org/}}
@@ -520,8 +804,8 @@
       \strng{authornamehash}{f80a39b58dcea248f7830836b41785fc}
       \strng{authorfullhash}{f80a39b58dcea248f7830836b41785fc}
       \strng{authorfullhashraw}{f80a39b58dcea248f7830836b41785fc}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Monte Carlo Methods}
@@ -552,43 +836,12 @@
       \strng{authornamehash}{d066ea1686c1f08748c681ead4ecc949}
       \strng{authorfullhash}{d066ea1686c1f08748c681ead4ecc949}
       \strng{authorfullhashraw}{d066ea1686c1f08748c681ead4ecc949}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Stochastic numerical methods: an introduction for students and scientists}
-      \field{year}{2014}
-    \endentry
-    \entry{stauffer2018introduction}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=675ef0bdd0b4b4135b48c838ade149ef}{%
-           family={Stauffer},
-           familyi={S\bibinitperiod},
-           given={Dietrich},
-           giveni={D\bibinitperiod}}}%
-        {{hash=41e93a35da80f1e2e7378645f136b5ea}{%
-           family={Aharony},
-           familyi={A\bibinitperiod},
-           given={Ammon},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{d4a080954f05d1f2ea54a192ccf68be6}
-      \strng{fullhash}{d4a080954f05d1f2ea54a192ccf68be6}
-      \strng{fullhashraw}{d4a080954f05d1f2ea54a192ccf68be6}
-      \strng{bibnamehash}{d4a080954f05d1f2ea54a192ccf68be6}
-      \strng{authorbibnamehash}{d4a080954f05d1f2ea54a192ccf68be6}
-      \strng{authornamehash}{d4a080954f05d1f2ea54a192ccf68be6}
-      \strng{authorfullhash}{d4a080954f05d1f2ea54a192ccf68be6}
-      \strng{authorfullhashraw}{d4a080954f05d1f2ea54a192ccf68be6}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Introduction to percolation theory}
-      \field{year}{2018}
+      \field{title}{Stochastic numerical methods: an introduction for students and scientists}
+      \field{year}{2014}
     \endentry
     \entry{stauffer1978critical}{article}{}{}
       \name{author}{2}{}{%
@@ -614,8 +867,8 @@
       \strng{authornamehash}{685a010d5ef63710bdadc04dbc99cd8e}
       \strng{authorfullhash}{685a010d5ef63710bdadc04dbc99cd8e}
       \strng{authorfullhashraw}{685a010d5ef63710bdadc04dbc99cd8e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physics Letters A}
@@ -642,8 +895,8 @@
       \strng{authornamehash}{b14e67b8e4d0d498cae6232857384a85}
       \strng{authorfullhash}{b14e67b8e4d0d498cae6232857384a85}
       \strng{authorfullhashraw}{b14e67b8e4d0d498cae6232857384a85}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{TFM}

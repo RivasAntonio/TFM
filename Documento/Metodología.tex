@@ -6,7 +6,7 @@ its versatility and the wide range of libraries available. The two used will be 
 \section{Time series factory}\label{sec:time_series_factory}
 
 The first step is the generation of time series, there are two ways to do this: the slow one and the fast one. The first one is discretizing the time and calculating the rate at each time step
-according with Eq \ref{eq: Hawkes rate}, then accept or reject the event if $p<\lambda \cdot dt$ for a random number $p\in \mathcal{U}[0,1]$ . 
+according with Eq. \ref{eq: Hawkes rate}, then accept or reject the event if $p<\lambda \cdot dt$ for a random number $p\in \mathcal{U}[0,1]$ . 
 This method works for small time series, but for large ones is not efficient because the summation of the kernel function has to be done at each time step. The pseudo-code for this method is
 presented in Algorithm \ref{alg: slow method}.
 
@@ -73,8 +73,8 @@ In order to generate $\Delta t$, we will use the inverse transform method \cite{
     \label{eq: cumulative probability}
 \end{equation}
 
-To compute the inter-event time, we have to generate $\bar{u}\sim$ and solve the equation. Having in mind this relation and using Eq \ref{eq: Hawkes rate at event time} we have:
-EN EL LA ECUACIÓN REFERENCIADA Y LA SEGUNDA EXPONENCIAL SE PUEDE PONER $\lambda(t_k^-)$ en lugar de $\lambda(t_k)$? .
+To compute the inter-event time, we have to generate $\bar{u}\sim$ and solve the equation. Having in mind this relation and using Eq. \ref{eq: Hawkes rate at event time} we have:
+
 \begin{equation}
     \begin{split}
         u=&1-e^{-\mu(t-t_k)}e^{-(\lambda(t_k)+\alpha-\mu)\cdot\overbrace{\int_{t_k}^{t}e^{-\beta(t^\prime)-t_k}dt^\prime}^{-\frac{1}{\beta}\left[ e^{-\beta}(t-t_k)-1 \right]}}\\
@@ -83,7 +83,7 @@ EN EL LA ECUACIÓN REFERENCIADA Y LA SEGUNDA EXPONENCIAL SE PUEDE PONER $\lambda
     \label{eq: u = 1 - P(t_{k+1} > t)P(t_{k+1} > t), previo al composition method}
 \end{equation}
 
-Then we apply the composition method \cite{dassios2013exact}. If we take $t_{k+1}=\min(t_{k+1}^(1),t_{k+1}^(2))$; then $t_{k+1}\sim P(t_{k+1}>t)$, hence:
+Then we apply the composition method \cite{dassios2013exact}. If we take $t_{k+1}=\min\left( t_{k+1}^{(1)},t_{k+1}^{(2)} \right)$; then $t_{k+1}\sim P(t_{k+1}>t)$, hence:
 \begin{equation}
     \begin{split}
         \text{Prob}(t_{k+1}=\min\left(  t_{k+1}^{(1)},t_{k+1}^{(2)} \right)\leq t)=&1-\text{Prob}\left( \min \left( t_{k+1}^{(1)},t_{k+1}^{(2)}\right)>t \right)\\
@@ -92,7 +92,7 @@ Then we apply the composition method \cite{dassios2013exact}. If we take $t_{k+1
     \label{eq: composition method}
 \end{equation}
 where we have used that the probability that the smaller is greater than $t$ is that each separately is greater than $t$ because both have to be greater than $t$. As we can 
-see the expressions in Eqs \ref{eq: u = 1 - P(t_{k+1} > t)P(t_{k+1} > t), previo al composition method} and \ref{eq: composition method} are the same, so we can use the composition 
+see the expressions in Eqs. \ref{eq: u = 1 - P(t_{k+1} > t)P(t_{k+1} > t), previo al composition method} and \ref{eq: composition method} are the same, so we can use the composition 
 method to generate the inter-event time. Then, the algorithm to generate the inter-event time is:
 \begin{enumerate}
     \item Generate $t_{k+1}^{(1)}\sim P \left( t_{k+1}^{(1)}>t \right) = e^{-\mu\left( t-t_k \right)}$ using 
@@ -117,7 +117,7 @@ method to generate the inter-event time. Then, the algorithm to generate the int
         \label{eq: inter-event time 2}
     \end{equation}   
     \item Choose $t_{k+1}=\min\left( t_{k+1}^{(1)},t_{k+1}^{(2)} \right)$
-    \item Calculate the rate at $t_{k+1}$ using Eq \ref{eq: Hawkes rate exponential becomes Markovian} and go back to step 1.
+    \item Calculate the rate at $t_{k+1}$ using Eq. \ref{eq: Hawkes rate exponential becomes Markovian} and go back to step 1.
 \end{enumerate}
 
 With this method, we can generate time series efficiently. The pseudo-code for this method is presented in Algorithm \ref{alg: fast method}.
@@ -142,7 +142,7 @@ rates of both populations according to the event that has just occurred. Mathema
 
 \begin{enumerate}
     \item Generate $\Delta_{k+1} = \min\left\{ \Delta_{k+1}^{(1)},\Delta_{k+1}^{(2)} \right\}$ with $\Delta_{k+1}^{(j)}=t_{k+1}^{(j)}-t_k^{(j)}$ generated 
-    as in Eqs \ref{eq: inter-event time 1} and \ref{eq: inter-event time 2}.
+    as in Eqs. \ref{eq: inter-event time 1} and \ref{eq: inter-event time 2}.
     \begin{equation}
         \Delta_{k+1}^{(j)} = \min \left\{ -\dfrac{\ln(u_1^{(j)})}{\mu_j},-\beta_j^{-1}\ln\left( \underbrace{1+\dfrac{\beta_j\ln u_2^{(j)}}{\lambda_j\left( t_k^{(j)} \right)+\alpha_j-\mu_j}}_{g_j} \right) \right\}
         \label{eq: inter-event time coupled}
