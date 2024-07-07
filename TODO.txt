@@ -24,7 +24,7 @@ FALTA CAMBIAR EL ORDEN
 
 4.1- Reproducir artículo (DONE) PONER TB QUE EL DELTA ESTRELLA QUE PROPONEN NO VALE PARA NUESTRO TAMAÑO DE EVENTOS (DONE)
 4.2- Resultados n=2 (DONE)
-4.3- Resultados BIVARIATE
+4.3- Resultados BIVARIATE (DONE)            PONER SOLO FASE DE 10-2? Y DECIR QUE PARA NUESTRO ALGORITMO ES EL QUE MODELA BIEN?
     .1 ¿Meter figuras que ya tenemos? 
     A partir de la susceptibilidad del modelo, con los parámetros doble fase, podemos decir que no es crítico ya que no encontramos leyes de potencia a no ser que afinemos mucho Delta
     Plateau más bajo cuanto mayor es la población, debido a el efecto de las fluctuaciones "demográficas" de lambda, al principio muy estocástico pero luego tiende a un "estacionario"
@@ -41,5 +41,3 @@ PONER TB EN CONCLUSIONES QUE FUTUROS TRABAJOS PODRÍA SER EXPLORAR TODO EL ESPAC
 PONER QUE SE PODRÍAN ESTUDIAR PS TIEMPOS POR SEPARAO
 BUSCAR ALGUNA REFERENCIA DE HAWKES PROCESSES
 SE PUEDE PONER OBJETIVOS ANTES DE LA INTRODUCCIÓN?
-
-MIRAR QUE NO HAYA FIGURAS CON FRAMEON = FALSE

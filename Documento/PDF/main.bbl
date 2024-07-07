@@ -626,6 +626,35 @@
       \field{pages}{433\bibrangedash 434}
       \range{pages}{2}
     \endentry
+    \entry{github}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b14e67b8e4d0d498cae6232857384a85}{%
+           family={Blanco},
+           familyi={B\bibinitperiod},
+           given={Antonio\bibnamedelima Rivas},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b14e67b8e4d0d498cae6232857384a85}
+      \strng{fullhash}{b14e67b8e4d0d498cae6232857384a85}
+      \strng{fullhashraw}{b14e67b8e4d0d498cae6232857384a85}
+      \strng{bibnamehash}{b14e67b8e4d0d498cae6232857384a85}
+      \strng{authorbibnamehash}{b14e67b8e4d0d498cae6232857384a85}
+      \strng{authornamehash}{b14e67b8e4d0d498cae6232857384a85}
+      \strng{authorfullhash}{b14e67b8e4d0d498cae6232857384a85}
+      \strng{authorfullhashraw}{b14e67b8e4d0d498cae6232857384a85}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TFM}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/RivasAntonio/TFM
+      \endverb
+      \verb{url}
+      \verb https://github.com/RivasAntonio/TFM
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
