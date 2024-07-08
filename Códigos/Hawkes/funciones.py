@@ -27,7 +27,6 @@ def algorithm(rate, mu, n):
     else:
         G2 = 1 + np.log(u2) / (rate - mu)
         
-
     # 3rd step
     if G2 <= 0:
         F2 = np.inf
@@ -45,14 +44,14 @@ def generate_series(K, n, mu):
     """
     Generates temporal series for K Hawkes processes
     
-    ##Inputs:
+    ## Inputs:
     K: Number of events
     n: Strength of the Hawkes process
     mu: Background intensity 
 
-    ##Output:
+    ## Outputs:
     times_between_events: time series the inter-event times
-    times: time series the events
+    times: time series of the events
     rate: time series for the intensity
     """
     times_between_events = [0]
@@ -75,7 +74,6 @@ def calculate_percolation_strength(times_between_events, deltas):
     ## Output:
     percolation_strengths: list of percolation strengths
     """
-
     percolation_strengths = []
     
     for delta in deltas:
@@ -112,10 +110,10 @@ def identify_clusters(times, delta):
     times: temporal series
     delta: resolution parameter
 
-    ## Output:
+    ## Outputs:
     clusters: list of clusters
     clusters_sizes: list of sizes of clusters
-    clusters_times: list of durations of clusters
+    clusters_times: list of clusters durations
     """
     clusters = []
     current_cluster = []
@@ -137,7 +135,7 @@ def bivariate_algorithm(rate1, rate2, muE, muI, nEE, nII, nEI, nIE):
     """
     Algorithm that computes interevent times and Hawkes intensity for a bivariate Hawkes process
 
-    #Inputs:
+    ## Inputs:
     rate1: Previous excitation rate
     rate2: Previous inhibition rate
     nEE: "Strength" of the autoexcitation process
@@ -148,7 +146,11 @@ def bivariate_algorithm(rate1, rate2, muE, muI, nEE, nII, nEI, nIE):
     muI: Background intensity of the inhibition
 
 
-    #Output: ratex_k, x_k, reaction (0 for excitatory events and 1 for inhibitory events)
+    ## Outputs: 
+    rate1_tk: Intensity of the excitation at time tk
+    rate2_tk: Intensity of the inhibition at time tk  
+    x_k: Inter-event time
+    reaction: (0 for excitatory events and 1 for inhibitory events)
     """             
     _, xk1 = algorithm(rate1, muE, nEE)
     _, xk2 = algorithm(rate2, muI, nII)
@@ -181,7 +183,7 @@ def generate_series_bivariate(K, nEE, nII, nEI, nIE, muE, muI):
     """
     Generates temporal series for K bivariate Hawkes processes
     
-    ##Inputs:
+    ## Inputs:
     K: Number of events
     nEE: "Strength" of the autoexcitation process
     nII: "Strength" of the autoinhibition process
@@ -190,7 +192,7 @@ def generate_series_bivariate(K, nEE, nII, nEI, nIE, muE, muI):
     muE: Background intensity of the excitation
     muI: Background intensity of the inhibition
 
-    ##Output:
+    ## Outputs:
     times_between_events: time series the interevent times
     times: time series the events
     rate1: time series for the intensity of process 1 (Excitation)
