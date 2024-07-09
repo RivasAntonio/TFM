@@ -3,46 +3,50 @@
 The following Master's thesis is divided into five chapters. In the first chapter, we will introduce the concept of criticality in complex systems, both living and non-living.  
 We will also make a brief summary of stochastic processes and their relation to point processes and Hawkes processes, which are the main focus of this work.
 After that, we will present the objectives of this work. In the third chapter, we will present the methodology used in this work, including the simulation of Hawkes processes, 
-and the methodology for its analysis. In the penultimate chapter, we will present the results of the simulations, including the phase diagram of the process, the 
+and the methodology for its analysis. In the second last chapter, we will present the results of the simulations, including the phase diagram of the process, the 
 susceptibility analysis, and the avalanche analysis and we will discuss them. Finally, in the fifth chapter, we will present the conclusions of this work and the future lines of research.
 
 \section{Criticality and its presence in living systems}
 
-Criticality is one of the key concepts around complex systems because it is believed that they are benefited by working in a critical state or near it. It has been demonstrated that
-these states provide the system with better properties such as robustness, adaptability, information processing, and a wider dynamic range thanks to the scale invariance associated with the
-critical states \cite{munoz2018colloquium}. This scale invariance arises from a specific probability distribution, named Pareto or power-law distributionm like $P(t) = Ct^{-\gamma}$.
-Where $\gamma\in\Re^+$ and $C$ is a normalization constant. In our case, we will focus on power-law distributions for avalanches of activity, the exponents for these distributions will be called
-$\alpha$ and $\tau$ for the size and duration of the avalanches, respectively.
-It can be shown that they are the unique probability distributions that are free of scale. These distributions are present
+Criticality is one of the key concepts around complex systems because it is believed that they may benefit from by working in a critical state or near it. It has been demonstrated that
+these states provide the system with desirable properties such as robustness, adaptability, information processing, and a wider dynamic range thanks to the scale invariance associated with the
+critical states \cite{munoz2018colloquium}. This scale invariance can be described through a a specific probability distribution, named Pareto or power-law distribution like $P(t) = Ct^{-\gamma}$.
+Where $\gamma\in\Re^+$ and $C$ is a normalization constant. In our case, we will focus on power-law distributions for avalanches of activity. As we will see later, we will be able to define 
+avalanches of activity given a certain temporal window, and we will be able to measure their size (the number of events in an avalanche) and duration (the time between the first and last 
+avalanche event).The exponents for these distributions will be called $\alpha$ and $\tau$ for the size and duration of the avalanches, respectively.
+Pareto distribution can be shown to be the only probability distributions that are free of scale. These distributions are observed
 in many systems, such as earthquakes \cite{baiesi2004scale}, epidemics \cite{pastor2015epidemic} or social interactions \cite{castellano2009statistical, aparicio2015model}. 
 Although it is true that there are other mechanisms that can lead to power-law distributions, such as preferential attachment \cite{barabasi1999emergence}, we will focus on criticality. 
 
-The first time criticality was discussed was with the Ising model \cite{ising1925}, where it was shown that the model has a phase transition at a critical temperature $T_c$. This phase transition
-separated the system into two phases: an ordered phase where the magnet's spins are aligned and when the temperature is lower than the critical temperature, and a disordered phase,
-reing by thermal fluctuations when $T>T_c$. Ising model is an example of criticality in a system in equilibrium, but these phenomena are also present in systems out of equilibrium. 
-Some of the most studied systems in this context are those governed by contact processes due to their simplicity, although they are able to show this kind of behaviour.
+The classical toy model to describe criticality is the Ising model \cite{ising1925}, which describes the dependence on the temperature of the magnetic properties of metals. The Ising model 
+shows a phase transition at a critical temperature $T_c$, separating
+an ordered phase where the magnet's spins are aligned and when the temperature is lower than the critical temperature, and a disordered phase,
+dominated by thermal fluctuations when $T>T_c$. Ising model is an example of criticality in a system in equilibrium, but these phenomena are also present in systems out of equilibrium. 
+Some of the most studied systems in this context are contact processes due to their simplicity
 
-An example of these systems are the ones governed by contact processes, which are simple models that can show critical behaviour. These models' dynamics are based on the state of 
-the system's constituents, which can be active or inactive, and they can change their state by interacting between them at a certain rate. For instance, an active site can activate
+The contact processes dynamics are based on the state of the system's constituents, which can be active or inactive, and they can change their state by interacting which 
+each other at a certain rate. For instance, an active site can activate
 an inactive site with a rate $\lambda$ which will be our control parameter and the inactive site can deactivate with a rate $\mu$. 
-These rates will be the key to understanding the system's behaviour. In order to distinguish this, we need to define the order parameter, which is a quantity that allows us to establish 
-the phase \cite{wilting201925}. An example is shown in Figure \ref{f:order_parameter}.
+These rates will be the key to understanding the system's behaviour. In order to analyze the macroscopic properties of the system, we need to define the order parameter, 
+which is a quantity that allows us to establish the phase \cite{wilting201925}. An example is shown in Figure \ref{f:order_parameter}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{phase transition.png}
-    \caption{On the left, the dynamics of the SIS model, which is a typical contact process for disease spreading. On the right, the order parameter versus the control parameter; in this 
-    case, the control parameter would be the infection rate $\lambda$. The order parameter is the fraction of infected individuals. Here we would have a critical point at $\lambda=\lambda_c
-    =\mu$.}
+    \caption{On the left, the dynamics of the SIS (Susceptible-Infected-Susceptible) model, which is a typical contact process for disease spreading. On the right, the order parameter versus 
+    the control parameter; in this case, the control parameter would be the infection rate $\lambda$. The order parameter is the fraction of infected individuals. 
+    The SIS model has a critical point at $\lambda=\lambda_c=\mu$.}
     \label{f:order_parameter}
 \end{figure}
 
 Two other classic examples taht are related to the results of this work are (critical) branching processes and percolation processes. The first one is used for example to model phenomena 
 related to offspring. In a simplified way we can say that a parent can have a random number of children given by a probability distribution with a mean value of $n$. We can discern between
 subcritical, critical and supercritical branching processes depending on this value. For the subcritical case, $n<1$, and the process will die out eventually because the number of children
-will decrease with each generation. For the supercritical case, $n>1$, the descendant population will grow exponentially. The most interesting situation is the critical case, $n=1$, where 
-we will have in average, power law distributions for the tree size and the tree depth with exponents $\alpha\sim Z=3/2$ and $\tau\sim D=2$ respectively \cite{notarmuzi2021percolation}. A 
+will decrease on average with each generation. For the supercritical case, $n>1$, the descendant population will grow exponentially. The most interesting situation is the critical case, $n=1$, 
+where we will have in average, power law distributions for the tree size and the tree depth with exponents $\alpha\sim Z=3/2$ and $\tau\sim D=2$ respectively \cite{notarmuzi2021percolation}. A 
 representation of these situations is shown in Figure \ref{f:branching_processes}.
+
+DEFINIR SIZE AND DEPTH?
 
 \begin{figure}[H]
     \centering
@@ -52,24 +56,25 @@ representation of these situations is shown in Figure \ref{f:branching_processes
     \label{f:branching_processes}   
 \end{figure}
 
-To end with examples, we present percolation. These processes are generally used to model the flow of a fluid through a porous medium. Taking into account that this master 
+As a last example, we present percolation. These processes are generally used to model the flow of a fluid through a porous medium. Taking into account that this master 
 thesis is related to living systems, there is no better example that relates the model with the topic, and physics (indeed, physicist) than an Italian coffee maker. Here, the porous 
 medium is coffee, and the fluid is water. To describe the percolation process in a simple way, we can say that coffee makes a square lattice, and the water will flow through the nodes 
 with a certain probability $p$. We can define clusters of connected nodes (in this situation, we are only interested on the vertical connections in order to make coffee)
 for a given probability, and we also define the order parameter as the size of the largest cluster. 
-As same as whith branching processes, we can discern between subcritical,and critical percolation processes depending on the value of $p$. For the subcritical case, $p<p_c$,
-the largest cluster will be smaller than the system size. In the same manner as the branching processes, the most interesting occasion is the critical case, $p=p_c$, 
-where the largest cluster will be of the order of the system size, we will have at least a percolation cluster, 
-and we will have power law distributions. For our purposes, we will be interested in 1D percolation, whose exponents 
-are $\alpha=2$ and $\tau=2$ \cite{stauffer2018introduction}. A representation of these situations is shown in Figure \ref{f:percolation}.
+Same as whith branching processes, we can discern between subcritical,and critical percolation processes depending on the value of $p$. For the subcritical case, $p<p_c$,
+the largest cluster will be smaller than the system size, describing a situation in which the water is not able to flow through the coffee. 
+In the same manner as the branching processes, the most interesting situation is the critical case, $p=p_c$. The critical point describes a situation in which the water can flow through the
+coffee, but not extremely easily (as would happen in the suppercritical case, $p>p_c$) and therefore extracts the coffee aroma in an optimal way. In the critical case, the cluster size, which 
+is the number of clusters given a volume, $s$, normalized by the total volume, follows a power law distribution $n_s\sim s^{-\tau}$.
+A representation of these situations is shown in Figure \ref{f:percolation}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{percolacion.png}
-    \caption{On the left, a subcritical percolation process; on the right, a critical percolation process. The blue line represent the percolant cluster.}
+    \caption{On the left, a subcritical percolation process; on the right, a critical percolation process. The blue line represent a percolant cluster.}
     \label{f:percolation}
 \end{figure}
-
+For our purposes, we will be interested in 1D percolation, whose exponents are $\alpha=2$ for the cluster size and $\tau=2$ for the duration \cite{stauffer2018introduction}. 
 Having seen these examples, we move on to a brief introduction to point processes. which will lead us to another method to find criticality.
 
 \section{Point processes} \label{sec:point_processes}
@@ -81,8 +86,8 @@ which can be discrete or continuous. In this work we will focus on the discrete 
 
 Point processes are a type of stochastic process that describes the occurrence of events in time or space. We will be interested in time point processes because 
 we are going to model the spiking activity of neurons. For our purposes, they will be characterized by two parameters, the time of occurrence
-of the events $t_k$ and the intensity or rate of occurrence of these events $\lambda$. This rate tells us how likely it is that an event occurs at time $t$ given the history of the process, 
-(probability density function, PDF) as pictured in Figure \ref{f:point_process}.
+of the events $t_k$ and the intensity or rate of occurrence of these events $\lambda(t)$. This rate tells us how likely it is that an event occurs at time $t$ given the history of the process, 
+as pictured in Figure \ref{f:point_process}.
 
 \begin{figure}[H]
     \centering
@@ -95,14 +100,16 @@ of the events $t_k$ and the intensity or rate of occurrence of these events $\la
 
 In general, the rate is a function of the history of the process, which makes the process non-Markovian, but in our case, it will be a Markovian process, which means that the rate depends 
 only on the last event that occurred, as we will see. An example of a Markovian point process is the Poisson process, which is simple and one of the most studied point processes because 
-it is present in many everyday situations such as the arrival of customers at a store or occurrence of defects on a production line. They are also present in some physics phenomena,
-for instance, the decay of radioactive particles or the arrival of photons at a detector. These processes are characterized by a the of occurrence of events $\lambda$.
-The dynamics of these processes are described by the Poisson distribution, which is the probability distribution of a random variable $N$ such that the probability that $N= n$ is:
+it describes events that occur independtly in time, such as the arrival of customers at a store or occurrence of defects on a production line. They are also present in some physics phenomena,
+for instance, the decay of radioactive particles or the arrival of photons at a detector. These processes are characterized by the rate of occurrence of events $\lambda$.
+The dynamics of these processes are described by the Poisson distribution, which is the probability distribution that the random variable $N$ takes the value $n$ and describes the 
+probability that $n$ events occur in a given time interval is:
+
 \begin{equation}
     P(N=n) = \dfrac{\lambda^n}{n!}e^{-\lambda}.
     \label{eq: Probabilidad proceso de Poisson homogéneo}
 \end{equation}
-Furthermore, the mean value and the variance of the distribution are also equal to $\lambda$. Poisson processes can be homogeneous or inhomogeneous, depending on whether the rate is constant
+Furthermore, the mean value and the variance of the distribution are equal to $\lambda$. Poisson processes can be homogeneous or inhomogeneous, depending on whether the rate is constant
 or time-dependent. In Figure \ref{f:poisson} we can see an example of a homogeneous Poisson process.
 
 \begin{figure}[H]
@@ -114,7 +121,9 @@ or time-dependent. In Figure \ref{f:poisson} we can see an example of a homogene
 
 \subsection{Hawkes processes} \label{subsec:Hawkes_processes}
 
-On the other hand, if we consider a non-homogeneous Poisson process, the rate is a function of time, $\lambda(t)$, which is the case of the Hawkes process. The rate can be written in several 
+On the other hand, if we consider a non-homogeneous Poisson process, the rate is a function of time, $\lambda(t)$. One example of inhomogeneous Poisson processes is in the Hawkes processes, which 
+describes a process that is self-exciting, i.e. the more events happen in a given time window, the more events are likely to happen in the next time window.
+ The rate can be written in several 
 ways \cite{notarmuzi2021percolation,kanazawa2021ubiquitous,dassios2013exact,laub2021elements}. We will use the expression from \cite{notarmuzi2021percolation}:
 
 \begin{equation}
@@ -123,17 +132,18 @@ ways \cite{notarmuzi2021percolation,kanazawa2021ubiquitous,dassios2013exact,laub
 \end{equation}
 
 where $\mu$ is the background rate of a homogeneous Poisson process, $n$ is a parameter that controls the strength of the self-excitation, and $\phi(t)$ is the kernel function that
-describes the influence of past events on the future rate. The kernel function is a non-negative and monotonically non-increasing function that integrates to 1.
+describes the influence of past events on the future rate. The kernel function is a non-negative and non- monotonically-increasing function that integrates to 1.
 Typical choices for the kernel function are the exponential or the power-law functions. In this work, we will focus on the exponential kernel. 
-From Eq. \ref{eq: Hawkes rate} we can see that the rate depends on the history of the process, making it non-Markovian in general, but with an exponential kernel, the process becomes
-Markovian. The kernel function can be written as: $\phi(t)=\sum_{t_i<t}\alpha e^{-\beta(t-t_i)}$ so the rate becomes:
+From Eq. \ref{eq: Hawkes rate} we can see that the rate depends on the history of the process, making it non-Markovian in general, but with an exponential kernel, the dependence on the 
+past events decays exponentially fast, and it can be shown that the process becomes Markovian. The kernel function can be written as: $\phi(t)=\sum_{t_i<t}\alpha e^{-\beta(t-t_i)}$ 
+so the rate becomes:
 
 \begin{equation}
     \begin{split}
-        \lambda(t) &= \mu + \sum_{t_i<t}\alpha e^{-\beta(t-t_i)}\\
-        &= \mu + \sum_{\underbrace{t_i<t_k}_{t_k\text{: last event}}}\alpha e^{-\beta(t-t_k+t_k-t_i)}\\
-        &= \mu + e^{-\beta(t-t_k)}\underbrace{\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)}}_{\lambda(t_k)}\\
-        &= \mu + e^{-\beta(t-t_k)}\left( \lambda(t_k)-\mu+\alpha \right).
+        \lambda(t) &= \mu + n\sum_{t_i<t}\alpha e^{-\beta(t-t_i)}\\
+        &= \mu + n\sum_{\underbrace{t_i<t_k}_{t_k\text{: last event before t}}}\alpha e^{-\beta(t-t_k+t_k-t_i)}\\
+        &= \mu + me^{-\beta(t-t_k)}\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)}\\
+        &= \mu + me^{-\beta(t-t_k)}\left( \lambda(t_k)-\mu+\alpha \right).
     \end{split}
     \label{eq: Hawkes rate exponential becomes Markovian}
 \end{equation}
@@ -141,7 +151,7 @@ Markovian. The kernel function can be written as: $\phi(t)=\sum_{t_i<t}\alpha e^
 Where we have used the following expression for the rate of the Hawkes process at time $t_k$:
 
 \begin{equation}
-    \lambda(t_k) =\mu+\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)}\Rightarrow\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)} = \lambda(t_k)-\mu+\alpha
+    \lambda(t_k) =\mu+n\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)}\Rightarrow n\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)} = \lambda(t_k)-\mu+\alpha
     \label{eq: Hawkes rate at event time}
 \end{equation}
 
@@ -161,7 +171,7 @@ we can see typical diagrams of Hawkes processes with these parameters.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{Hawkes mu 10.png}
-    \caption{On the left, a temporal series of $K=150$ events of a Hawkes process with $\mu=0.01$, on the right, a raster plot of the same process.}
+    \caption{On the left, a temporal series of $K=150$ events of a Hawkes process with $\mu=10$, on the right, a raster plot of the same process.}
     \label{f: Hawkes rate 2}
 \end{figure}
 
@@ -193,7 +203,7 @@ such the one that we previously described. We will also study the dynamics for $
 
 \subsubsection{Hawkes processes with $n=2$} \label{subsubsec:Hawkes_processes_n_2}
 
-In this case, the self-excitation does not lead to a critical dynamic but to a supercritical dynamic. In this situation, the time until the first event occurs is given on average by $\mu^{-1}$.
+In this case, the self-excitation does not lead to a critical dynamics but to a supercritical dynamics. In this situation, the time until the first event occurs is given on average by $\mu^{-1}$.
 After it occurs, an avalanche of activity starts, as shown in Figure \ref{f: Hawkes rate n 2}.
 
 \begin{figure}[H]
@@ -238,8 +248,8 @@ inhibitory population can only inhibit the excitatory population, because on mos
 \label{f: Hawkes coupled}
 \end{figure}
 
-In a similar way to the previous cases, the background rates will only change time until the first event occurs, but signals will only rely on the ``strength'' $n_{i,j}$ of the interactions.
-Studying this parameter space, the different phases, and the respective avalanche statistics could be another master's thesis in itself. That is why we will only look at a couple parameter 
+In a similar way to the previous cases, the background rates will only affect the time until the first event occurs, but signals will only rely on the ``strength'' $n_{i,j}$ of the interactions.
+Studying this parameter space, the different phases, and the respective avalanche statistics could be another master's thesis in itself. That is why we will only look at two parameter 
 configurations. The first one gives us a pseudo-critical signal, regulated by inhibition. On the other hand, the second one gives us an oscilatory and stable signal. For both signals, 
 the background rates will be $\mu_E=\mu_I=0.01$, the other interaction parameters are shown in Table \ref{tab: Hawkes coupled parameters}.
 
@@ -258,9 +268,9 @@ the background rates will be $\mu_E=\mu_I=0.01$, the other interaction parameter
     \end{tabular}
 \end{table}
 
-With the values of $n_{EE}$ and $n_{EI}$, the signals would be supercritical, but adding the inhibition, the behaviour becomes totally different. Moreover, we will see that a 
+With the value of $n_{EE}$, the signals would be supercritical, but adding the inhibition, the behaviour becomes totally different. Moreover, we will see that a 
 slight change in the inhibition strength will change the signal from pseudo-critical to oscilatory. In Figures \ref{f: Hawkes coupled pseudo} and \ref{f: Hawkes coupled oscilatory}
-are presented the time series and raster plots for the two different signals.
+we presente the time series and raster plots for the two different signals.
 
 \begin{figure}[H]
     \centering
@@ -278,5 +288,5 @@ are presented the time series and raster plots for the two different signals.
     \label{f: Hawkes coupled oscilatory}
 \end{figure}
 
-As illustrated, the pseudo-critical signal has a bursty structure until a big avalanche of activity occurs; on the contrary, the oscilatory signal has a more regular structure. Later on,
+As illustrated, the pseudo-critical signal has a bursty structure until a big avalanche of activity occurs; on the contrary, the ``stable'' signal has a more regular structure. Later on,
 in Chapter \ref{ch:resultados} we will see how this difference in the structure of the signals affects the avalanche statistics.

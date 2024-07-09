@@ -11,11 +11,11 @@ The results are divided into three sections:
 \section{Results from the original paper}
 
 The structure for the three sections will be the same. First, we will obtain the phase diagram for the percolation strength $P_{\infty}$ versus our control parameter, the resolution parameter 
-$\Delta$, obtaining the critical point(s) $\Delta^*_{i}$. With these in knowledge, the avalanche statistics for size and duration will be studied for different regions 
+$\Delta$, obtaining the critical point(s) $\Delta^*_{i}$. Next, the avalanche statistics for size and duration will be studied for different regions 
 of the phase diagram.  
 
 As previously stated, the first result is the percolation phase diagram, shown in Figure \ref{f:phase_diagram_article}. 
-in versus the resolution parameter $\Delta$. We will generate several time series, compute the percolation strength for each one, and take the average value.
+versus the resolution parameter $\Delta$. To obtain this plot, we generated several time series, computed the percolation strength for each one, and plotted the average across realizations.
 
 \begin{figure}[H]
     \centering
@@ -28,14 +28,15 @@ The first plot configuration is a homogeneous Poisson process with rate $\mu=1$ 
 $\Delta^*(K)=\frac{\ln(K)}{\mu}$ as we have demonstrated in Section \ref{sec:physics_cooking}. Due to the finite size of the time series, the transition is discontinuous at 
 the threshold, as expected for 1D percolation \cite{stauffer2018introduction}.
 
-Now, we will contemplate Hawkes processes, for the first case $\left( \mu=10^{-4} \right)$, we can observe a double discontinuous transition. The first one is at $\Delta_1^*$ and the second one at 
+Now, we will consider Hawkes processes, for the first case $\left( \mu=10^{-4} \right)$, we can observe a double discontinuous transition. The first one is at $\Delta_1^*$ and the second one at 
 $\Delta_2^*$. As we are going to see with the avalanche statistics, the first transition is associated with the universality class of 1D percolation, whose exponents are $\alpha=\tau=2$. 
-On the other hand, the second transition is associated with the universality class of mean-field branching process, whose exponents are $\alpha=3/2$ and $\tau=2$. This double transition 
-is also compatible with the fact mentioned in Figure \ref{f: Delta percolación}. We can also observe that the plateau between the two transitions is wider as the $K$ increases as expected.
+On the other hand, the second transition is associated with the universality class of the mean-field branching process, whose exponents are $\alpha=3/2$ and $\tau=2$. This double transition 
+is also compatible with what was mentioned in Figure \ref{f: Delta percolación}. We can also observe that the plateau between the two transitions is wider as the $K$ increases as expected.
 For the second case $\left( \mu=10^2 \right)$, similarly to the first one, we have a single discontinuous transition at $\Delta_1^*$ associated with the universality class of 1D percolation
-as well; this phenomenon is also compatible with the one shown in Figure \ref{f: Delta percolación 2}.
+as well; this phenomenon is also compatible with what was shown in Figure \ref{f: Delta percolación 2}.
 
-Another interesting analysis to characterize the phases is studying the susceptibility $\chi$. In this case, it is defined by Eq. \ref{eq:susceptibilidad}.
+Another interesting analysis to characterize the phases is studying the susceptibility $\chi$. Let $S_M$ be the size of the largest cluster, then the susceptibility is defined by 
+Eq. \ref{eq:susceptibilidad}. 
 
 \begin{equation}
     \begin{split}
@@ -59,7 +60,7 @@ for the Hawkes case with $\mu=10^2$ and likewise the Poisson process, the suscep
 \end{figure}
 
 Once we have the phase diagram, we can study avalanche statistics, but first, we need to obtain the thresholds $\Delta_1^*$ and $\Delta_2^*$ from the phase diagram. 
-The article \cite{notarmuzi2021percolation} provides the following formulas to compute these thresholds for the Hawkes process with $\mu=10^{-4}$ and:
+The article \cite{notarmuzi2021percolation} provides the following formulas to compute these thresholds for the Hawkes process with $\mu=10^{-4}$:
 
 \begin{align}
     \Delta_1^* &\simeq \dfrac{\ln(K)}{\langle \lambda \rangle}= \dfrac{\ln(K)}{\mu+\sqrt{2\mu K}} \label{eq:Ecuación delta1 *} \\
@@ -85,23 +86,25 @@ of the phase diagram. We are just going to show the results for $\mu=10^{-4}$ an
 
 As a consequence of the huge simulation time for time series with $K=10^8$ events, we only have studied avalanches for $K=10^5$, moreover, we have taken other criteria to obtain the 
 histograms. Instead of considering $C=10^7$ clusters, we have obtained the histograms of $R=1000$ time series. This leads to a different amount of clusters for each value of $\Delta$.
-Nevertheless, we have obtained equivalent and reliable results.
+Nevertheless, we have obtained equivalent and robust results.
 
 For $\mu=10^{-4}$, the probability distribution of the cluster size and duration shows three different behaviours. For $\Delta\ll\Delta_1^*$, the behaviour is subcritical, leading to
-an exponential decay for the size and duration. While we increase $\Delta$, we reach the critical point where the exponents are $\alpha=\tau=2$ compatible with the universality class
+an exponential decay for the size and duration. As we increase $\Delta$, we reach the critical point where the exponents are $\alpha=\tau=2$ compatible with the universality class
 of 1D percolation. After that, we reach the plateau $[\Delta_1^*,\Delta_2^*]$ where we have a crossover to the universality class of mean-field branching process and 1D percolation. 
 Finally, for $\Delta\to\Delta_2^*$, we obtain the universality class of mean-field branching process exponents $\alpha=3/2$ and $\tau=2$. 
 For $\mu=10^2$, the plots show a power-law distribution for both cluster size and duration with exponents $\alpha=\tau=2$ corresponding to the universality class of 1D percolation as we have
 mentioned before.
 
-Note that we have reproduced the same behaviour, but for other values of $\Delta$, specifically, for two orders of magnitude less than article value. This is due 
-to the fact that Eq. \ref{eq:Ecuación delta1 *} needs the assumption of large time series, which is not fulfilled in our case. We can illustrate this difference,
+Note that we have reproduced the same behaviour, but for other values of $\Delta$, specifically, for two orders of magnitude less than in ref \cite{notarmuzi2021percolation}. This is due 
+to the fact that Eq. \ref{eq:Ecuación delta1 *} needs the assumption of large time series, which is not fulfilled in our case. 
+We can illustrate this difference,
 for example, in the susceptibility diagram, where the peak should be at $\Delta_1^*$, but in our case, it is at $\Delta_1^*/100$ as shown in Figure \ref{f:different delta1estrella}. 
+
 
 \begin{figure}[H]
 \centering
 \includegraphics[width = 0.7\textwidth]{different delta1estrella.png}
-\caption{At the left, the vertical dashed lines represent the critical points $\Delta^*(K)$ for the Poisson process. On the right, the vertical dashed lines represent 
+\caption{On the left, the vertical dashed lines represent the critical points $\Delta^*(K)$ for the Poisson process. On the right, the vertical dashed lines represent 
 the critical points $\Delta_1^*(K)$ given by Eq. \ref{eq:Ecuación delta1 *} and the dotted dashed lines the $\Delta_1^*/100$.} 
 \label{f:different delta1estrella}
 \end{figure}
@@ -125,7 +128,7 @@ Similarly to the previous section, the first step is obtaining the phase diagram
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.95\textwidth]{phase_R=1000_n=2.png}
-    \caption{Percolation phase diagrams for a Hawkes process with $n=2$.}
+    \caption{Percolation phase diagrams for a Hawkes process with $n=2$ compared to the homogeneous Poisson process on the left.}
     \label{f:phase_diagram_n=2}
 \end{figure}
 In this case, Eqs. \ref{eq:Ecuación delta1 *},\ref{eq:Ecuación delta2 *} are not valid because they were derived for $n=1$. 
@@ -140,7 +143,7 @@ percolation strength $P_{\infty} = 0.5$, consequently, $\Delta^*\approx 10^{-4}$
 \end{figure}
 
 
-As we can recognize from both figures, now we have a single transition for $\mu=10^{-4}$ and $\mu=10^2$, in principle corresponds to 1D percolation, ergo, 
+As we can recognize from both figures, now we have a single transition for $\mu=10^{-4}$ and $\mu=10^2$, in principle corresponding to 1D percolation, ergo, 
 the exponents for the size and duration should be $\alpha=\tau=2$. Identically to the case of $n=1$, we have studied the avalanches for $K=10^5$ events and $R=1000$ realizations to 
 obtain the histograms. The statistics of the avalanches are shown in Figure \ref{f:avalanches_n=2}.
 
@@ -150,71 +153,77 @@ obtain the histograms. The statistics of the avalanches are shown in Figure \ref
     \label{f:avalanches_n=2}
 \end{wrapfigure}
 
-As the image shows, we have obtained the exponents $\alpha=\tau=2$ for both cases, which is compatible with the universality class of 1D percolation. Knowing the time series, like the ones
-shown in Figure \ref{f: Hawkes rate n 2}, after the first event, we find a unique cluster of events caused by the supercriticality. This situation is analogous to the one shown in 
+As the image shows, we have obtained the exponents $\alpha=\tau=2$ for both cases, which is compatible with the universality class of 1D percolation. The time series resemble the ones
+shown in Figure \ref{f: Hawkes rate n 2}: after the first event, we find a unique cluster of events caused by the supercriticality. This situation is analogous to the one shown in 
 the case of $n=1, \mu=10$ (Figure \ref{f: Hawkes rate burst 2}) but with a more pronounced effect due to the value of $n$. Moreover, as happened with $n=1$, the cutoff of the power-law 
 (caused by the finite size of $K$) for the cluster duration monotonically shifts to higher values as $\Delta$ increases.
-In conclusion, we can also observe percolation phenomena for 
+In conclusion, we observe percolation phenomena for 
 $n\neq 1$, we also observe power law distributions for the size and duration of the avalanches but not caused by criticality as we have seen in the susceptibility diagram, $\chi$ only diverges
-at $\Delta^*$.
+at $\Delta^*$. 
+Note that with $n=2$, we just have a single transition and its susceptibility peak. For that reason, the criticality is induced only by the order parameter $\Delta$ and not by the 
+underlying dynamics, as happened when $n=1$.
 
 \newpage
 \section{Inhibitory and excitatory neurons coupled}
 
 To conclude the chapter on results, the results for the case of excitatory and inhibitory processes are presented. First of all we will show the results for ``pseudo-critical'' 
-signals shown in figure\ref{f: Hawkes coupled pseudo}. Both the phase diagrams and avalanche statistics shall be calculated with the event times in general, without distinguishing
-between excitatory and inhibitory events. Future work could be to study the avalanches for each type of event. As always, the phase diagram and its corresponding susceptibility are shown in
-Figures \ref{f:phase_diagram_coupled critical} and \ref{f:susceptibilidad_coupled critical} respectively.
+signals shown in Figure \ref{f: Hawkes coupled pseudo}. Both the phase diagrams and avalanche statistics shall be calculated with the event times in general, without distinguishing
+between excitatory and inhibitory events. Future work could be conducted to study the avalanches for each type of event separately.T he phase diagram and its corresponding susceptibility 
+are shown in Figures \ref{f:phase_diagram_coupled critical} and \ref{f:susceptibilidad_coupled critical} respectively. In this case, we will only cover the case of $\mu\ll 1$. 
+This is because as we have seen in Eq. \ref{eq: inter-event time coupled} $g_j$ must be positive and having $\alpha_{IE}\equiv n_{IE}<0$ leads to a negative $g_j$ sporadically. 
+We have solved this issue by setting $\lambda_j(t_k)=\mu_j$ $j=E,I$, which does not change the dynamics as it does if $\mu_j>>1$.
+
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{phase bivariate critical 10-2.png}
+    \includegraphics[width=0.8\textwidth]{phase bivariate critical 10-2.png}
     \caption{Percolation phase diagrams averaged over $R=1000$ ``pseudo-critical'' signals of $K=10^5$ events.}
     \label{f:phase_diagram_coupled critical}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{susceptibilidad bivariate critical 10-2.png}
+    \includegraphics[width=0.8\textwidth]{susceptibilidad bivariate critical 10-2.png}
     \caption{Susceptibility $\chi$ normalized to the number of events associated with the above phase diagram.}
     \label{f:susceptibilidad_coupled critical}
 \end{figure}
 
 Both figures show a single transition around $\Delta^*\approx 2\cdot 10^{-4}$ for $10^5$ events, that so far has corresponded with the universality class of 1D percolation, but on this occasion, we have the same 
-situation as in the case of $n=1$ and $\mu=10^-4$, as illustrated in Figure \ref{f: stats pseudocritical}.
+situation as in the case of $n=1$ and $\mu=10^{-4}$, as illustrated in Figure \ref{f: stats pseudocritical}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{stats bivariate critical 10-2.png}
+    \includegraphics[width=0.8\textwidth]{stats bivariate critical 10-2.png}
     \caption{Avalanche statistics of $K=10^5$ events for ``pseudo-critical'' signals of two coupled Hawkes processes. Histograms have been calculated over $R=1000$ time series.}
     \label{f: stats pseudocritical}
 \end{figure}
 
-In this case, the exponents for the size and duration of the avalanches behave as if there were a double transition in the phase diagram, but without it. On the contrary, in the case of 
+In this case, the exponents for the size and duration of the avalanches behave as if there was a double transition in the phase diagram, but in fact, there is not. Further analyses will be needed
+to clarify this phenomenon. On the contrary, in the case of 
 the ``controlled'' signal shown in Figure \ref{f: Hawkes coupled oscilatory} we do not have this anomaly. The phase diagram and susceptibility are shown in Figures 
 \ref{f:phase_diagram_coupled oscilatory} and \ref{f:susceptibilidad_coupled oscilatory}, respectively.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{phase bivariate stationary 10-2.png}
+    \includegraphics[width=0.8\textwidth]{phase bivariate stationary 10-2.png}
     \caption{Percolation phase diagrams averaged over $R=1000$ ``controlled'' signals of $K=10^5$ events.}
     \label{f:phase_diagram_coupled oscilatory}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.95\textwidth]{susceptibilidad bivariate stationary 10-2.png}
+    \includegraphics[width=0.8\textwidth]{susceptibilidad bivariate stationary 10-2.png}
     \caption{Susceptibility $\chi$ normalized to $K$ associated with the above phase diagram.}
     \label{f:susceptibilidad_coupled oscilatory}
 \end{figure}
 
 We note an almost identical behaviour to the one shown in the case of the ``pseudo-critical'' signals, with just a single transition around $\Delta^*\approx 2\cdot 10^{-4}$ for $10^5$ events, 
 agreeing with the universality class of 1D percolation. In this case, as Figure \ref{f: stats oscilatory} 
-indicates, the exponents are indeed $\alpha=\tau=2$.
+indicates, the exponents are indeed $\alpha=\tau=2$ but exponentially decaying.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{stats stationary bivariate 10-2.png}
+    \includegraphics[width=0.8\textwidth]{stats stationary bivariate 10-2.png}
     \caption{Avalanche statistics of $K=10^5$ events for ``controlled'' signals of two coupled Hawkes processes. Histograms have been calculated over $R=1000$ time series.}
     \label{f: stats oscilatory}
 \end{figure}
@@ -230,7 +239,7 @@ To conclude the chapter, in Table \ref{tab: all exponents} are presented all the
     \toprule
     \multicolumn{1}{c}{} & \multicolumn{1}{c}{Poisson} & \multicolumn{2}{c}{n=1}      & \multicolumn{2}{c}{n=2}      & \multicolumn{2}{c}{Coupled processes} \\ \midrule
                          & $\mu=1$                     & $\mu=10^{-4}$ & $\mu=10^{2}$ & $\mu=10^{-4}$ & $\mu=10^{2}$ & ``Pseudo-critical''  & ``Controlled'' \\
-    \alpha & 2 & 2$\overset{\Delta\uparrow}{\longrightarrow} 3/2$ & 2 & 2 & 2 & 2$\overset{\Delta\uparrow}{\longrightarrow} 3/2$  & 2 \\
-    \tau   & 2 & 2          & 2 & 2 & 2 & 2          & 2 \\ \bottomrule
+    \alpha & 2 & 2$\overset{\Delta\uparrow}{\longrightarrow} 3/2$ & 2 & 2 & 2 & 2$\overset{\Delta\uparrow}{\longrightarrow} 3/2$  & $\sim$ 2 \\
+    \tau   & 2 & 2          & 2 & 2 & 2 & 2          & $\sim$2 \\ \bottomrule
     \end{tabular}
 \end{table}
