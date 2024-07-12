@@ -1,3 +1,23 @@
+\chapter{Hawkes processes with exponential kernel}\label{ch:Anexo calculos}
+As we have seen, the exponential kernel function can be written as: $\phi(t)=\sum_{t_i<t}\alpha e^{-\beta(t-t_i)}$ so the rate becomes:
+
+\begin{equation}
+    \begin{split}
+        \lambda(t) &= \mu + n\sum_{t_i<t}\alpha e^{-\beta(t-t_i)}\\
+        &= \mu + n\sum_{\underbrace{t_i<t_k}_{t_k\text{: last event before t}}}\alpha e^{-\beta(t-t_k+t_k-t_i)}\\
+        &= \mu + ne^{-\beta(t-t_k)}\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)}\\
+        &= \mu + ne^{-\beta(t-t_k)}\left( \lambda(t_k)-\mu+\alpha \right).
+    \end{split}
+    \label{eq: Hawkes rate exponential becomes Markovian}
+\end{equation}
+
+Where we have used the following expression for the rate of the Hawkes process at time $t_k$:
+
+\begin{equation}
+    \lambda(t_k) =\mu+n\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)}\Rightarrow n\sum_{t_i<t_k}\alpha e^{-\beta(t_k-t_i)} = \lambda(t_k)-\mu+\alpha
+    \label{eq: Hawkes rate at event time}
+\end{equation}
+
 \chapter{Python scripts}\label{ch:Anexo}
 Here are the main functions used in the project. The first one is the algorithm used to simulate the inter-event time of a Hawkes process with exponential kernel. 
 The second one is the function for the generation of time series of these Hawkes processes. The third one is the function associated to the calculation of the percolation strength, $P_\infty$,

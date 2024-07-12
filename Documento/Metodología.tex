@@ -3,7 +3,7 @@
 In the following sections, the methodology for data generation, management and analysis will be presented. To address these issues, we will use Python \cite{McKinney,VanderPlas} due to 
 its versatility and the wide range of libraries available. The two used will be NumPy \cite{numpy} and Matplotlib \cite{matplotlib} for the visualization.
  
-\section{Time series factory}\label{sec:time_series_factory}
+\section{Algorithms for time series generation}\label{sec:time_series_factory}
 
 The first step is the generation of time series. There are two ways to do this: the slow one and the fast one. The first one is discretizing the time and calculating the rate at each time step
 according to Eq. \ref{eq: Hawkes rate}, then accept or reject the event if $p<\lambda \cdot dt$ for a random number $p\in \mathcal{U}[0,1]$ . 
@@ -13,8 +13,8 @@ presented in Algorithm \ref{alg: slow method}.
 \begin{algorithm}
     \caption{Slow method to generate Hawkes processes.}\label{alg: slow method}
     \begin{algorithmic}
-        \Require $t_max$, $n_{intervals}$, $\lambda(t_0)=\mu$, $p$
-        \State $dt \gets \frac{t_{max}}{n_{intervals}}$
+        \Require $t_\mathrm{max}$, $n_{intervals}$, $\lambda(t_0)=\mu$, $p$
+        \State $dt \gets \frac{t_\mathrm{max}}{n_{intervals}}$
         \For {$i=0$ to $n_{intervals}$}
             \State $\lambda(t_k) \gets \mu + n\sum_{t_i<t_k}\phi(t_k-t_i)$ \Comment{$t_i=i\cdot dt$}
             \If {$\lambda(t_k)\cdot dt > p$}
@@ -169,12 +169,14 @@ The pseudo-code for this method is presented in Algorithm \ref{alg: fast method 
 
 Now we have a method to generate the main ingredient, time series. In order to cook (analyze) them, our tools will be Python libraries and a control parameter, which in our case will be 
 a resolution parameter $\Delta >0$ that will allow us to identify clusters of activity. Assuming that we have a time series with $K$ events that happen in times $\left\{ t_1,\ldots, t_K \right\}$.
-Each event starts a cluster, and the following event will be part of this cluster if the time between both events is less than $\Delta$ and so on for the rest. We define the size of the cluster 
-as the number of events in the interval $[t_{first},t_{last}]$ and its duration as $t_{last}-t_{first}$. The extreme cases are when $\Delta$ is smaller than the minimum inter-event time, 
+Each event starts a cluster, and the following event will be part of this cluster if the time between both events is less than $\Delta$ and so on for the rest 
+(see Figure \ref{f: Delta percolación}). We define the size of the cluster 
+as the number of events in the interval $[t_{first},t_{last}]$ and its duration as $t_{\mathrm{last}}-t_{\mathrm{first}}$. The extreme cases are when $\Delta$ is smaller than the minimum inter-event time, 
 where each event is a cluster of size 1 and duration 0. The other extreme is when $\Delta$ is greater than the largest inter-event time, where all the events are in the same cluster of size $K$
 and duration $t_K-t_1$. Between these two extremes, we will have different regimes of the process. Our recipe will be the phase diagram, specifically the percolation diagram, where we will
 plot the percolation strength $P_{\infty}$ as a function of the resolution parameter $\Delta$. The percolation strength is defined as the fraction of events that are in the largest cluster over
-the total number of events. Three different sets of parameters will be used to generate the time series in order to compare them. The parameters $\alpha$ and $\beta$ will be fixed to unless 
+the total number of events, $P_\infty=S_M/K$ where $S_M$ is the size of the largest cluster. 
+Three different sets of parameters will be used to generate the time series in order to compare them. The parameters $\alpha$ and $\beta$ will be fixed to unless 
 otherwise stated, the other parameters are shown in Table \ref{tab: parameters}. Once we got our recipe (the percolation diagram), we should be able to identify the critical points and the
 different regimes of the process. By carefully choosing  $\Delta$ from the percolation diagram, we will be able to identify the different regimes with their respective power law exponents. 
 
@@ -230,6 +232,8 @@ but from a graphical one. With the second configuration, as we have seen in Figu
 time series. Due to the low background rate, the events are less likely to occur, but when they do, they tend to form avalanches of activity thanks to the self-excitation. This will be
 reflected in the percolation diagram as a first phase transition at a critical point $\Delta^*_1$ when $\Delta$ is of the order of the average cluster size. Then, a second phase transition
 will occur at a critical point $\Delta^*_2$ when $\Delta$ is greater than the greatest inter-event time. This phenomenon is illustrated in Figure \ref{f: Delta percolación}.
+Note that this very specific analysis is due to the way that activity is measured in the experiments, where a voltage is measured and the spikes are detected when the voltage is above a
+certain voltage and temporal threshold. 
 
 \begin{figure}[H]
     \centering
