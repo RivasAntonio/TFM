@@ -32,13 +32,13 @@ def plot_percolation(G, percolating_path, title, ax):
         edges = list(zip(percolating_path[:-1], percolating_path[1:]))
         nx.draw_networkx_edges(G, pos, edgelist=edges, edge_color='blue', width=2.0, ax=ax)
     
-    ax.set_title(title, fontsize=25)
+    ax.set_title(title, fontsize=35)
 
 L = 10 # Size of the grid
-p_values = [0.25, 0.6]  # Different probabilities
-titles = ["$p<p_c$", "$p=p_c$"]
+p_values = [0.25, 0.6, 0.9]  # Different probabilities
+titles = ["$p<p_c$", "$p=p_c$", "$p>p_c$"]
 
-fig, axes = plt.subplots(1, 2, figsize=(15, 7))
+fig, axes = plt.subplots(1, 3, figsize=(15, 7))
 
 for i, p in enumerate(p_values):
     G = create_grid_graph(L)

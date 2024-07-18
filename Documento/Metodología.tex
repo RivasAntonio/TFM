@@ -57,7 +57,7 @@ In order to generate $\Delta t$, we will use the inverse transform method \cite{
         \text{accum}(\Delta t)=&\int_{0}^{\Delta t}\text{PDF}\left( \Delta t^\prime \right)d\Delta t^\prime = u\in\mathcal{U}  [0,1]\\
         &\int_{0}^{\Delta t} \underbrace{\lambda(t+\Delta t^\prime)e^{-\int_{t}^{t+\Delta t^\prime}\lambda(t^{\prime})dt^{\prime}}}_{-\dfrac{d}{d\Delta t^{\prime}}\left[ e^{-\int_{t}^{t+\Delta t^\prime}\lambda (t^\prime) dt^\prime} \right]}d\Delta t^\prime=u \qquad  \text{Using Barrow rule}\\
         &-e^{-\int_{t}^{t+\Delta t^\prime}\lambda(t^\prime)dt^\prime}\Big|_{0}^{\Delta t^\prime}=1-e^{-\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime}=u\qquad  \text{Taking logarithms}\\
-        &\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime=-\ln(1-u) = \ln (\bar{u})\\
+        &\int_{t}^{t+\Delta t}\lambda(t^\prime)dt^\prime=-\ln(1-u) = -\ln (\bar{u})\\
     \end{split}
     \label{eq: cumulative probability}
 \end{equation}
@@ -66,7 +66,7 @@ To compute the inter-event time, we have to generate $\bar{u}\sim\mathcal{U}[0,1
 
 \begin{equation}
     \begin{split}
-        u=&1-e^{-\mu(t-t_k)}e^{-(\lambda(t_k)+\alpha-\mu)\cdot\overbrace{\int_{t_k}^{t}e^{-\beta(t^\prime-t_k)}dt^\prime}^{-\frac{1}{\beta}\left[ e^{-\beta}(t-t_k)-1 \right]}}\\
+        u=&1-e^{-\mu(t-t_k)}e^{-(\lambda(t_k)+\alpha-\mu)\cdot\overbrace{\int_{t_k}^{t}e^{-\beta(t^\prime-t_k)}dt^\prime}^{-\frac{1}{\beta}\left[ e^{-\beta(t-t_k)}-1 \right]}}\\
         u=&1-\underbrace{e^{-\mu(t-t_k)}}_{P(t_{k+1}^{(1)}>t)}\underbrace{e^{-\left[ (\lambda(t_k)+\alpha-\mu)\beta^{-1}\left( 1-e^{-\beta(t-t_k)} \right) \right]}}_{{P(t_{k+1}^{(2)}>t)}}
     \end{split}
     \label{eq: u = 1 - P(t_{k+1} > t)P(t_{k+1} > t), previo al composition method}
@@ -77,7 +77,7 @@ because if we do not decompose them, we can not invert the function.
 Then we apply the composition method \cite{dassios2013exact}. If we take $t_{k+1}=\min\left( t_{k+1}^{(1)},t_{k+1}^{(2)} \right)$; then $t_{k+1}\sim P(t_{k+1}>t)$, hence:
 \begin{equation}
     \begin{split}
-        \text{Prob}(t_{k+1}=\min\left(  t_{k+1}^{(1)},t_{k+1}^{(2)} \right)\leq t)=&1-\text{Prob}\left( \min \left( t_{k+1}^{(1)},t_{k+1}^{(2)}\right)>t \right)\\
+        \text{Prob}\left( t_{k+1}=\min\left(  t_{k+1}^{(1)},t_{k+1}^{(2)} \right)\leq t \right)=&1-\text{Prob}\left( \min \left( t_{k+1}^{(1)},t_{k+1}^{(2)}\right)>t \right)\\
         =&1-\text{Prob}\left( t_{k+1}^{(1)}>t \right)\cdot\text{Prob}\left( t_{k+1}^{(2)}>t \right)\\
     \end{split}
     \label{eq: composition method}
