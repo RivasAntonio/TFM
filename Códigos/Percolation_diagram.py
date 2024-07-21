@@ -1,4 +1,3 @@
-
 import numpy as np
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -35,7 +34,7 @@ def plot_percolation(G, percolating_path, title, ax):
     ax.set_title(title, fontsize=35)
 
 L = 10 # Size of the grid
-p_values = [0.25, 0.6, 0.9]  # Different probabilities
+p_values = [0.25, 0.55, 0.9]  # Different probabilities
 titles = ["$p<p_c$", "$p=p_c$", "$p>p_c$"]
 
 fig, axes = plt.subplots(1, 3, figsize=(15, 7))
